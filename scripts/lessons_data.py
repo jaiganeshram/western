@@ -12,5110 +12,5104 @@ Total Repertoire: 82 Master Lessons
 """
 
 WESTERN_LESSONS = {
-    # ---------------- 1. HANON & CZERNY FINGER DRILLS (ஹெனான் & விரல் பயிற்சிகள் - 12 பாடங்கள்) ----------------
     "h1": {
-            "id": "h1",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "1. ஹெனான் பயிற்சி 1 (Hanon No. 1 • விரல் இடைவெளி & சுறுசுறுப்பு)",
-            "desc": "சி.எல். ஹெனான் (C.L. Hanon - The Virtuoso Pianist) பயிற்சி 1. விரல்கள் 1 மற்றும் 2-க்கு இடையே இடைவெளியை விரித்து, விரல் சுதந்திரத்தை (Finger Independence) வளர்க்கும் அத்தியாவசிய பயிற்சி.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: ஏறுவரிசை (Ascending - C4 முதல் G4 வரை)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D5",
-                                            "C5",
-                                            "B4"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "C",
-                                            "E",
-                                            "F",
-                                            "G"
-                                    ],
-                                    [
-                                            "A",
-                                            "G",
-                                            "F",
-                                            "E"
-                                    ],
-                                    [
-                                            "D",
-                                            "F",
-                                            "G",
-                                            "A"
-                                    ],
-                                    [
-                                            "B",
-                                            "A",
-                                            "G",
-                                            "F"
-                                    ],
-                                    [
-                                            "E",
-                                            "G",
-                                            "A",
-                                            "B"
-                                    ],
-                                    [
-                                            "C",
-                                            "B",
-                                            "A",
-                                            "G"
-                                    ],
-                                    [
-                                            "F",
-                                            "A",
-                                            "B",
-                                            "C"
-                                    ],
-                                    [
-                                            "D",
-                                            "C",
-                                            "B",
-                                            "A"
-                                    ],
-                                    [
-                                            "G",
-                                            "B",
-                                            "C",
-                                            "D"
-                                    ],
-                                    [
-                                            "E",
-                                            "D",
-                                            "C",
-                                            "B"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பாகம் 2: இறங்குவரிசை (Descending - G5 முதல் C4 வரை)",
-                            "measures": [
-                                    [
-                                            "G5",
-                                            "E5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "D5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "D5",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F4",
-                                            "C4"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "G",
-                                            "E",
-                                            "D",
-                                            "C"
-                                    ],
-                                    [
-                                            "B",
-                                            "C",
-                                            "D",
-                                            "E"
-                                    ],
-                                    [
-                                            "F",
-                                            "D",
-                                            "C",
-                                            "B"
-                                    ],
-                                    [
-                                            "A",
-                                            "B",
-                                            "C",
-                                            "D"
-                                    ],
-                                    [
-                                            "E",
-                                            "C",
-                                            "B",
-                                            "A"
-                                    ],
-                                    [
-                                            "G",
-                                            "A",
-                                            "B",
-                                            "C"
-                                    ],
-                                    [
-                                            "D",
-                                            "B",
-                                            "A",
-                                            "G"
-                                    ],
-                                    [
-                                            "F",
-                                            "G",
-                                            "A",
-                                            "B"
-                                    ],
-                                    [
-                                            "C",
-                                            "G",
-                                            "F",
-                                            "E"
-                                    ],
-                                    [
-                                            "D",
-                                            "E",
-                                            "F",
-                                            "C"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h1",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "1. Hanon Exercise No. 1 (Finger Independence & Agility)",
+        "desc": "C.L. Hanon (The Virtuoso Pianist) Exercise No. 1. Essential drill to stretch fingers 1 and 2, developing finger independence, strength, and agility across the keyboard.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Part 1: Ascending (C4 to G4)",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "C5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "D5",
+                        "C5",
+                        "B4"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C",
+                        "E",
+                        "F",
+                        "G"
+                    ],
+                    [
+                        "A",
+                        "G",
+                        "F",
+                        "E"
+                    ],
+                    [
+                        "D",
+                        "F",
+                        "G",
+                        "A"
+                    ],
+                    [
+                        "B",
+                        "A",
+                        "G",
+                        "F"
+                    ],
+                    [
+                        "E",
+                        "G",
+                        "A",
+                        "B"
+                    ],
+                    [
+                        "C",
+                        "B",
+                        "A",
+                        "G"
+                    ],
+                    [
+                        "F",
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    [
+                        "D",
+                        "C",
+                        "B",
+                        "A"
+                    ],
+                    [
+                        "G",
+                        "B",
+                        "C",
+                        "D"
+                    ],
+                    [
+                        "E",
+                        "D",
+                        "C",
+                        "B"
+                    ]
+                ]
+            },
+            {
+                "title": "Part 2: Descending (G5 to C4)",
+                "measures": [
+                    [
+                        "G5",
+                        "E5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "D5",
+                        "E5"
+                    ],
+                    [
+                        "F5",
+                        "D5",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "G4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "E4",
+                        "F4",
+                        "C4"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "G",
+                        "E",
+                        "D",
+                        "C"
+                    ],
+                    [
+                        "B",
+                        "C",
+                        "D",
+                        "E"
+                    ],
+                    [
+                        "F",
+                        "D",
+                        "C",
+                        "B"
+                    ],
+                    [
+                        "A",
+                        "B",
+                        "C",
+                        "D"
+                    ],
+                    [
+                        "E",
+                        "C",
+                        "B",
+                        "A"
+                    ],
+                    [
+                        "G",
+                        "A",
+                        "B",
+                        "C"
+                    ],
+                    [
+                        "D",
+                        "B",
+                        "A",
+                        "G"
+                    ],
+                    [
+                        "F",
+                        "G",
+                        "A",
+                        "B"
+                    ],
+                    [
+                        "C",
+                        "G",
+                        "F",
+                        "E"
+                    ],
+                    [
+                        "D",
+                        "E",
+                        "F",
+                        "C"
+                    ]
+                ]
+            }
+        ]
     },
     "h2": {
-            "id": "h2",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "2. ஹெனான் பயிற்சி 2 (Hanon No. 2 • 3-4-5 விரல் வலிமை)",
-            "desc": "பியானோவில் பொதுவாக பலவீனமான 3 (நடுவிரல்), 4 (மோதிரவிரல்), மற்றும் 5 (சிறுவிரல்) ஆகிய விரல்களை பலப்படுத்தும் உன்னத பயிற்சி.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: ஏறுவரிசை (Ascending)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பாகம் 2: இறங்குவரிசை (Descending)",
-                            "measures": [
-                                    [
-                                            "G5",
-                                            "E5",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "D5",
-                                            "E5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "D5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "D5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "B4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "C4",
-                                            "C4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h2",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "2. Hanon Exercise No. 2 (Strengthening Fingers 3, 4 & 5)",
+        "desc": "Dedicated drill designed to build strength and coordination in the traditionally weaker fingers: 3 (middle), 4 (ring), and 5 (pinky).",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Part 1: Ascending",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ]
+                ]
+            },
+            {
+                "title": "Part 2: Descending",
+                "measures": [
+                    [
+                        "G5",
+                        "E5",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        "D5",
+                        "E5",
+                        "F5"
+                    ],
+                    [
+                        "F5",
+                        "D5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "D5",
+                        "E5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "D5",
+                        "B4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "C4",
+                        "C4"
+                    ]
+                ]
+            }
+        ]
     },
     "h3": {
-            "id": "h3",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "3. வலது கை 5-விரல் பயிற்சி (RH 5-Finger Warmup • Fingers 1-2-3-4-5)",
-            "desc": "C-D-E-F-G 5 வெள்ளை விசைகளில் வலது கை 1=பெருவிரல், 2=சுட்டு, 3=நடு, 4=மோதிர, 5=சிறுவிரல் வைத்து சீராக வாசிக்கும் ஆரம்பப் பயிற்சி.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "வரிசை 1: ஏறுவரிசை & இறங்குவரிசை (C D E F G F E D C)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "1-Thumb",
-                                            "2-Index",
-                                            "3-Middle",
-                                            "4-Ring"
-                                    ],
-                                    [
-                                            "5-Pinky",
-                                            "4-Ring",
-                                            "3-Middle",
-                                            "2-Index"
-                                    ],
-                                    [
-                                            "1-Thumb",
-                                            "2-Index",
-                                            "3-Middle",
-                                            "4-Ring"
-                                    ],
-                                    [
-                                            "5-Pinky",
-                                            "Repeat",
-                                            "Hold",
-                                            "Rest"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "வரிசை 2: இரட்டை அடி விரல் சுறுசுறுப்பு (Repeated Note Drill)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "D4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "F4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "F4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "D4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h3",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "3. Right Hand 5-Finger Warmup (Fingers 1-2-3-4-5)",
+        "desc": "Right hand 5-finger fundamental warmup across white keys C-D-E-F-G. Builds consistent curved hand posture and smooth legato articulation.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Line 1: Ascending & Descending (C D E F G F E D C)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "G4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "1-Thumb",
+                        "2-Index",
+                        "3-Middle",
+                        "4-Ring"
+                    ],
+                    [
+                        "5-Pinky",
+                        "4-Ring",
+                        "3-Middle",
+                        "2-Index"
+                    ],
+                    [
+                        "1-Thumb",
+                        "2-Index",
+                        "3-Middle",
+                        "4-Ring"
+                    ],
+                    [
+                        "5-Pinky",
+                        "Repeat",
+                        "Hold",
+                        "Rest"
+                    ]
+                ]
+            },
+            {
+                "title": "Line 2: Repeated Note Agility Drill",
+                "measures": [
+                    [
+                        "C4",
+                        "C4",
+                        "D4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "F4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "F4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "D4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h4": {
-            "id": "h4",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "4. இடது கை 5-விரல் பயிற்சி (LH 5-Finger Warmup • Fingers 5-4-3-2-1)",
-            "desc": "இடது கை C3 பேஸ் நோட்டிலிருந்து 5=சிறுவிரல், 4=மோதிர, 3=நடு, 2=சுட்டு, 1=பெருவிரல் வைத்து பேஸ் க்ளெஃப்பில் வாசிக்கும் பயிற்சி.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "வரிசை 1: இடது கை 5-விரல் அடிப்படை (C3 D3 E3 F3 G3)",
-                            "measures": [
-                                    [
-                                            "C3",
-                                            "D3",
-                                            "E3",
-                                            "F3"
-                                    ],
-                                    [
-                                            "G3",
-                                            "F3",
-                                            "E3",
-                                            "D3"
-                                    ],
-                                    [
-                                            "C3",
-                                            "E3",
-                                            "G3",
-                                            "E3"
-                                    ],
-                                    [
-                                            "C3",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "5-Pinky",
-                                            "4-Ring",
-                                            "3-Middle",
-                                            "2-Index"
-                                    ],
-                                    [
-                                            "1-Thumb",
-                                            "2-Index",
-                                            "3-Middle",
-                                            "4-Ring"
-                                    ],
-                                    [
-                                            "5-Pinky",
-                                            "3-Middle",
-                                            "1-Thumb",
-                                            "3-Middle"
-                                    ],
-                                    [
-                                            "5-Pinky",
-                                            "Hold",
-                                            "Hold",
-                                            "Rest"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h4",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "4. Left Hand 5-Finger Warmup (Fingers 5-4-3-2-1)",
+        "desc": "Left hand 5-finger baseline drill starting from bass C3 (5=pinky, 4=ring, 3=middle, 2=index, 1=thumb). Develops left hand control and tone weight.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "Line 1: Left Hand 5-Finger Basics (C3 D3 E3 F3 G3)",
+                "measures": [
+                    [
+                        "C3",
+                        "D3",
+                        "E3",
+                        "F3"
+                    ],
+                    [
+                        "G3",
+                        "F3",
+                        "E3",
+                        "D3"
+                    ],
+                    [
+                        "C3",
+                        "E3",
+                        "G3",
+                        "E3"
+                    ],
+                    [
+                        "C3",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "5-Pinky",
+                        "4-Ring",
+                        "3-Middle",
+                        "2-Index"
+                    ],
+                    [
+                        "1-Thumb",
+                        "2-Index",
+                        "3-Middle",
+                        "4-Ring"
+                    ],
+                    [
+                        "5-Pinky",
+                        "3-Middle",
+                        "1-Thumb",
+                        "3-Middle"
+                    ],
+                    [
+                        "5-Pinky",
+                        "Hold",
+                        "Hold",
+                        "Rest"
+                    ]
+                ]
+            }
+        ]
     },
     "h5": {
-            "id": "h5",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "5. எதிர் அசைவுப் பயிற்சி (Contrary Motion • இரு கைகள் விரிதல்)",
-            "desc": "இரு கைகளும் Middle C மற்றும் C3-லிருந்து எதிரெதிர் திசைகளில் விரியும் அழகான மூளை-விரல் ஒருங்கிணைப்புப் பயிற்சி (Left moves Down, Right moves Up).",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: வெளிநோக்கி விரிதல் (Outward)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "E4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h5",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "5. Contrary Motion Drill (Both Hands Expanding)",
+        "desc": "Both hands move in opposite directions starting outward from Middle C and C3, developing dual-brain independence and symmetrical finger movement.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Part 1: Outward Expansion",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "G4",
+                        "E4",
+                        "C4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h6": {
-            "id": "h6",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "6. ட்ரையாட் ஆர்பெஜியோ விரல் பயிற்சி (C Major Triad Arpeggio Drill)",
-            "desc": "C-E-G-C (1-3-5-8) நோட்டுகளை உடைத்து ஆர்பெஜியோவாக வாசிக்கும் விரல் நீட்சி பயிற்சி (Finger Stretch & Agility).",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "வரிசை 1: C மேஜர் ஆர்பெஜியோ ஏறு-இறங்கு",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h6",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "6. C Major Triad Arpeggio Drill",
+        "desc": "Arpeggio exercise playing C4 - E4 - G4 - C5 across octaves with fingers 1-2-3-5, building hand relaxation and smooth wrist rotation.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Line 1: C Major Arpeggio (Ascending & Descending)",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h7": {
-            "id": "h7",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "Chromatic",
-            "title": "7. குரோமேட்டிக் விரல் பயிற்சி (Chromatic Drill • 1-3-1-3 விரல் முறை)",
-            "desc": "வெள்ளை மற்றும் கருப்பு விசைகளில் பெருவிரல் (1) மற்றும் நடுவிரல் (3) மாற்றி மாற்றி வைத்து வாசிக்கும் பியானோ குரோமேட்டிக் விரல் நுட்பம்.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: C4 முதல் F4 குரோமேட்டிக் ஏறுவரிசை",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "C#4",
-                                            "D4",
-                                            "D#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "F#4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G#4",
-                                            "A4",
-                                            "A#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பாகம் 2: C5 முதல் C4 குரோமேட்டிக் இறங்குவரிசை",
-                            "measures": [
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A#4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G#4",
-                                            "G4",
-                                            "F#4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D#4",
-                                            "D4",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h7",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "Chromatic",
+        "title": "7. Chromatic Finger Drill (1-3-1-3 Fingering)",
+        "desc": "Mastery drill for the chromatic scale using standard classical fingering: thumb (1) on white keys and finger 3 on black keys.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Part 1: C4 to F4 Chromatic Ascending",
+                "measures": [
+                    [
+                        "C4",
+                        "C#4",
+                        "D4",
+                        "D#4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "F#4",
+                        "G4"
+                    ],
+                    [
+                        "G#4",
+                        "A4",
+                        "A#4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Part 2: C5 to C4 Chromatic Descending",
+                "measures": [
+                    [
+                        "C5",
+                        "B4",
+                        "A#4",
+                        "A4"
+                    ],
+                    [
+                        "G#4",
+                        "G4",
+                        "F#4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "D#4",
+                        "D4",
+                        "C#4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h8": {
-            "id": "h8",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "8. ஹெனான் பயிற்சி 3 (Hanon No. 3 • 2-3-4-5 விரல் இடைவெளி)",
-            "desc": "C.L. Hanon No. 3: விரல்கள் 2, 3, 4, 5-க்கு இடையே சமநிலையான பலத்தையும் வேகத்தையும் கொடுக்கும் உன்னத பயிற்சி.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: ஏறுவரிசை (Ascending)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பாகம் 2: இறங்குவரிசை (Descending)",
-                            "measures": [
-                                    [
-                                            "G5",
-                                            "D5",
-                                            "E5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "G5",
-                                            "F5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "C5",
-                                            "D5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "E5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D5",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "D5",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h8",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "8. Hanon Exercise No. 3 (Fingers 2-3-4-5 Extension)",
+        "desc": "Hanon Exercise No. 3 for stretching and strengthening the outer fingers (2, 3, 4, 5) with smooth wrist flow and consistent dynamics.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Part 1: Ascending",
+                "measures": [
+                    [
+                        "C4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "D4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "F4",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "G4",
+                        "A4",
+                        "B4"
+                    ]
+                ]
+            },
+            {
+                "title": "Part 2: Descending",
+                "measures": [
+                    [
+                        "G5",
+                        "D5",
+                        "E5",
+                        "F5"
+                    ],
+                    [
+                        "G5",
+                        "F5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "F5",
+                        "C5",
+                        "D5",
+                        "E5"
+                    ],
+                    [
+                        "F5",
+                        "E5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "E5",
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "D5",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "D5",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h9": {
-            "id": "h9",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "9. ஹெனான் பயிற்சி 5 (Hanon No. 5 • 5-வது விரல் வேகம்)",
-            "desc": "பெருவிரல் மற்றும் சிறுவிரலுக்கு இடையே 5-நோட் தாவல் பயிற்சி (C-G-F-E-D-E-F-G).",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "பாகம் 1: 5-வது விரல் தாவல் ஏறுவரிசை",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "C5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h9",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "9. Hanon Exercise No. 5 (5th Finger Agility & Speed)",
+        "desc": "Hanon Exercise No. 5 featuring 5th finger skips to build rapid articulation, firmness, and control on every downbeat.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "Part 1: 5th Finger Skip Ascending",
+                "measures": [
+                    [
+                        "C4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "D4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "E4",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "G4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "F4",
+                        "C5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ]
+                ]
+            }
+        ]
     },
     "h10": {
-            "id": "h10",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "10. செர்னி எட்யூட் 1 (Czerny Op. 599 No. 1 • முதன்மை ஆசான் பயிற்சி)",
-            "desc": "கார்ல் செர்னி (Carl Czerny) இயற்றிய ஆரம்ப பியானோ கற்போரின் உலகப் புகழ்பெற்ற பயிற்சி (Op. 599). சீரான தொடுதல் மற்றும் டெம்போ கட்டுப்பாடு.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "செர்னி நோட் பயிற்சி 1",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "G4",
-                                            ","
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "D4",
-                                            "C4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "D4",
-                                            "D4",
-                                            ","
-                                    ],
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "G4",
-                                            ","
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "D4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h10",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "10. Czerny Etude Op. 599 No. 1 (First Instructor)",
+        "desc": "Carl Czerny (Op. 599 Practical Exercises for Beginners) No. 1. Develops rhythmic precision, smooth finger legato, and early sight-reading skills.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Czerny Note Drill 1",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "G4",
+                        ","
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "D4",
+                        "C4"
+                    ],
+                    [
+                        "D4",
+                        "D4",
+                        "D4",
+                        ","
+                    ],
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "G4",
+                        ","
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "D4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h11": {
-            "id": "h11",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "11. செர்னி எட்யூட் 19 (Czerny Op. 599 No. 19 • இரு கை ஒருங்கிசைவு)",
-            "desc": "வலது கை மற்றும் இடது கை இரண்டும் இணைந்து சம பலத்துடன் இயங்க உதவும் செர்னி எட்யூட்.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "மெலடி & பேஸ் அசைவு",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "G4",
-                                            "B4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h11",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "11. Czerny Etude Op. 599 No. 19 (Two-Hand Coordination)",
+        "desc": "Czerny Op. 599 No. 19 introducing hands-together coordination with right hand melodic turns supported by steady left hand intervals.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "Melody & Bass Movement",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "G4",
+                        "B4",
+                        "G4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "h12": {
-            "id": "h12",
-            "cat": "hanon",
-            "catTamil": "1. ஹெனான் & விரல் பயிற்சிகள் (Hanon & Finger Drills)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "12. ஆல்பர்ட்டி பேஸ் விரல் பயிற்சி (Alberti Bass Drill • 1-5-3-5 முறை)",
-            "desc": "கிளாசிக்கல் பியானோவின் மிக முக்கியமான இடது கை கார்ட் நடை (Domenico Alberti). Root -> 5th -> 3rd -> 5th (C - G - E - G) சுழற்சி.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "C மேஜர் & G7 ஆல்பர்ட்டி பேஸ் நடை",
-                            "measures": [
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "B2",
-                                            "G3",
-                                            "D3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "B2",
-                                            "G3",
-                                            "D3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "C3",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "h12",
+        "cat": "hanon",
+        "catTamil": "1. Hanon & Finger Drills",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "12. Alberti Bass Drill (1-5-3-5 Pattern)",
+        "desc": "The timeless classical Alberti Bass accompaniment pattern (Lowest - Highest - Middle - Highest: 1-5-3-5), fundamental for Mozart, Haydn, and Clementi sonatas.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "C Major & G7 Alberti Bass Accompaniment",
+                "measures": [
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "B2",
+                        "G3",
+                        "D3",
+                        "G3"
+                    ],
+                    [
+                        "B2",
+                        "G3",
+                        "D3",
+                        "G3"
+                    ],
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "C3",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
-    # ---------------- 2. MAJOR SCALES & PENTATONICS (மேஜர் ஸ்கேல்கள் - 16 பாடங்கள்) ----------------
     "m1": {
-            "id": "m1",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "1. C மேஜர் ஸ்கேல் (C Major Scale • முழுமையான 1 ஆக்டேவ்)",
-            "desc": "எந்தவித Sharps அல்லது Flats இல்லாத மேற்கத்திய இசையின் ராஜா ஸ்கேல்! RH Fingering: 1-2-3 (பெருவிரல் அடியில் நுழைத்தல் Thumb Tuck) 1-2-3-4-5. இறங்கும்போது: 5-4-3-2-1 (நடுவிரல் மேலாகத் தாண்டுதல் 3rd finger cross) 3-2-1.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "ஏறுவரிசை (Ascending: C4 முதல் C5 வரை)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Do (1)",
-                                            "Re (2)",
-                                            "Mi (3)",
-                                            "Fa (1)"
-                                    ],
-                                    [
-                                            "Sol (2)",
-                                            "La (3)",
-                                            "Ti (4)",
-                                            "Do (5)"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "இறங்குவரிசை (Descending: C5 முதல் C4 வரை)",
-                            "measures": [
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "D4",
-                                            "C4"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Do (5)",
-                                            "Ti (4)",
-                                            "La (3)",
-                                            "Sol (2)"
-                                    ],
-                                    [
-                                            "Fa (1)",
-                                            "Mi (3)",
-                                            "Re (2)",
-                                            "Do (1)"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m1",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "1. C Major Scale (1-Octave Ascending & Descending)",
+        "desc": "The foundation of Western music! All white keys (C-D-E-F-G-A-B-C) with zero sharps or flats. Features the essential thumb-under crossover on F4.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "Ascending (C4 to C5)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C",
+                        "D",
+                        "E",
+                        "F"
+                    ],
+                    [
+                        "G",
+                        "A",
+                        "B",
+                        "C"
+                    ]
+                ]
+            },
+            {
+                "title": "Descending (C5 to C4)",
+                "measures": [
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "D4",
+                        "C4"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C",
+                        "B",
+                        "A",
+                        "G"
+                    ],
+                    [
+                        "F",
+                        "E",
+                        "D",
+                        "C"
+                    ]
+                ]
+            }
+        ]
     },
     "m2": {
-            "id": "m2",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "G Major",
-            "title": "2. G மேஜர் ஸ்கேல் (G Major Scale • 1 Sharp: F#)",
-            "desc": "Circle of Fifths-ல் முதல் Sharp கீ! 7-வது நோட்டு F# (Black Key). G-A-B-C-D-E-F#-G. RH Fingering: 1-2-3-1-2-3-4-5.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "ஏறுவரிசை & இறங்குவரிசை (G4 to G5)",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "E5",
-                                            "F#5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "G5",
-                                            "F#5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m2",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "G Major",
+        "title": "2. G Major Scale (1 Sharp: F#)",
+        "desc": "G Major Scale featuring one sharp (F#). Perfect introduction to black key thumb-under transitions and the Circle of Fifths.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "Ascending & Descending (G4 to G5)",
+                "measures": [
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "E5",
+                        "F#5",
+                        "G5"
+                    ],
+                    [
+                        "G5",
+                        "F#5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ]
+                ]
+            }
+        ]
     },
     "m3": {
-            "id": "m3",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "D Major",
-            "title": "3. D மேஜர் ஸ்கேல் (D Major Scale • 2 Sharps: F#, C#)",
-            "desc": "2 Sharps கொண்ட கம்பீரமான கீ (F# மற்றும் C#). D-E-F#-G-A-B-C#-D. பிரகாசமான ஒலி தரும்.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "D மேஜர் ஏறு & இறங்கு (D4 to D5)",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F#4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            "C#5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C#5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F#4",
-                                            "E4",
-                                            "D4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m3",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "D Major",
+        "title": "3. D Major Scale (2 Sharps: F#, C#)",
+        "desc": "D Major Scale featuring two sharps (F# and C#). Key of joy and triumph, building comfort across two raised pitches.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "D Major (Ascending & Descending - D4 to D5)",
+                "measures": [
+                    [
+                        "D4",
+                        "E4",
+                        "F#4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        "C#5",
+                        "D5"
+                    ],
+                    [
+                        "D5",
+                        "C#5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "F#4",
+                        "E4",
+                        "D4"
+                    ]
+                ]
+            }
+        ]
     },
     "m4": {
-            "id": "m4",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "A Major",
-            "title": "4. A மேஜர் ஸ்கேல் (A Major Scale • 3 Sharps: F#, C#, G#)",
-            "desc": "3 Sharps கொண்ட உற்சாகமான கீ. A-B-C#-D-E-F#-G#-A. பியானோவில் 3 கருப்பு விசைகள் கையாளும் பயிற்சி.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "A மேஜர் ஏறு & இறங்கு (A3 to A4)",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "B3",
-                                            "C#4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F#4",
-                                            "G#4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G#4",
-                                            "F#4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C#4",
-                                            "B3",
-                                            "A3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m4",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "A Major",
+        "title": "4. A Major Scale (3 Sharps: F#, C#, G#)",
+        "desc": "A Major Scale with three sharps (F#, C#, G#). Bright and energetic scale testing uniform finger curvature across multiple black keys.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "A Major (Ascending & Descending - A3 to A4)",
+                "measures": [
+                    [
+                        "A3",
+                        "B3",
+                        "C#4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "F#4",
+                        "G#4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        "G#4",
+                        "F#4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C#4",
+                        "B3",
+                        "A3"
+                    ]
+                ]
+            }
+        ]
     },
     "m5": {
-            "id": "m5",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "E Major",
-            "title": "5. E மேஜர் ஸ்கேல் (E Major Scale • 4 Sharps: F#, C#, G#, D#)",
-            "desc": "4 Sharps கொண்ட இனிமையான கிளாசிக்கல் கீ. E-F#-G#-A-B-C#-D#-E.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "E மேஜர் ஏறு & இறங்கு (E4 to E5)",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "F#4",
-                                            "G#4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C#5",
-                                            "D#5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D#5",
-                                            "C#5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G#4",
-                                            "F#4",
-                                            "E4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m5",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "E Major",
+        "title": "5. E Major Scale (4 Sharps: F#, C#, G#, D#)",
+        "desc": "E Major Scale with four sharps (F#, C#, G#, D#). Brilliant and rich sonority, demanding clean thumb tucks under finger 3 and 4.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "E Major (Ascending & Descending - E4 to E5)",
+                "measures": [
+                    [
+                        "E4",
+                        "F#4",
+                        "G#4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "C#5",
+                        "D#5",
+                        "E5"
+                    ],
+                    [
+                        "E5",
+                        "D#5",
+                        "C#5",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "G#4",
+                        "F#4",
+                        "E4"
+                    ]
+                ]
+            }
+        ]
     },
     "m6": {
-            "id": "m6",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "F Major",
-            "title": "6. F மேஜர் ஸ்கேல் (F Major Scale • 1 Flat: Bb • விசேஷ விரல் முறை)",
-            "desc": "1 Flat கொண்ட முதல் Flat கீ. F-G-A-Bb-C-D-E-F. கவனம்: F மேஜருக்கு RH Fingering 1-2-3-4 (Bb-க்கு 4-ம் விரல்) பிறகு Thumb Tuck 1-2-3-4!",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "F மேஜர் ஏறு & இறங்கு (F4 to F5)",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "D5",
-                                            "E5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "E5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "Bb4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m6",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "F Major",
+        "title": "6. F Major Scale (1 Flat: Bb • Special Fingering)",
+        "desc": "F Major Scale with one flat (Bb). Features unique RH fingering: 1-2-3-4 on F-G-A-Bb, tucking thumb under on C5 (never putting the thumb on Bb!).",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "F Major (Ascending & Descending - F4 to F5)",
+                "measures": [
+                    [
+                        "F4",
+                        "G4",
+                        "A4",
+                        "Bb4"
+                    ],
+                    [
+                        "C5",
+                        "D5",
+                        "E5",
+                        "F5"
+                    ],
+                    [
+                        "F5",
+                        "E5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "Bb4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ]
+                ]
+            }
+        ]
     },
     "m7": {
-            "id": "m7",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "Bb Major",
-            "title": "7. Bb மேஜர் ஸ்கேல் (Bb Major Scale • 2 Flats: Bb, Eb)",
-            "desc": "2 Flats கொண்ட ஜாஸ் மற்றும் பிராஸ் பேண்ட் கீ. Bb-C-D-Eb-F-G-A-Bb. கருப்பு விசை Bb-ல் பெருவிரல் வைக்காமல் 2-ம் விரல் தொடங்கும் விசேஷ முறை.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "Bb மேஜர் ஏறு & இறங்கு (Bb3 to Bb4)",
-                            "measures": [
-                                    [
-                                            "Bb3",
-                                            "C4",
-                                            "D4",
-                                            "Eb4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "Bb4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "Eb4",
-                                            "D4",
-                                            "C4",
-                                            "Bb3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m7",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "Bb Major",
+        "title": "7. Bb Major Scale (2 Flats: Bb, Eb)",
+        "desc": "Bb Major Scale featuring two flats (Bb and Eb). Highly popular in jazz and concert band literature, starting RH on finger 2.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Bb Major (Ascending & Descending - Bb3 to Bb4)",
+                "measures": [
+                    [
+                        "Bb3",
+                        "C4",
+                        "D4",
+                        "Eb4"
+                    ],
+                    [
+                        "F4",
+                        "G4",
+                        "A4",
+                        "Bb4"
+                    ],
+                    [
+                        "Bb4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "Eb4",
+                        "D4",
+                        "C4",
+                        "Bb3"
+                    ]
+                ]
+            }
+        ]
     },
     "m8": {
-            "id": "m8",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "Chromatic",
-            "title": "8. முழு குரோமேட்டிக் ஸ்கேல் (Full Chromatic Scale • 12 Semitones)",
-            "desc": "C4 முதல் C5 வரை உள்ள அனைத்து 12 அரைக்கட்டை (Semitone) இடைவெளிகளையும் வரிசையாக வாசிக்கும் ஸ்கேல்.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "12 செமிடோன்கள் ஏறுவரிசை",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "C#4",
-                                            "D4",
-                                            "D#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "F#4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G#4",
-                                            "A4",
-                                            "A#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m8",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "Chromatic",
+        "title": "8. Full Chromatic Scale (All 12 Semitones)",
+        "desc": "All 12 chromatic pitches played in consecutive half-steps from C4 to C5. Develops complete keyboard spatial awareness and rapid dexterity.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "12 Semitones Ascending",
+                "measures": [
+                    [
+                        "C4",
+                        "C#4",
+                        "D4",
+                        "D#4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "F#4",
+                        "G4"
+                    ],
+                    [
+                        "G#4",
+                        "A4",
+                        "A#4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "m9": {
-            "id": "m9",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "B Major",
-            "title": "9. B மேஜர் ஸ்கேல் (B Major Scale • 5 Sharps: F#, C#, G#, D#, A#)",
-            "desc": "5 கருப்பு விசைகள் கொண்ட பளபளக்கும் கீ! B-C#-D#-E-F#-G#-A#-B. Chopin பியானோ மாணவர்களுக்கு முதலில் கற்றுக்கொடுத்த ஸ்கேல்.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "B மேஜர் ஏறு & இறங்கு (B3 to B4)",
-                            "measures": [
-                                    [
-                                            "B3",
-                                            "C#4",
-                                            "D#4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "F#4",
-                                            "G#4",
-                                            "A#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A#4",
-                                            "G#4",
-                                            "F#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D#4",
-                                            "C#4",
-                                            "B3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m9",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "B Major",
+        "title": "9. B Major Scale (5 Sharps: F#, C#, G#, D#, A#)",
+        "desc": "Chopin's favorite foundational scale! With 5 black keys, the long fingers rest naturally on raised keys while the thumb plays the white keys (B & E).",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "B Major (Ascending & Descending - B3 to B4)",
+                "measures": [
+                    [
+                        "B3",
+                        "C#4",
+                        "D#4",
+                        "E4"
+                    ],
+                    [
+                        "F#4",
+                        "G#4",
+                        "A#4",
+                        "B4"
+                    ],
+                    [
+                        "B4",
+                        "A#4",
+                        "G#4",
+                        "F#4"
+                    ],
+                    [
+                        "E4",
+                        "D#4",
+                        "C#4",
+                        "B3"
+                    ]
+                ]
+            }
+        ]
     },
     "m10": {
-            "id": "m10",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "F# Major",
-            "title": "10. F# மேஜர் ஸ்கேல் (F# Major Scale • 6 Sharps: F#, C#, G#, D#, A#, E#)",
-            "desc": "Circle of Fifths-ன் அடிமட்ட துருவ புள்ளி. 6 Sharps கொண்ட கம்பீரமான கீ. F#-G#-A#-B-C#-D#-E#-F#.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "F# மேஜர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "F#4",
-                                            "G#4",
-                                            "A#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C#5",
-                                            "D#5",
-                                            "F5",
-                                            "F#5"
-                                    ],
-                                    [
-                                            "F#5",
-                                            "F5",
-                                            "D#5",
-                                            "C#5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A#4",
-                                            "G#4",
-                                            "F#4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m10",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "F# Major",
+        "title": "10. F# Major Scale (6 Sharps: F#, C#, G#, D#, A#, E#)",
+        "desc": "F# Major Scale with six sharps (including E# = F natural). Enharmonically equivalent to Gb Major, located directly opposite C on the Circle of Fifths.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "F# Major (Ascending & Descending)",
+                "measures": [
+                    [
+                        "F#4",
+                        "G#4",
+                        "A#4",
+                        "B4"
+                    ],
+                    [
+                        "C#5",
+                        "D#5",
+                        "F5",
+                        "F#5"
+                    ],
+                    [
+                        "F#5",
+                        "F5",
+                        "D#5",
+                        "C#5"
+                    ],
+                    [
+                        "B4",
+                        "A#4",
+                        "G#4",
+                        "F#4"
+                    ]
+                ]
+            }
+        ]
     },
     "m11": {
-            "id": "m11",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "Eb Major",
-            "title": "11. Eb மேஜர் ஸ்கேல் (Eb Major Scale • 3 Flats: Bb, Eb, Ab)",
-            "desc": "3 Flats கொண்ட பீத்தோவனின் எம்பரோர் கன்சர்ட்டோ மற்றும் பிரம்மாண்ட சிம்பொனிகளின் கீ. Eb-F-G-Ab-Bb-C-D-Eb.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "Eb மேஜர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "Eb4",
-                                            "F4",
-                                            "G4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "Bb4",
-                                            "C5",
-                                            "D5",
-                                            "Eb5"
-                                    ],
-                                    [
-                                            "Eb5",
-                                            "D5",
-                                            "C5",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "Ab4",
-                                            "G4",
-                                            "F4",
-                                            "Eb4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m11",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "Eb Major",
+        "title": "11. Eb Major Scale (3 Flats: Bb, Eb, Ab)",
+        "desc": "Eb Major Scale with three flats (Bb, Eb, Ab). The heroic, noble key of Beethoven's Eroica Symphony and Emperor Concerto.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Eb Major (Ascending & Descending)",
+                "measures": [
+                    [
+                        "Eb4",
+                        "F4",
+                        "G4",
+                        "Ab4"
+                    ],
+                    [
+                        "Bb4",
+                        "C5",
+                        "D5",
+                        "Eb5"
+                    ],
+                    [
+                        "Eb5",
+                        "D5",
+                        "C5",
+                        "Bb4"
+                    ],
+                    [
+                        "Ab4",
+                        "G4",
+                        "F4",
+                        "Eb4"
+                    ]
+                ]
+            }
+        ]
     },
     "m12": {
-            "id": "m12",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "Ab Major",
-            "title": "12. Ab மேஜர் ஸ்கேல் (Ab Major Scale • 4 Flats: Bb, Eb, Ab, Db)",
-            "desc": "4 Flats கொண்ட மென்மையான அமைதியான ரொமாண்டிக் கீ. Ab-Bb-C-Db-Eb-F-G-Ab.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "Ab மேஜர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "Ab3",
-                                            "Bb3",
-                                            "C4",
-                                            "Db4"
-                                    ],
-                                    [
-                                            "Eb4",
-                                            "F4",
-                                            "G4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "Ab4",
-                                            "G4",
-                                            "F4",
-                                            "Eb4"
-                                    ],
-                                    [
-                                            "Db4",
-                                            "C4",
-                                            "Bb3",
-                                            "Ab3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m12",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "Ab Major",
+        "title": "12. Ab Major Scale (4 Flats: Bb, Eb, Ab, Db)",
+        "desc": "Ab Major Scale with four flats (Bb, Eb, Ab, Db). Warm, lyrical, and poetic tone quality favored by Chopin, Liszt, and Schubert.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Ab Major (Ascending & Descending)",
+                "measures": [
+                    [
+                        "Ab3",
+                        "Bb3",
+                        "C4",
+                        "Db4"
+                    ],
+                    [
+                        "Eb4",
+                        "F4",
+                        "G4",
+                        "Ab4"
+                    ],
+                    [
+                        "Ab4",
+                        "G4",
+                        "F4",
+                        "Eb4"
+                    ],
+                    [
+                        "Db4",
+                        "C4",
+                        "Bb3",
+                        "Ab3"
+                    ]
+                ]
+            }
+        ]
     },
     "m13": {
-            "id": "m13",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "Db Major",
-            "title": "13. Db மேஜர் ஸ்கேல் (Db Major Scale • 5 Flats)",
-            "desc": "டெபஸ்ஸியின் Claire de Lune அமைந்த புகழ்பெற்ற பியானோ கீ. Db-Eb-F-Gb-Ab-Bb-C-Db.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "Db மேஜர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "Db4",
-                                            "Eb4",
-                                            "F4",
-                                            "Gb4"
-                                    ],
-                                    [
-                                            "Ab4",
-                                            "Bb4",
-                                            "C5",
-                                            "Db5"
-                                    ],
-                                    [
-                                            "Db5",
-                                            "C5",
-                                            "Bb4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "Gb4",
-                                            "F4",
-                                            "Eb4",
-                                            "Db4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m13",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "Db Major",
+        "title": "13. Db Major Scale (5 Flats: Bb, Eb, Ab, Db, Gb)",
+        "desc": "Db Major Scale featuring five flats. Renowned for its rich romantic sound in famous nocturnes, ballades, and impressionist works.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Db Major (Ascending & Descending)",
+                "measures": [
+                    [
+                        "Db4",
+                        "Eb4",
+                        "F4",
+                        "Gb4"
+                    ],
+                    [
+                        "Ab4",
+                        "Bb4",
+                        "C5",
+                        "Db5"
+                    ],
+                    [
+                        "Db5",
+                        "C5",
+                        "Bb4",
+                        "Ab4"
+                    ],
+                    [
+                        "Gb4",
+                        "F4",
+                        "Eb4",
+                        "Db4"
+                    ]
+                ]
+            }
+        ]
     },
     "m14": {
-            "id": "m14",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "14. C மேஜர் 2 ஆக்டேவ்கள் (C Major 2-Octaves • பெருவிரல் நுழைத்தல்)",
-            "desc": "C4 முதல் C6 வரை தொடர்ச்சியாக 2 ஆக்டேவ்கள் வாசிக்கும் சர்வதேச கிரேடு தேர்வுப் பயிற்சி (1-2-3-1-2-3-4-1-2-3-1-2-3-4-5).",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "2 ஆக்டேவ் ஏறுவரிசை (C4 to C6)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "E5",
-                                            "F5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "A5",
-                                            "B5",
-                                            "C6",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "2 ஆக்டேவ் இறங்குவரிசை (C6 to C4)",
-                            "measures": [
-                                    [
-                                            "C6",
-                                            "B5",
-                                            "A5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "E5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "G4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m14",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "14. C Major Scale 2 Octaves (Thumb Under Technique)",
+        "desc": "2-octave C Major scale from C4 to C6. Develops seamless thumb tucks under finger 3 (on F4) and finger 4 (on C5), and smooth finger crossing on descending.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "2-Octave Ascending (C4 to C6)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "E5",
+                        "F5",
+                        "G5"
+                    ],
+                    [
+                        "A5",
+                        "B5",
+                        "C6",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "2-Octave Descending (C6 to C4)",
+                "measures": [
+                    [
+                        "C6",
+                        "B5",
+                        "A5",
+                        "G5"
+                    ],
+                    [
+                        "F5",
+                        "E5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "G4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "C4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "m15": {
-            "id": "m15",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "15. C மேஜர் பெண்டாடோனிக் ஸ்கேல் (C Major Pentatonic • 5 நோட்டுகள்)",
-            "desc": "4 மற்றும் 7 நோட்டுகள் இல்லாத 5 நோட் உலக ஸ்கேல்: C - D - E - G - A - C. கர்நாடக மோகனம் ராகத்திற்கு இணையானது.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "C பெண்டாடோனிக் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "E4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m15",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "15. C Major Pentatonic Scale (5-Note Scale)",
+        "desc": "The universal 5-note melodic scale (C - D - E - G - A). Found in folk songs, pop hooks, rock solos, and Asian traditional music with zero dissonance.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "C Pentatonic (Ascending & Descending)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "E4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "C5",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "C4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "m16": {
-            "id": "m16",
-            "cat": "major_scales",
-            "catTamil": "2. மேஜர் ஸ்கேல்கள் (Major Scales)",
-            "meter": "4/4",
-            "key": "G Major",
-            "title": "16. G மேஜர் பெண்டாடோனிக் ஸ்கேல் (G Major Pentatonic)",
-            "desc": "நாட்டுப்புற மற்றும் ராக் மெலடிகளுக்கு உகந்த 5 நோட் ஸ்கேல்: G - A - B - D - E - G.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "G பெண்டாடோனிக் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "G5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "m16",
+        "cat": "major_scales",
+        "catTamil": "2. Major Scales & Pentatonics",
+        "meter": "4/4",
+        "key": "G Major",
+        "title": "16. G Major Pentatonic Scale",
+        "desc": "G Major Pentatonic Scale (G - A - B - D - E). Sweet, uplifting scale widely used in country, blues, pop, and worship piano styles.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "G Pentatonic (Ascending & Descending)",
+                "measures": [
+                    [
+                        "G4",
+                        "A4",
+                        "B4",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "G5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "G4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
-    # ---------------- 3. MINOR, PENTATONIC & BLUES SCALES (மைனர் & ப்ளூஸ் ஸ்கேல்கள் - 12 பாடங்கள்) ----------------
     "mn1": {
-            "id": "mn1",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "1. A நேச்சுரல் மைனர் ஸ்கேல் (A Natural Minor • ஏயோலியன் மோடு)",
-            "desc": "C மேஜரின் ரிலேட்டிவ் மைனர்! எந்தவித Sharps/Flats இல்லாத அனைத்து வெள்ளை விசைகள்: A-B-C-D-E-F-G-A. ஆழ்ந்த சோகமும் அமைதியும் தரும் ஒலி.",
-            "tempo": 85,
-            "lines": [
-                    {
-                            "title": "A நேச்சுரல் மைனர் ஏறு & இறங்கு (A3 to A4)",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "B3",
-                                            "C4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "B3",
-                                            "A3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn1",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "1. A Natural Minor Scale (Aeolian Mode)",
+        "desc": "The relative minor of C Major! Uses identical all-white keys (A - B - C - D - E - F - G - A) starting from A, creating a contemplative, somber mood.",
+        "tempo": 85,
+        "lines": [
+            {
+                "title": "A Natural Minor (Ascending & Descending - A3 to A4)",
+                "measures": [
+                    [
+                        "A3",
+                        "B3",
+                        "C4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "B3",
+                        "A3"
+                    ]
+                ]
+            }
+        ]
     },
     "mn2": {
-            "id": "mn2",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "2. A ஹார்மோனிக் மைனர் ஸ்கேல் (A Harmonic Minor • Raised 7th G#)",
-            "desc": "கிளாசிக்கல் மற்றும் அரேபிய இசையில் மிகவும் புகழ்பெற்ற ஸ்கேல்! 7-வது நோட்டு G# ஆக உயர்த்தப்படும்: A-B-C-D-E-F-G#-A. F-க்கும் G#-க்கும் இடையே உள்ள ஒன்றரைக்கட்டை (Augmented 2nd) மர்மமான நாடகத் தன்மையை உருவாக்கும்.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "A ஹார்மோனிக் மைனர் ஏறு & இறங்கு (A3 to A4)",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "B3",
-                                            "C4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "G#4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G#4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "B3",
-                                            "A3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn2",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "2. A Harmonic Minor Scale (Raised 7th: G#)",
+        "desc": "Classic harmonic minor with a raised 7th degree (G#). Creates the signature exotic 1.5-step augmented 2nd interval between F and G#.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "A Harmonic Minor (Ascending & Descending - A3 to A4)",
+                "measures": [
+                    [
+                        "A3",
+                        "B3",
+                        "C4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "G#4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        "G#4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "B3",
+                        "A3"
+                    ]
+                ]
+            }
+        ]
     },
     "mn3": {
-            "id": "mn3",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "3. A மெலோடிக் மைனர் ஸ்கேல் (A Melodic Minor • ஏறு & இறங்கு மாறுபாடு)",
-            "desc": "பாட இனிமையாக இருக்கும்படி ஏறும் போது 6 & 7 உயரும் (F# & G#), இறங்கும் போது நேச்சுரல் மைனராக மாறும் (G♮ & F♮). ஏறு: A-B-C-D-E-F#-G#-A | இறங்கு: A-G-F-E-D-C-B-A.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "ஏறுவரிசை (Ascending: F# & G#)",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "B3",
-                                            "C4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F#4",
-                                            "G#4",
-                                            "A4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "இறங்குவரிசை (Descending: G♮ & F♮)",
-                            "measures": [
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "B3",
-                                            "A3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn3",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "3. A Melodic Minor Scale (Melodic Ascending & Descending)",
+        "desc": "Classical melodic minor: raises both 6th (F#) and 7th (G#) when ascending, but reverts to pure natural minor (G natural & F natural) when descending.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Ascending (F# & G#)",
+                "measures": [
+                    [
+                        "A3",
+                        "B3",
+                        "C4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "F#4",
+                        "G#4",
+                        "A4"
+                    ]
+                ]
+            },
+            {
+                "title": "Descending (G natural & F natural)",
+                "measures": [
+                    [
+                        "A4",
+                        "G4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "B3",
+                        "A3"
+                    ]
+                ]
+            }
+        ]
     },
     "mn4": {
-            "id": "mn4",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "D Minor",
-            "title": "4. D ஹார்மோனிக் மைனர் ஸ்கேல் (D Harmonic Minor • Bb + C#)",
-            "desc": "1 Flat (Bb) மற்றும் உயர்த்தப்பட்ட 7-வது நோட்டு (C#). D-E-F-G-A-Bb-C#-D.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "D ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "Bb4",
-                                            "C#5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C#5",
-                                            "Bb4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn4",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "D Minor",
+        "title": "4. D Harmonic Minor Scale (1 Flat: Bb + Raised 7th: C#)",
+        "desc": "D Harmonic Minor Scale featuring Bb and raised leading tone C#. The dramatic, evocative key of Bach's Toccata and Fugue in D minor.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "D Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "D4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "Bb4",
+                        "C#5",
+                        "D5"
+                    ],
+                    [
+                        "D5",
+                        "C#5",
+                        "Bb4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ]
+                ]
+            }
+        ]
     },
     "mn5": {
-            "id": "mn5",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "E Minor",
-            "title": "5. E ஹார்மோனிக் மைனர் ஸ்கேல் (E Harmonic Minor • F# + D#)",
-            "desc": "1 Sharp (F#) மற்றும் உயர்த்தப்பட்ட 7-வது நோட்டு (D#). E-F#-G-A-B-C-D#-E.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "E ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "F#4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "D#5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D#5",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F#4",
-                                            "E4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn5",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "E Minor",
+        "title": "5. E Harmonic Minor Scale (1 Sharp: F# + Raised 7th: D#)",
+        "desc": "E Harmonic Minor Scale with F# and raised leading tone D#. Beloved in Spanish guitar music, tango, and classical concertos.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "E Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "E4",
+                        "F#4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "D#5",
+                        "E5"
+                    ],
+                    [
+                        "E5",
+                        "D#5",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "G4",
+                        "F#4",
+                        "E4"
+                    ]
+                ]
+            }
+        ]
     },
     "mn6": {
-            "id": "mn6",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "C Minor",
-            "title": "6. C ஹார்மோனிக் மைனர் ஸ்கேல் (C Harmonic Minor • Eb, Ab + B♮)",
-            "desc": "பீத்தோவனின் புகழ்பெற்ற சிம்பொனி 5 அமைந்த கம்பீரமான கீ. C-D-Eb-F-G-Ab-B-C.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "C ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "Eb4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "Ab4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "Ab4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "Eb4",
-                                            "D4",
-                                            "C4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn6",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "C Minor",
+        "title": "6. C Harmonic Minor Scale (2 Flats: Eb, Ab + Raised 7th: B)",
+        "desc": "C Harmonic Minor Scale (C - D - Eb - F - G - Ab - B - C). Passionate, stormy minor key of Beethoven's Pathétique Sonata and Symphony No. 5.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "C Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "Eb4",
+                        "F4"
+                    ],
+                    [
+                        "G4",
+                        "Ab4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "Ab4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "Eb4",
+                        "D4",
+                        "C4"
+                    ]
+                ]
+            }
+        ]
     },
     "mn7": {
-            "id": "mn7",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "G Minor",
-            "title": "7. G ஹார்மோனிக் மைனர் ஸ்கேல் (G Harmonic Minor • Bb, Eb + F#)",
-            "desc": "மொஸார்ட்டின் புகழ்பெற்ற சிம்பொனி 40 அமைந்த கீ. G-A-Bb-C-D-Eb-F#-G.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "G ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "Bb4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "Eb5",
-                                            "F#5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "G5",
-                                            "F#5",
-                                            "Eb5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "Bb4",
-                                            "A4",
-                                            "G4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn7",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "G Minor",
+        "title": "7. G Harmonic Minor Scale (2 Flats: Bb, Eb + Raised 7th: F#)",
+        "desc": "G Harmonic Minor Scale with Bb, Eb, and raised leading tone F#. Classical minor key of Mozart's Symphony No. 40.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "G Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "G4",
+                        "A4",
+                        "Bb4",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "Eb5",
+                        "F#5",
+                        "G5"
+                    ],
+                    [
+                        "G5",
+                        "F#5",
+                        "Eb5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        "Bb4",
+                        "A4",
+                        "G4"
+                    ]
+                ]
+            }
+        ]
     },
     "mn8": {
-            "id": "mn8",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "B Minor",
-            "title": "8. B ஹார்மோனிக் மைனர் ஸ்கேல் (B Harmonic Minor • F#, C# + A#)",
-            "desc": "2 Sharps மற்றும் உயர்த்தப்பட்ட 7-வது நோட்டு (A#). B-C#-D-E-F#-G-A#-B.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "B ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "B3",
-                                            "C#4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "F#4",
-                                            "G4",
-                                            "A#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A#4",
-                                            "G4",
-                                            "F#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "C#4",
-                                            "B3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn8",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "B Minor",
+        "title": "8. B Harmonic Minor Scale (2 Sharps: F#, C# + Raised 7th: A#)",
+        "desc": "B Harmonic Minor Scale featuring F#, C#, and raised 7th A#. Dramatic and introspective key of Tchaikovsky's Pathétique Symphony.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "B Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "B3",
+                        "C#4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "F#4",
+                        "G4",
+                        "A#4",
+                        "B4"
+                    ],
+                    [
+                        "B4",
+                        "A#4",
+                        "G4",
+                        "F#4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "C#4",
+                        "B3"
+                    ]
+                ]
+            }
+        ]
     },
     "mn9": {
-            "id": "mn9",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "F Minor",
-            "title": "9. F ஹார்மோனிக் மைனர் ஸ்கேல் (F Harmonic Minor • 4 Flats + E♮)",
-            "desc": "பீத்தோவனின் அப்பேஷனாட்டா சோனாட்டா (Appassionata) அமைந்த தீவிர உணர்ச்சி மிக்க கீ. F-G-Ab-Bb-C-Db-E-F.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "F ஹார்மோனிக் மைனர் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "Ab4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "Db5",
-                                            "E5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "E5",
-                                            "Db5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "Bb4",
-                                            "Ab4",
-                                            "G4",
-                                            "F4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn9",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "F Minor",
+        "title": "9. F Harmonic Minor Scale (4 Flats: Bb, Eb, Ab, Db + Raised 7th: E)",
+        "desc": "F Harmonic Minor Scale with four flats and raised 7th E natural. The tragic, intense key of Beethoven's Appassionata Sonata.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "F Harmonic Minor (Ascending & Descending)",
+                "measures": [
+                    [
+                        "F4",
+                        "G4",
+                        "Ab4",
+                        "Bb4"
+                    ],
+                    [
+                        "C5",
+                        "Db5",
+                        "E5",
+                        "F5"
+                    ],
+                    [
+                        "F5",
+                        "E5",
+                        "Db5",
+                        "C5"
+                    ],
+                    [
+                        "Bb4",
+                        "Ab4",
+                        "G4",
+                        "F4"
+                    ]
+                ]
+            }
+        ]
     },
     "mn10": {
-            "id": "mn10",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "10. A மைனர் பெண்டாடோனிக் ஸ்கேல் (A Minor Pentatonic • ராக் சோலோ)",
-            "desc": "உலக ராக் கிட்டார் மற்றும் பியானோ சோலோக்களின் அரசன்! A - C - D - E - G - A.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "A மைனர் பெண்டாடோனிக் ஏறு & இறங்கு",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "A3",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn10",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "10. A Minor Pentatonic Scale (Rock Solo Pattern)",
+        "desc": "The quintessential rock, blues, and guitar solo scale (A - C - D - E - G). Forms the backbone of rock riffs, funk licks, and contemporary solos.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "A Minor Pentatonic (Ascending & Descending)",
+                "measures": [
+                    [
+                        "A3",
+                        "C4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "A3",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "mn11": {
-            "id": "mn11",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "C Minor",
-            "title": "11. C ப்ளூஸ் ஸ்கேல் (The C Blues Scale • Blue Note F#)",
-            "desc": "ப்ளூஸ் இசையின் தலையாய ரகசியம்: F#-ஐ (Diminished 5th Blue Note) சேர்த்து வாசிப்பது. C - Eb - F - F# - G - Bb - C.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "C ப்ளூஸ் ஸ்கேல் நடை",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "Eb4",
-                                            "F4",
-                                            "F#4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "Bb4",
-                                            "C5",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F#4",
-                                            "F4",
-                                            "Eb4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn11",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "C Minor",
+        "title": "11. The C Blues Scale (Blue Note: F#)",
+        "desc": "The legendary C Blues Scale (C - Eb - F - F# - G - Bb). Features the expressive 'Blue Note' (F# / diminished 5th) that delivers authentic blues grit.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "C Blues Scale Pattern",
+                "measures": [
+                    [
+                        "C4",
+                        "Eb4",
+                        "F4",
+                        "F#4"
+                    ],
+                    [
+                        "G4",
+                        "Bb4",
+                        "C5",
+                        "Bb4"
+                    ],
+                    [
+                        "G4",
+                        "F#4",
+                        "F4",
+                        "Eb4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "mn12": {
-            "id": "mn12",
-            "cat": "minor_scales",
-            "catTamil": "3. மைனர் ஸ்கேல்கள் (Minor Scales)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "12. A ப்ளூஸ் ஸ்கேல் (The A Blues Scale • Blue Note D#)",
-            "desc": "A - C - D - D# - E - G - A. ஜாஸ் மற்றும் ப்ளூஸ் சோலோ வாசிக்க மிகச் சிறந்த ஸ்கேல்.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "A ப்ளூஸ் ஸ்கேல் நடை",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "D4",
-                                            "D#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D#4",
-                                            "D4",
-                                            "C4"
-                                    ],
-                                    [
-                                            "A3",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "mn12",
+        "cat": "minor_scales",
+        "catTamil": "3. Minor Scales, Pentatonic & Blues",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "12. The A Blues Scale (Blue Note: D#)",
+        "desc": "A Blues Scale (A - C - D - D# - E - G) featuring the D# blue note. Indispensable for blues shuffles, jazz improvisation, and classic rock solos.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "A Blues Scale Pattern",
+                "measures": [
+                    [
+                        "A3",
+                        "C4",
+                        "D4",
+                        "D#4"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "D#4",
+                        "D4",
+                        "C4"
+                    ],
+                    [
+                        "A3",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
-    # ---------------- 4. CHORDS, INVERSIONS & ARPEGGIOS (கார்ட்கள் & ஆர்பெஜியோ - 12 பாடங்கள்) ----------------
     "c1": {
-            "id": "c1",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "1. C மேஜர் பிரைமரி ட்ரையாட்கள் (Primary Triads • I - IV - V - I)",
-            "desc": "C Major-ன் மூன்று மிக முக்கியமான தூண்கள்: C (I: C-E-G), F (IV: F-A-C), G (V: G-B-D). உலகெங்கும் லட்சக்கணக்கான பாடல்கள் இந்த 3 கார்டுகளில் அமைந்துள்ளன.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "ஆர்பெஜியோ வடிவத்தில் பிரைமரி கார்ட்கள் (Broken Chords)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "C",
-                                            "E",
-                                            "G",
-                                            "C (I)"
-                                    ],
-                                    [
-                                            "F",
-                                            "A",
-                                            "C",
-                                            "F (IV)"
-                                    ],
-                                    [
-                                            "G",
-                                            "B",
-                                            "D",
-                                            "G (V)"
-                                    ],
-                                    [
-                                            "C",
-                                            "E",
-                                            "G",
-                                            "C (I)"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c1",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "1. C Major Primary Triads (I - IV - V - I)",
+        "desc": "The three pillars of Western harmony: Tonic (I = C), Subdominant (IV = F), and Dominant (V = G), returning to Tonic (I = C).",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Primary Broken Chords Arpeggios",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "F5"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "G5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C",
+                        "E",
+                        "G",
+                        "C (I)"
+                    ],
+                    [
+                        "F",
+                        "A",
+                        "C",
+                        "F (IV)"
+                    ],
+                    [
+                        "G",
+                        "B",
+                        "D",
+                        "G (V)"
+                    ],
+                    [
+                        "C",
+                        "E",
+                        "G",
+                        "C (I)"
+                    ]
+                ]
+            }
+        ]
     },
     "c2": {
-            "id": "c2",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "2. மைனர் ட்ரையாட்கள் (Minor Triads • Am - Dm - Em - Am)",
-            "desc": "மைனர் கார்டின் சூத்திரம்: Root + Minor 3rd (3 semitones) + Perfect 5th (7 semitones). Am: A-C-E, Dm: D-F-A, Em: E-G-B.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "ஆர்பெஜியோ வடிவத்தில் மைனர் கார்ட்கள்",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "E4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "A4",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "B4",
-                                            "E5"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "E4",
-                                            "A4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c2",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "2. Minor Triads (Am - Dm - Em - Am)",
+        "desc": "Foundational minor triads: vi (Am), ii (Dm), and iii (Em). Characterized by the minor third (3 semitones) producing deep emotional expression.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Minor Broken Chords Arpeggios",
+                "measures": [
+                    [
+                        "A3",
+                        "C4",
+                        "E4",
+                        "A4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "A4",
+                        "D5"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "B4",
+                        "E5"
+                    ],
+                    [
+                        "A3",
+                        "C4",
+                        "E4",
+                        "A4"
+                    ]
+                ]
+            }
+        ]
     },
     "c3": {
-            "id": "c3",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "3. C மேஜர் கார்ட் இன்வெர்ஷன்கள் (Chord Inversions • Root, 1st & 2nd)",
-            "desc": "கார்ட் இன்வெர்ஷன் கை அசைவைக் குறைத்து மென்மையாக வாசிக்க உதவும்: Root Position (C-E-G), 1st Inversion (E-G-C), 2nd Inversion (G-C-E).",
-            "tempo": 70,
-            "lines": [
-                    {
-                            "title": "மூன்று நிலைகள் தொடர்ச்சி (Inversion Flow)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "C5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "C5",
-                                            "E5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "G4",
-                                            "E4",
-                                            "C4"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Root Pos (C-E-G)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "1st Inv (E-G-C)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "2nd Inv (G-C-E)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "Resolution (C-E-G)",
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c3",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "3. C Major Chord Inversions (Root, 1st & 2nd Inversions)",
+        "desc": "Master all three positions of the C Major triad: Root Position (C-E-G), First Inversion (E-G-C), and Second Inversion (G-C-E) for smooth voice leading.",
+        "tempo": 70,
+        "lines": [
+            {
+                "title": "3-Inversions Flow (Root, 1st & 2nd)",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "C5",
+                        "E5"
+                    ],
+                    [
+                        "G4",
+                        "C5",
+                        "E5",
+                        "G5"
+                    ],
+                    [
+                        "C5",
+                        "G4",
+                        "E4",
+                        "C4"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Root Pos (C-E-G)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "1st Inv (E-G-C)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "2nd Inv (G-C-E)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "Resolution (C-E-G)",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
     },
     "c4": {
-            "id": "c4",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "4. டாமினன்ட் 7th கார்ட்கள் (Dominant 7th • G7 & C7)",
-            "desc": "டாமினன்ட் 7th கார்டு தீர்க்கமான பதற்றத்தை (Tension) உருவாக்கி Tonic கார்டுக்கு வழிநடத்தும். G7: G-B-D-F -> resolves to C Major.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "G7 இருந்து C மேஜருக்கு தீர்வு (G7 to C Resolution)",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c4",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "4. Dominant 7th Chords (G7 & C7)",
+        "desc": "The driving force of harmonic resolution! G7 (G-B-D-F) creates powerful tension that strongly resolves into C Major.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "G7 to C Major Resolution",
+                "measures": [
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "c5": {
-            "id": "c5",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "5. சஸ்பென்டட் கார்ட்கள் (Sus2 & Sus4 Chords • சினிமா ஒலி)",
-            "desc": "3-வது நோட்டுக்கு பதிலாக 2 அல்லது 4-வது நோட்டை வைத்து உருவாக்கும் மிதக்கும் ஒலி. Csus2: C-D-G, Csus4: C-F-G -> resolves to C Major.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "Csus4 -> C -> Csus2 -> C தொடர்",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "F4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c5",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "5. Suspended Chords (Sus2 & Sus4 Chords)",
+        "desc": "Modern cinematic chords! Replacing the 3rd with the 2nd (Csus2: C-D-G) or 4th (Csus4: C-F-G) creates an open, floating, unresolved atmosphere.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Csus4 -> C -> Csus2 -> C Progression",
+                "measures": [
+                    [
+                        "C4",
+                        "F4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "D4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "c6": {
-            "id": "c6",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "6. மேஜர் & மைனர் 7th ஜாஸ் கார்ட்கள் (Jazz 7ths • Cmaj7, Dm7, Em7)",
-            "desc": "ஜாஸ் மற்றும் நவீன பாப் இசையின் இனிமை நிறைந்த கார்டுகள். Cmaj7: C-E-G-B, Dm7: D-F-A-C, Em7: E-G-B-D.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "ஜாஸ் 7th கார்டுகள் ஆர்பெஜியோ",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "B4",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "B4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c6",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "6. Major & Minor 7th Jazz Chords (Cmaj7, Dm7, Em7)",
+        "desc": "Rich, lush 4-note jazz harmonies: Cmaj7 (C-E-G-B), Dm7 (D-F-A-C), and Em7 (E-G-B-D). Essential for neo-soul, jazz standards, and modern pop.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Jazz 7th Chords Arpeggios",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "B4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "B4",
+                        "D5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "B4"
+                    ]
+                ]
+            }
+        ]
     },
     "c7": {
-            "id": "c7",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "G Major",
-            "title": "7. G மேஜர் கார்ட் இன்வெர்ஷன்கள் (G Chord Inversions)",
-            "desc": "Root (G-B-D), 1st Inv (B-D-G), 2nd Inv (D-G-B).",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "G மேஜர் மூன்று நிலைகள்",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "D5",
-                                            "G5",
-                                            "B5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "G5",
-                                            "B5",
-                                            "D6"
-                                    ],
-                                    [
-                                            "G5",
-                                            "D5",
-                                            "B4",
-                                            "G4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c7",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "G Major",
+        "title": "7. G Major Chord Inversions",
+        "desc": "Three inversion positions of G Major: Root (G-B-D), 1st Inversion (B-D-G), and 2nd Inversion (D-G-B). Develops voice leading in the key of G.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "G Major 3 Inversions",
+                "measures": [
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "G5"
+                    ],
+                    [
+                        "B4",
+                        "D5",
+                        "G5",
+                        "B5"
+                    ],
+                    [
+                        "D5",
+                        "G5",
+                        "B5",
+                        "D6"
+                    ],
+                    [
+                        "G5",
+                        "D5",
+                        "B4",
+                        "G4"
+                    ]
+                ]
+            }
+        ]
     },
     "c8": {
-            "id": "c8",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "F Major",
-            "title": "8. F மேஜர் கார்ட் இன்வெர்ஷன்கள் (F Chord Inversions)",
-            "desc": "Root (F-A-C), 1st Inv (A-C-F), 2nd Inv (C-F-A).",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "F மேஜர் மூன்று நிலைகள்",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "F5",
-                                            "A5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "F5",
-                                            "A5",
-                                            "C6"
-                                    ],
-                                    [
-                                            "F5",
-                                            "C5",
-                                            "A4",
-                                            "F4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c8",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "F Major",
+        "title": "8. F Major Chord Inversions",
+        "desc": "Inversions of F Major: Root (F-A-C), 1st Inversion (A-C-F), and 2nd Inversion (C-F-A). Teaches seamless finger handshapes in subdominant keys.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "F Major 3 Inversions",
+                "measures": [
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "F5"
+                    ],
+                    [
+                        "A4",
+                        "C5",
+                        "F5",
+                        "A5"
+                    ],
+                    [
+                        "C5",
+                        "F5",
+                        "A5",
+                        "C6"
+                    ],
+                    [
+                        "F5",
+                        "C5",
+                        "A4",
+                        "F4"
+                    ]
+                ]
+            }
+        ]
     },
     "c9": {
-            "id": "c9",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "9. டிமினிஷ்ட் 7th கார்ட்கள் (Diminished 7ths • Bdim7 & C#dim7)",
-            "desc": "அனைத்தும் மைனர் 3rd இடைவெளிகளால் அமைந்த தீவிர பதற்றம் தரும் நாடக கார்டுகள். B-D-F-Ab.",
-            "tempo": 70,
-            "lines": [
-                    {
-                            "title": "Bdim7 இருந்து C மேஜருக்கு தீர்வு",
-                            "measures": [
-                                    [
-                                            "B3",
-                                            "D4",
-                                            "F4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B3",
-                                            "D4",
-                                            "F4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c9",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "9. Diminished 7th Chords (Bdim7 & C#dim7)",
+        "desc": "Symmetrical chords built entirely of minor 3rds (3 semitones apart). Highly dramatic tension chords resolving smoothly into major and minor resolutions.",
+        "tempo": 70,
+        "lines": [
+            {
+                "title": "Bdim7 to C Major Resolution",
+                "measures": [
+                    [
+                        "B3",
+                        "D4",
+                        "F4",
+                        "Ab4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "B3",
+                        "D4",
+                        "F4",
+                        "Ab4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "c10": {
-            "id": "c10",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "10. ஆக்மென்டட் ட்ரையாட்கள் (Augmented Triads • Caug & Gaug)",
-            "desc": "1 - 3 - ♯5 சூத்திரம் கொண்ட கனவு போன்ற விண்வெளி சினிமா கார்டு. C - E - G#.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "C -> Caug -> C6 -> C7 மிதக்கும் தொடர்",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G#4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "Bb4",
-                                            "C5"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c10",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "10. Augmented Triads (Caug & Gaug)",
+        "desc": "Dreamy whole-tone harmony built of two major 3rds (C-E-G#). Creates mysterious, floating transition chords popular in film scores and impressionism.",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "C -> Caug -> C6 -> C7 Floating Progression",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G#4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "Bb4",
+                        "C5"
+                    ]
+                ]
+            }
+        ]
     },
     "c11": {
-            "id": "c11",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "11. C மேஜர் 2-ஆக்டேவ் ஆர்பெஜியோ (2-Octave Arpeggio Sprint)",
-            "desc": "C3-E3-G3-C4-E4-G4-C5-E5-G5 முழு பியானோவில் பாயும் மேஜர் ஆர்பெஜியோ விரல் பயிற்சி.",
-            "tempo": 100,
-            "lines": [
-                    {
-                            "title": "2-ஆக்டேவ் பியானோ ஆர்பெஜியோ ஏறு-இறங்கு",
-                            "measures": [
-                                    [
-                                            "C3",
-                                            "E3",
-                                            "G3",
-                                            "C4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "C5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "G5",
-                                            "E5",
-                                            "C5",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "C4",
-                                            "G3",
-                                            "E3"
-                                    ],
-                                    [
-                                            "C3",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c11",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "11. C Major 2-Octave Arpeggio Sprint",
+        "desc": "Rapid 2-octave piano arpeggio across C4 - E4 - G4 - C5 - E5 - G5 - C6 and back. Builds supple wrists, accurate thumb passes, and dynamic tone.",
+        "tempo": 100,
+        "lines": [
+            {
+                "title": "2-Octave Piano Arpeggio (Ascending & Descending)",
+                "measures": [
+                    [
+                        "C3",
+                        "E3",
+                        "G3",
+                        "C4"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "C5",
+                        "E5"
+                    ],
+                    [
+                        "G5",
+                        "E5",
+                        "C5",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "C4",
+                        "G3",
+                        "E3"
+                    ],
+                    [
+                        "C3",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "c12": {
-            "id": "c12",
-            "cat": "chords",
-            "catTamil": "4. கார்ட்கள் & ஆர்பெஜியோ பயிற்சிகள் (Chords & Inversions)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "12. A மைனர் 2-ஆக்டேவ் ஆர்பெஜியோ (A Minor 2-Octave Arpeggio)",
-            "desc": "A2-C3-E3-A3-C4-E4-A4-C5-E5 மைனர் பியானோ ஆர்பெஜியோ ஓட்டம்.",
-            "tempo": 100,
-            "lines": [
-                    {
-                            "title": "A மைனர் ஆர்பெஜியோ ஏறு-இறங்கு",
-                            "measures": [
-                                    [
-                                            "A2",
-                                            "C3",
-                                            "E3",
-                                            "A3"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "A4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "A3",
-                                            "E3",
-                                            "C3"
-                                    ],
-                                    [
-                                            "A2",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "c12",
+        "cat": "chords",
+        "catTamil": "4. Chords, Inversions & Arpeggios",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "12. A Minor 2-Octave Arpeggio Sprint",
+        "desc": "Smooth 2-octave A minor arpeggio (A - C - E) ascending and descending. Cultivates fluid arpeggiated accompaniment for romantic piano literature.",
+        "tempo": 100,
+        "lines": [
+            {
+                "title": "A Minor Arpeggio (Ascending & Descending)",
+                "measures": [
+                    [
+                        "A2",
+                        "C3",
+                        "E3",
+                        "A3"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "A4",
+                        "E4"
+                    ],
+                    [
+                        "C4",
+                        "A3",
+                        "E3",
+                        "C3"
+                    ],
+                    [
+                        "A2",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
-    # ---------------- 5. FAMOUS CHORD PROGRESSIONS (பிரபல கார்ட் தொடர்கள் - 12 பாடங்கள்) ----------------
     "cp1": {
-            "id": "cp1",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "1. கிளாசிக் I - IV - V - I (C - F - G - C)",
-            "desc": "பாப், ராக், போக் மற்றும் மேற்கத்திய கிளாசிக்கல் இசையின் மூல அடித்தளம். Tonic (C) -> Subdominant (F) -> Dominant (G) -> Home (C).",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "மெலடி & கார்ட் அவுட்லைன் (Melodic Outline)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "C Chord (I)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "F Chord (IV)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "G Chord (V)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "C Chord (Home)",
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp1",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "1. Classic I - IV - V - I Progression (C - F - G - C)",
+        "desc": "The timeless classical cadence: Tonic (C), Subdominant (F), Dominant (G), and home resolution to Tonic (C). Found in thousands of iconic songs.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "Melodic & Chord Outline",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "B4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C Chord (I)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "F Chord (IV)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "G Chord (V)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "C Chord (Home)",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
     },
     "cp2": {
-            "id": "cp2",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "2. பாப் 4-கார்ட்ஸ் ஆந்தம் (Pop 4-Chords: I - V - vi - IV • C - G - Am - F)",
-            "desc": "இசை வரலாற்றிலேயே மிக வெற்றிகரமான கார்ட் தொடர்! Let It Be, Someone Like You, Don't Stop Believin', Despacito உட்பட நூற்றுக்கணக்கான உலகப் புகழ்பெற்ற ஹிட் பாடல்கள் இதில் அமைந்துள்ளன.",
-            "tempo": 100,
-            "lines": [
-                    {
-                            "title": "C - G - Am - F தொடர்ச்சி",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "E5",
-                                            "A4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "F4"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "C Major (I)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "G Major (V)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "A Minor (vi)",
-                                            "",
-                                            "",
-                                            ""
-                                    ],
-                                    [
-                                            "F Major (IV)",
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp2",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "2. Pop 4-Chords Anthem (I - V - vi - IV • C - G - Am - F)",
+        "desc": "The most famous progression in modern music history! Heard in 'Let It Be', 'Someone Like You', 'Don't Stop Believin'', and hundreds of Billboard hits.",
+        "tempo": 100,
+        "lines": [
+            {
+                "title": "C - G - Am - F Progression",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "C5",
+                        "E5",
+                        "A4"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "F4"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "C Major (I)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "G Major (V)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "A Minor (vi)",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "F Major (IV)",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
     },
     "cp3": {
-            "id": "cp3",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "3. 50ஸ் டூ-வாப் தொடர் (50s Doo-Wop: I - vi - IV - V • C - Am - F - G)",
-            "desc": "Stand By Me, Earth Angel போன்ற 1950-களின் பொற்கால டூ-வாப் பாடல்கள் மற்றும் ரொமாண்டிக் மெலடிகளுக்கு வித்திட்ட புகழ்பெற்ற கார்ட் தொடர்.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "C - Am - F - G தொடர்ச்சி",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "E4",
-                                            "C4"
-                                    ],
-                                    [
-                                            "F3",
-                                            "A3",
-                                            "C4",
-                                            "A3"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "D4",
-                                            "B3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp3",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "3. 50s Doo-Wop Progression (I - vi - IV - V • C - Am - F - G)",
+        "desc": "The nostalgic classic progression of the 1950s and 60s ('Stand By Me', 'Earth Angel', 'Unchained Melody') with sweet harmonic momentum.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "C - Am - F - G Progression",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "E4"
+                    ],
+                    [
+                        "A3",
+                        "C4",
+                        "E4",
+                        "C4"
+                    ],
+                    [
+                        "F3",
+                        "A3",
+                        "C4",
+                        "A3"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "D4",
+                        "B3"
+                    ]
+                ]
+            }
+        ]
     },
     "cp4": {
-            "id": "cp4",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "4. ஜாஸ் ஸ்டாண்டர்ட் ii - V - I (Dm7 - G7 - Cmaj7)",
-            "desc": "ஜாஸ் இசையின் இதயம் போன்ற மிக முக்கியமான கார்ட் தொடர். Autumn Leaves, Fly Me to the Moon போன்ற எண்ணற்ற ஜாஸ் பாடல்களின் அடித்தளம்.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "Dm7 -> G7 -> Cmaj7 ஜாஸ் தொடர்",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp4",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "4. Jazz Standard ii - V - I (Dm7 - G7 - Cmaj7)",
+        "desc": "The cornerstone harmonic movement of jazz music. Features smooth stepwise 7th-to-3rd voice leading from Dm7 to G7 to Cmaj7.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Dm7 -> G7 -> Cmaj7 Jazz Progression",
+                "measures": [
+                    [
+                        "D4",
+                        "F4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "B4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "cp5": {
-            "id": "cp5",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "5. 12-பார் ப்ளூஸ் தொடர் (12-Bar Blues in C • C7 - F7 - G7)",
-            "desc": "ராக் அண்ட் ரோல் மற்றும் ப்ளூஸ் இசையின் பிறப்பிடம். 12 அளவுகள் (12 Measures) கொண்ட உலகப் புகழ்பெற்ற ப்ளூஸ் ஷஃபிள் நடை.",
-            "tempo": 105,
-            "lines": [
-                    {
-                            "title": "அளவுகள் 1-4: C7 அடிப்படை (4 Bars C7)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "அளவுகள் 5-8: F7 & C7 (2 Bars F7 + 2 Bars C7)",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "Eb5"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "Eb5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "அளவுகள் 9-12: G7 -> F7 -> C7 -> G7 டர்ன்அரவுண்ட்",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "Eb5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp5",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "5. 12-Bar Blues in C (C7 - F7 - G7)",
+        "desc": "The authentic 12-bar American blues form using dominant 7th chords: 4 bars C7, 2 bars F7, 2 bars C7, and 4 bars of G7-F7-C7 turnaround.",
+        "tempo": 105,
+        "lines": [
+            {
+                "title": "Bars 1-4: C7 Tonic Groove (4 Bars C7)",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ]
+                ]
+            },
+            {
+                "title": "Bars 5-8: F7 & C7 Subdominant Shift (2 Bars F7 + 2 Bars C7)",
+                "measures": [
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "Eb5"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "Eb5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ]
+                ]
+            },
+            {
+                "title": "Bars 9-12: G7 -> F7 -> C7 -> G7 Turnaround",
+                "measures": [
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "Eb5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ]
+                ]
+            }
+        ]
     },
     "cp6": {
-            "id": "cp6",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "D Major",
-            "title": "6. பாச்சல்பெல் கேனான் தொடர் (Pachelbel's Canon: D - A - Bm - F#m - G - D - G - A)",
-            "desc": "ஜோஹான் பாச்சல்பெல்லின் புகழ்பெற்ற கேனான் இன் D கார்ட் தொடர். கிளாசிக்கல் முதல் இன்றைய நவீன பாப் வரை கோடிக்கணக்கானோரைக் கவர்ந்த மெல்லிசை.",
-            "tempo": 75,
-            "lines": [
-                    {
-                            "title": "கேனான் 8 கார்டுகள் வரிசை",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "F#4",
-                                            "A4",
-                                            "D5"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C#4",
-                                            "E4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B3",
-                                            "D4",
-                                            "F#4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "F#3",
-                                            "A3",
-                                            "C#4",
-                                            "F#4"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "D4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "D3",
-                                            "F#3",
-                                            "A3",
-                                            "D4"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "D4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C#4",
-                                            "E4",
-                                            "A4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp6",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "D Major",
+        "title": "6. Pachelbel's Canon Progression (D - A - Bm - F#m - G - D - G - A)",
+        "desc": "Johann Pachelbel's majestic 8-chord sequential progression. The harmonic blueprint behind countless pop masterpieces ('Memories', 'Graduation').",
+        "tempo": 75,
+        "lines": [
+            {
+                "title": "Canon 8-Chords Sequence",
+                "measures": [
+                    [
+                        "D4",
+                        "F#4",
+                        "A4",
+                        "D5"
+                    ],
+                    [
+                        "A3",
+                        "C#4",
+                        "E4",
+                        "A4"
+                    ],
+                    [
+                        "B3",
+                        "D4",
+                        "F#4",
+                        "B4"
+                    ],
+                    [
+                        "F#3",
+                        "A3",
+                        "C#4",
+                        "F#4"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "D4",
+                        "G4"
+                    ],
+                    [
+                        "D3",
+                        "F#3",
+                        "A3",
+                        "D4"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "D4",
+                        "G4"
+                    ],
+                    [
+                        "A3",
+                        "C#4",
+                        "E4",
+                        "A4"
+                    ]
+                ]
+            }
+        ]
     },
     "cp7": {
-            "id": "cp7",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "G Major",
-            "title": "7. 12-பார் ப்ளூஸ் இன் G (12-Bar Blues in G • G7 - C7 - D7)",
-            "desc": "G கீயில் அமைந்த உலகப் புகழ்பெற்ற ப்ளூஸ் மற்றும் ராக் ஷஃபிள் தொடர்.",
-            "tempo": 105,
-            "lines": [
-                    {
-                            "title": "G7 -> C7 -> D7 ப்ளூஸ் தொடர்ச்சி",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F#4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "Bb4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F#4",
-                                            "A4",
-                                            "C5"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp7",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "G Major",
+        "title": "7. 12-Bar Blues in G (G7 - C7 - D7)",
+        "desc": "Classic blues form transposed to G Major using G7 (I7), C7 (IV7), and D7 (V7). Essential for piano boogie-woogie and rock 'n' roll riffs.",
+        "tempo": 105,
+        "lines": [
+            {
+                "title": "G7 -> C7 -> D7 Blues Progression",
+                "measures": [
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "D4",
+                        "F#4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "Bb4"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "F5"
+                    ],
+                    [
+                        "D4",
+                        "F#4",
+                        "A4",
+                        "C5"
+                    ]
+                ]
+            }
+        ]
     },
     "cp8": {
-            "id": "cp8",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "8. அண்டலூசியன் தொடர் (Andalusian Cadence • Am - G - F - E)",
-            "desc": "ஸ்பானிஷ் ஃபிளமென்கோ இசையின் இதயம் போன்ற இறங்குமுக தொடர்: i -> VII -> VI -> V (Am -> G -> F -> E). Hit the Road Jack போன்ற எண்ணற்ற பாடல்கள்.",
-            "tempo": 110,
-            "lines": [
-                    {
-                            "title": "ஸ்பானிஷ் ஃபிளமென்கோ கார்ட் தொடர்ச்சி",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "E4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "D4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F3",
-                                            "A3",
-                                            "C4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E3",
-                                            "G#3",
-                                            "B3",
-                                            "E4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp8",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "8. Andalusian Cadence (Am - G - F - E)",
+        "desc": "Passionate four-chord stepwise descending progression (i - VII - VI - V) from Spanish flamenco, classical guitar, and dramatic movie themes.",
+        "tempo": 110,
+        "lines": [
+            {
+                "title": "Spanish Flamenco Chord Cadence",
+                "measures": [
+                    [
+                        "A3",
+                        "C4",
+                        "E4",
+                        "A4"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "D4",
+                        "G4"
+                    ],
+                    [
+                        "F3",
+                        "A3",
+                        "C4",
+                        "F4"
+                    ],
+                    [
+                        "E3",
+                        "G#3",
+                        "B3",
+                        "E4"
+                    ]
+                ]
+            }
+        ]
     },
     "cp9": {
-            "id": "cp9",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "9. ராயல் ரோடு தொடர் (Royal Road • IV - V - iii - vi: F - G - Em - Am)",
-            "desc": "ஜப்பான் மற்றும் ஆசிய அனிமேஷன் பாப் இசையின் (Anime / J-Pop) தங்கச் சுரங்க கார்ட் தொடர். ஏக்கம் கலந்த இனிமை தரும்.",
-            "tempo": 100,
-            "lines": [
-                    {
-                            "title": "F -> G -> Em -> Am ராயல் ரோடு",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "A4",
-                                            "C5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "B4",
-                                            "D5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "B4",
-                                            "E5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "E5",
-                                            "A5"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp9",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "9. Royal Road Progression (IV - V - iii - vi • F - G - Em - Am)",
+        "desc": "The 'Royal Road' (Oudou Shinkou) progression beloved in J-Pop, Anime soundtracks, and video game music for its emotional, soaring momentum.",
+        "tempo": 100,
+        "lines": [
+            {
+                "title": "F -> G -> Em -> Am Royal Road Progression",
+                "measures": [
+                    [
+                        "F4",
+                        "A4",
+                        "C5",
+                        "F5"
+                    ],
+                    [
+                        "G4",
+                        "B4",
+                        "D5",
+                        "G5"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "B4",
+                        "E5"
+                    ],
+                    [
+                        "A4",
+                        "C5",
+                        "E5",
+                        "A5"
+                    ]
+                ]
+            }
+        ]
     },
     "cp10": {
-            "id": "cp10",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "10. மொஸார்ட் கிளாசிக்கல் ஆல்பர்ட்டி நடை (Sonata in C Accompaniment)",
-            "desc": "மொஸார்ட்டின் புகழ்பெற்ற பியானோ சோனாட்டா (K. 545) இடது கை ஆல்பர்ட்டி பேஸ் கார்ட் தொடர்.",
-            "tempo": 110,
-            "lines": [
-                    {
-                            "title": "I -> IV -> I -> V7 ஆல்பர்ட்டி சுழற்சி",
-                            "measures": [
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "F3",
-                                            "C4",
-                                            "A3",
-                                            "C4"
-                                    ],
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "B2",
-                                            "G3",
-                                            "D3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "E3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "C3",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp10",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "10. Mozart Classical Alberti Bass Style (Sonata in C Accompaniment)",
+        "desc": "Master Mozart's classical accompaniment from Sonata in C Major (K. 545). Rhythmic broken-chord patterns that bring piano pieces alive.",
+        "tempo": 110,
+        "lines": [
+            {
+                "title": "I -> IV -> I -> V7 Alberti Bass Cycle",
+                "measures": [
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "F3",
+                        "C4",
+                        "A3",
+                        "C4"
+                    ],
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "B2",
+                        "G3",
+                        "D3",
+                        "G3"
+                    ],
+                    [
+                        "C3",
+                        "G3",
+                        "E3",
+                        "G3"
+                    ],
+                    [
+                        "C3",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "cp11": {
-            "id": "cp11",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "11. பாப் பாலாட் 1-5-8-9 உடைந்த கார்ட் நடை (Pop Ballad Pattern)",
-            "desc": "நவீன சினிமா மற்றும் மெலோடி பாடல்களில் பியானோ கலைஞர்கள் பயன்படுத்தும் 1-5-8-9 அழகான ஆர்பெஜியோ நடை.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "C -> G -> Am -> F பாலாட் நடை",
-                            "measures": [
-                                    [
-                                            "C3",
-                                            "G3",
-                                            "C4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "G2",
-                                            "D3",
-                                            "G3",
-                                            "A3"
-                                    ],
-                                    [
-                                            "A2",
-                                            "E3",
-                                            "A3",
-                                            "B3"
-                                    ],
-                                    [
-                                            "F2",
-                                            "C3",
-                                            "F3",
-                                            "G3"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp11",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "11. Pop Ballad 1-5-8-9 Broken Chord Pattern",
+        "desc": "The lush contemporary piano pattern used by Adele, Coldplay, and John Legend: root-fifth-octave-ninth broken chord arpeggios.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "C -> G -> Am -> F Ballad Pattern",
+                "measures": [
+                    [
+                        "C3",
+                        "G3",
+                        "C4",
+                        "D4"
+                    ],
+                    [
+                        "G2",
+                        "D3",
+                        "G3",
+                        "A3"
+                    ],
+                    [
+                        "A2",
+                        "E3",
+                        "A3",
+                        "B3"
+                    ],
+                    [
+                        "F2",
+                        "C3",
+                        "F3",
+                        "G3"
+                    ]
+                ]
+            }
+        ]
     },
     "cp12": {
-            "id": "cp12",
-            "cat": "progressions",
-            "catTamil": "5. பிரபல கார்ட் தொடர்கள் (Famous Chord Progressions)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "12. ஜாஸ் டர்ன்அரவுண்ட் (Jazz Turnaround: I - vi - ii - V • Cmaj7 - Am7 - Dm7 - G7)",
-            "desc": "ஜாஸ் கோரஸின் முடிவில் மீண்டும் தொடக்கத்திற்கு அழைத்து வரும் 4 கார்ட் டர்ன்அரவுண்ட் சூத்திரம்.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "Cmaj7 -> Am7 -> Dm7 -> G7 தொடர்ச்சி",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "E4",
-                                            "G4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C4",
-                                            "E4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F4",
-                                            "A4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "D4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "cp12",
+        "cat": "progressions",
+        "catTamil": "5. Famous Chord Progressions",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "12. Jazz Turnaround (I - vi - ii - V • Cmaj7 - Am7 - Dm7 - G7)",
+        "desc": "The circular jazz turnaround cadence used at the end of sections to loop effortlessly back to the top of the chorus.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "Cmaj7 -> Am7 -> Dm7 -> G7 Progression",
+                "measures": [
+                    [
+                        "C4",
+                        "E4",
+                        "G4",
+                        "B4"
+                    ],
+                    [
+                        "A3",
+                        "C4",
+                        "E4",
+                        "G4"
+                    ],
+                    [
+                        "D4",
+                        "F4",
+                        "A4",
+                        "C5"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "D4",
+                        "F4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
-    # ---------------- 6. CLASSICAL PIECES & WORLD MELODIES (பிரபல பாடல்கள் & மெலடிகள் - 18 பாடங்கள்) ----------------
     "w1": {
-            "id": "w1",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "1. ஓட் டு ஜாய் (Ode to Joy • பீத்தோவன் சிம்பொனி 9 தீம்)",
-            "desc": "லுட்விக் வான் பீத்தோவனின் இறுதி மற்றும் மாபெரும் சிம்பொனி 9-ன் உலகப் புகழ்பெற்ற மனித நேய மெலடி. ஆரம்ப பியானோ கற்பவர்களுக்கு உகந்த பாடல்.",
-            "tempo": 105,
-            "lines": [
-                    {
-                            "title": "பல்லவி வரி 1 (Joyful, joyful, we adore thee)",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "D4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Joy-",
-                                            "ful,",
-                                            "joy-",
-                                            "ful,"
-                                    ],
-                                    [
-                                            "we",
-                                            "a-",
-                                            "dore",
-                                            "thee,"
-                                    ],
-                                    [
-                                            "God",
-                                            "of",
-                                            "glo-",
-                                            "ry,"
-                                    ],
-                                    [
-                                            "Lord",
-                                            "of",
-                                            "love.",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பல்லவி வரி 2 (Hearts unfold like flowers before thee)",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Hearts",
-                                            "un-",
-                                            "fold",
-                                            "like"
-                                    ],
-                                    [
-                                            "flow'rs",
-                                            "be-",
-                                            "fore",
-                                            "Thee,"
-                                    ],
-                                    [
-                                            "Hail-",
-                                            "ing",
-                                            "Thee",
-                                            "as"
-                                    ],
-                                    [
-                                            "sun",
-                                            "a-",
-                                            "bove.",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "அனுபல்லவி & உச்சகட்டம் (Bridge & Grand Resolution)",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "D4",
-                                            "E4",
-                                            "C4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "E4",
-                                            "F4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "D4",
-                                            "G3"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "F4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w1",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "1. Ode to Joy (Beethoven Symphony No. 9 Theme)",
+        "desc": "Ludwig van Beethoven's immortal anthem of brotherhood and joy from Symphony No. 9. Majestic melody perfect for 5-finger legato playing.",
+        "tempo": 105,
+        "lines": [
+            {
+                "title": "Verse Line 1 (Joyful, joyful, we adore thee)",
+                "measures": [
+                    [
+                        "E4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "C4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "D4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Joy-",
+                        "ful,",
+                        "joy-",
+                        "ful,"
+                    ],
+                    [
+                        "we",
+                        "a-",
+                        "dore",
+                        "thee,"
+                    ],
+                    [
+                        "God",
+                        "of",
+                        "glo-",
+                        "ry,"
+                    ],
+                    [
+                        "Lord",
+                        "of",
+                        "love.",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Verse Line 2 (Hearts unfold like flowers before thee)",
+                "measures": [
+                    [
+                        "E4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "C4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "C4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Hearts",
+                        "un-",
+                        "fold",
+                        "like"
+                    ],
+                    [
+                        "flow'rs",
+                        "be-",
+                        "fore",
+                        "Thee,"
+                    ],
+                    [
+                        "Hail-",
+                        "ing",
+                        "Thee",
+                        "as"
+                    ],
+                    [
+                        "sun",
+                        "a-",
+                        "bove.",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Bridge & Grand Resolution",
+                "measures": [
+                    [
+                        "D4",
+                        "D4",
+                        "E4",
+                        "C4"
+                    ],
+                    [
+                        "D4",
+                        "E4",
+                        "F4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "D4",
+                        "G3"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "F4",
+                        "G4"
+                    ],
+                    [
+                        "G4",
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        "C4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "C4",
+                        "C4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w2": {
-            "id": "w2",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "A Minor",
-            "title": "2. ஃபர் எலிஸ் (Für Elise • பீத்தோவன் பியானோ மாஸ்டர்பீஸ்)",
-            "desc": "பீத்தோவனின் மிகப்பிரபலமான பேகடெல் (Bagatelle in A minor, WoO 59). E5 மற்றும் D#5 இடையே ஊசலாடும் அதன் தனித்துவமான அறிமுக மெலடி பியானோ உலகின் அடையாளம்.",
-            "tempo": 120,
-            "lines": [
-                    {
-                            "title": "பிரபல அறிமுக தீம் (Famous Main Theme)",
-                            "measures": [
-                                    [
-                                            "E5",
-                                            "D#5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D#5",
-                                            "E5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C5",
-                                            "A4"
-                                    ],
-                                    [
-                                            ",",
-                                            "C4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            ","
-                                    ],
-                                    [
-                                            ",",
-                                            "E4",
-                                            "G#4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            ","
-                                    ],
-                                    [
-                                            ",",
-                                            "E4",
-                                            "E5"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "E",
-                                            "D#",
-                                            "E"
-                                    ],
-                                    [
-                                            "D#",
-                                            "E",
-                                            "B"
-                                    ],
-                                    [
-                                            "D",
-                                            "C",
-                                            "A"
-                                    ],
-                                    [
-                                            "",
-                                            "C",
-                                            "E"
-                                    ],
-                                    [
-                                            "A",
-                                            "B",
-                                            ""
-                                    ],
-                                    [
-                                            "",
-                                            "E",
-                                            "G#"
-                                    ],
-                                    [
-                                            "B",
-                                            "C",
-                                            ""
-                                    ],
-                                    [
-                                            "",
-                                            "E",
-                                            "E'"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "தீம் மறுதொடர்ச்சி & முடிவு (Theme Repeat & Cadence)",
-                            "measures": [
-                                    [
-                                            "E5",
-                                            "D#5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D#5",
-                                            "E5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C5",
-                                            "A4"
-                                    ],
-                                    [
-                                            ",",
-                                            "C4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            ","
-                                    ],
-                                    [
-                                            ",",
-                                            "E4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w2",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "A Minor",
+        "title": "2. Für Elise (Beethoven Piano Masterpiece)",
+        "desc": "Beethoven's beloved Bagatelle in A minor (WoO 59). Features the famous alternating E-D# chromatic motif and cascading arpeggiated lines.",
+        "tempo": 120,
+        "lines": [
+            {
+                "title": "Famous Main Theme",
+                "measures": [
+                    [
+                        "E5",
+                        "D#5",
+                        "E5"
+                    ],
+                    [
+                        "D#5",
+                        "E5",
+                        "B4"
+                    ],
+                    [
+                        "D5",
+                        "C5",
+                        "A4"
+                    ],
+                    [
+                        ",",
+                        "C4",
+                        "E4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        ","
+                    ],
+                    [
+                        ",",
+                        "E4",
+                        "G#4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        ","
+                    ],
+                    [
+                        ",",
+                        "E4",
+                        "E5"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "E",
+                        "D#",
+                        "E"
+                    ],
+                    [
+                        "D#",
+                        "E",
+                        "B"
+                    ],
+                    [
+                        "D",
+                        "C",
+                        "A"
+                    ],
+                    [
+                        "",
+                        "C",
+                        "E"
+                    ],
+                    [
+                        "A",
+                        "B",
+                        ""
+                    ],
+                    [
+                        "",
+                        "E",
+                        "G#"
+                    ],
+                    [
+                        "B",
+                        "C",
+                        ""
+                    ],
+                    [
+                        "",
+                        "E",
+                        "E'"
+                    ]
+                ]
+            },
+            {
+                "title": "Theme Recapitulation & Cadence",
+                "measures": [
+                    [
+                        "E5",
+                        "D#5",
+                        "E5"
+                    ],
+                    [
+                        "D#5",
+                        "E5",
+                        "B4"
+                    ],
+                    [
+                        "D5",
+                        "C5",
+                        "A4"
+                    ],
+                    [
+                        ",",
+                        "C4",
+                        "E4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        ","
+                    ],
+                    [
+                        ",",
+                        "E4",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w3": {
-            "id": "w3",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "D Major",
-            "title": "3. கேனான் இன் D தீம் (Canon in D • பாச்சல்பெல் மெலடி)",
-            "desc": "ஜோஹான் பாச்சல்பெல்லின் புகழ்பெற்ற மெலடி. திருமண விழாக்கள் மற்றும் மங்களகரமான நிகழ்ச்சிகளில் உலகெங்கும் வாசிக்கப்படும் இனிமையான இசை.",
-            "tempo": 72,
-            "lines": [
-                    {
-                            "title": "மெலடி வரிசை 1 (Main Theme)",
-                            "measures": [
-                                    [
-                                            "F#4",
-                                            "E4",
-                                            "D4",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "B3",
-                                            "A3",
-                                            "B3",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "C#4",
-                                            "B3",
-                                            "A3"
-                                    ],
-                                    [
-                                            "G3",
-                                            "F#3",
-                                            "G3",
-                                            "E3"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "மெலடி வரிசை 2 (Variation)",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "F#4",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F#4",
-                                            "D4",
-                                            "F#4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "B3",
-                                            "D4",
-                                            "A3"
-                                    ],
-                                    [
-                                            "G3",
-                                            "B3",
-                                            "A3",
-                                            "G3"
-                                    ],
-                                    [
-                                            "F#3",
-                                            "A3",
-                                            "D4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w3",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "D Major",
+        "title": "3. Canon in D Theme (Pachelbel Melody)",
+        "desc": "Johann Pachelbel's sublime baroque melody. Elegant stepwise motion and graceful arches that have enchanted listeners for centuries.",
+        "tempo": 72,
+        "lines": [
+            {
+                "title": "Melody Line 1 (Main Theme)",
+                "measures": [
+                    [
+                        "F#4",
+                        "E4",
+                        "D4",
+                        "C#4"
+                    ],
+                    [
+                        "B3",
+                        "A3",
+                        "B3",
+                        "C#4"
+                    ],
+                    [
+                        "D4",
+                        "C#4",
+                        "B3",
+                        "A3"
+                    ],
+                    [
+                        "G3",
+                        "F#3",
+                        "G3",
+                        "E3"
+                    ]
+                ]
+            },
+            {
+                "title": "Melody Line 2 (Variation)",
+                "measures": [
+                    [
+                        "D4",
+                        "F#4",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F#4",
+                        "D4",
+                        "F#4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "B3",
+                        "D4",
+                        "A3"
+                    ],
+                    [
+                        "G3",
+                        "B3",
+                        "A3",
+                        "G3"
+                    ],
+                    [
+                        "F#3",
+                        "A3",
+                        "D4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w4": {
-            "id": "w4",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "4. ட்விங்கிள் ட்விங்கிள் லிட்டில் ஸ்டார் (Twinkle Twinkle Little Star)",
-            "desc": "மொஸார்ட்டின் 12 மாறுபாடுகள் பாடலின் மூல மெலடி (Ah! vous dirai-je, maman). 1-வது டிகிரி (C) மற்றும் 5-வது டிகிரி (G) தாண்டலைக் கற்பிக்கும் சிறந்த பால பாடம்.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "பல்லவி (Twin-kle, twin-kle, lit-tle star)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "G4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "A4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Twin-",
-                                            "kle,",
-                                            "twin-",
-                                            "kle,"
-                                    ],
-                                    [
-                                            "lit-",
-                                            "tle",
-                                            "star,",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "அனுபல்லவி 1 (How I won-der what you are)",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "F4",
-                                            "E4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "D4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "How",
-                                            "I",
-                                            "won-",
-                                            "der"
-                                    ],
-                                    [
-                                            "what",
-                                            "you",
-                                            "are!",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "சரணம் (Up a-bove the world so high)",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "F4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "D4",
-                                            ","
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "F4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "D4",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Up",
-                                            "a-",
-                                            "bove",
-                                            "the"
-                                    ],
-                                    [
-                                            "world",
-                                            "so",
-                                            "high,",
-                                            ""
-                                    ],
-                                    [
-                                            "Like",
-                                            "a",
-                                            "dia-",
-                                            "mond"
-                                    ],
-                                    [
-                                            "in",
-                                            "the",
-                                            "sky.",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பல்லவி முடிவு (Twin-kle, twin-kle, lit-tle star)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "C4",
-                                            "G4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "A4",
-                                            "G4",
-                                            ","
-                                    ],
-                                    [
-                                            "F4",
-                                            "F4",
-                                            "E4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            "D4",
-                                            "C4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w4",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "4. Twinkle Twinkle Little Star",
+        "desc": "The timeless traditional melody arranged in Mozart's C Major theme. Teaches note leaps (C to G), repeated notes, and melodic phrasing.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "Verse (Twinkle, twinkle, little star)",
+                "measures": [
+                    [
+                        "C4",
+                        "C4",
+                        "G4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "A4",
+                        "G4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Twin-",
+                        "kle,",
+                        "twin-",
+                        "kle,"
+                    ],
+                    [
+                        "lit-",
+                        "tle",
+                        "star,",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Bridge 1 (How I wonder what you are)",
+                "measures": [
+                    [
+                        "F4",
+                        "F4",
+                        "E4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "D4",
+                        "C4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "How",
+                        "I",
+                        "won-",
+                        "der"
+                    ],
+                    [
+                        "what",
+                        "you",
+                        "are!",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Chorus (Up above the world so high)",
+                "measures": [
+                    [
+                        "G4",
+                        "G4",
+                        "F4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "D4",
+                        ","
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "F4",
+                        "F4"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "D4",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Up",
+                        "a-",
+                        "bove",
+                        "the"
+                    ],
+                    [
+                        "world",
+                        "so",
+                        "high,",
+                        ""
+                    ],
+                    [
+                        "Like",
+                        "a",
+                        "dia-",
+                        "mond"
+                    ],
+                    [
+                        "in",
+                        "the",
+                        "sky.",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Verse Reprise (Twinkle, twinkle, little star)",
+                "measures": [
+                    [
+                        "C4",
+                        "C4",
+                        "G4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "A4",
+                        "G4",
+                        ","
+                    ],
+                    [
+                        "F4",
+                        "F4",
+                        "E4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        "D4",
+                        "C4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w5": {
-            "id": "w5",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "G Major",
-            "title": "5. மினுவெட் இன் G (Minuet in G Major • J.S. பாக் / பெட்சோல்ட்)",
-            "desc": "அன்னா மாக்தலினா பாக் நோட்டுப் புத்தகத்திலிருந்து உலகப் புகழ்பெற்ற 3/4 வால்ட்ஸ் நடன இசை (BWV Anh. 114). G மேஜர் கீயில் விரல் நுட்பத்தை வளர்க்கும் பாடல்.",
-            "tempo": 115,
-            "lines": [
-                    {
-                            "title": "பாகம் 1 (Main Minuet Theme)",
-                            "measures": [
-                                    [
-                                            "D5",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            ","
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "F#5",
-                                            "G5"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "பாகம் 2 (Descending Cadence)",
-                            "measures": [
-                                    [
-                                            "C5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "G4",
-                                            "F#4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "F#4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "D4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w5",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "G Major",
+        "title": "5. Minuet in G Major (J.S. Bach / Christian Petzold)",
+        "desc": "From the Notebook for Anna Magdalena Bach (BWV Anh. 114). Elegant 3/4 baroque dance with joyful melodic turns and buoyant rhythm.",
+        "tempo": 115,
+        "lines": [
+            {
+                "title": "Part 1 (Main Minuet Theme)",
+                "measures": [
+                    [
+                        "D5",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        ","
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "F#5",
+                        "G5"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Part 2 (Descending Cadence)",
+                "measures": [
+                    [
+                        "C5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "G4",
+                        "F#4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "G4",
+                        "F#4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "D4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w6": {
-            "id": "w6",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "A Minor",
-            "title": "6. க்ரீன்ஸ்லீவ்ஸ் (Greensleeves • பாரம்பரிய ஆங்கில மெலடி)",
-            "desc": "16-ஆம் நூற்றாண்டின் பாரம்பரிய ஆங்கில போக் மெலடி (டோரியன் அல்லது மைனர் மோடு). உருக்கமான சோகமும் வரலாற்று நயமும் கலந்த பாடல்.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "மெலடி பாகம் 1",
-                            "measures": [
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "F5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "B4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "A4",
-                                            "G#4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "B4",
-                                            "G#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "மெலடி பாகம் 2",
-                            "measures": [
-                                    [
-                                            "G5",
-                                            "G5",
-                                            "F#5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "A4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G#4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "G#4",
-                                            "E4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w6",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "A Minor",
+        "title": "6. Greensleeves (Traditional English Folk Melody)",
+        "desc": "Ancient English Renaissance ballad in Dorian / minor mode (16th century). Expressive, haunting melody with flowing melodic contours.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "Melody Part 1",
+                "measures": [
+                    [
+                        "A4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "E5",
+                        "F5",
+                        "E5"
+                    ],
+                    [
+                        "D5",
+                        "B4",
+                        "G4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "A4",
+                        "A4",
+                        "G#4"
+                    ],
+                    [
+                        "A4",
+                        "B4",
+                        "G#4"
+                    ],
+                    [
+                        "E4",
+                        ",",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Melody Part 2",
+                "measures": [
+                    [
+                        "G5",
+                        "G5",
+                        "F#5"
+                    ],
+                    [
+                        "E5",
+                        "D5",
+                        "B4"
+                    ],
+                    [
+                        "G4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        "A4",
+                        "A4"
+                    ],
+                    [
+                        "G#4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "G#4",
+                        "E4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w7": {
-            "id": "w7",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "C Major",
-            "title": "7. அமேசிங் கிரேஸ் (Amazing Grace • உலகப் புகழ்பெற்ற ஆன்மீகப் பாடல்)",
-            "desc": "ஜான் நியூட்டன் இயற்றிய அமைதி தரும் ஆன்மீகப் பாடல். 5 நோட்டுகள் கொண்ட மேஜர் பெண்டாடோனிக் ஸ்கேலில் (Major Pentatonic: C D E G A) அமைந்த பாடல்.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "A-ma-zing grace, how sweet the sound",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "C5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "C5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "G5",
-                                            ",",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "A-",
-                                            "ma-",
-                                            "zing"
-                                    ],
-                                    [
-                                            "grace,",
-                                            "how",
-                                            "sweet"
-                                    ],
-                                    [
-                                            "the",
-                                            "sound,",
-                                            "that"
-                                    ],
-                                    [
-                                            "saved",
-                                            "a",
-                                            "wretch"
-                                    ],
-                                    [
-                                            "like",
-                                            "me!",
-                                            ""
-                                    ],
-                                    [
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "I once was lost, but now am found",
-                            "measures": [
-                                    [
-                                            "E5",
-                                            "G5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "G5",
-                                            "E5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "C5",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "D5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "I",
-                                            "once",
-                                            "was"
-                                    ],
-                                    [
-                                            "lost,",
-                                            "but",
-                                            "now"
-                                    ],
-                                    [
-                                            "am",
-                                            "found,",
-                                            "was"
-                                    ],
-                                    [
-                                            "blind,",
-                                            "but",
-                                            "now"
-                                    ],
-                                    [
-                                            "I",
-                                            "see.",
-                                            ""
-                                    ],
-                                    [
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w7",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "C Major",
+        "title": "7. Amazing Grace (Traditional Hymn)",
+        "desc": "John Newton's worldwide spiritual hymn in G Major (3/4 time). Built entirely on the Major Pentatonic scale with heartfelt warmth.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "A-ma-zing grace, how sweet the sound",
+                "measures": [
+                    [
+                        "G4",
+                        "C5",
+                        "E5"
+                    ],
+                    [
+                        "C5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "G4",
+                        "C5",
+                        "E5"
+                    ],
+                    [
+                        "C5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "G5",
+                        ",",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "A-",
+                        "ma-",
+                        "zing"
+                    ],
+                    [
+                        "grace,",
+                        "how",
+                        "sweet"
+                    ],
+                    [
+                        "the",
+                        "sound,",
+                        "that"
+                    ],
+                    [
+                        "saved",
+                        "a",
+                        "wretch"
+                    ],
+                    [
+                        "like",
+                        "me!",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "I once was lost, but now am found",
+                "measures": [
+                    [
+                        "E5",
+                        "G5",
+                        "E5"
+                    ],
+                    [
+                        "G5",
+                        "E5",
+                        "C5"
+                    ],
+                    [
+                        "A4",
+                        "C5",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "E5",
+                        "D5",
+                        "C5"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "I",
+                        "once",
+                        "was"
+                    ],
+                    [
+                        "lost,",
+                        "but",
+                        "now"
+                    ],
+                    [
+                        "am",
+                        "found,",
+                        "was"
+                    ],
+                    [
+                        "blind,",
+                        "but",
+                        "now"
+                    ],
+                    [
+                        "I",
+                        "see.",
+                        ""
+                    ],
+                    [
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
     },
     "w8": {
-            "id": "w8",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "C# Minor",
-            "title": "8. மூன்லைட் சோனாட்டா (Moonlight Sonata • பீத்தோவன் Op. 27 No. 2)",
-            "desc": "பீத்தோவனின் நிலவொளி சோனாட்டா அறிமுக தீம். ட்ரிப்லெட் (Triplets) ஆர்பெஜியோ அசைவில் மெதுவாக ஓடும் கனவு போன்ற கிளாசிக்கல் இசை.",
-            "tempo": 55,
-            "lines": [
-                    {
-                            "title": "ட்ரிப்லெட் ஆர்பெஜியோ தீம் (Adagio Sostenuto)",
-                            "measures": [
-                                    [
-                                            "G#3",
-                                            "C#4",
-                                            "E4",
-                                            "G#3"
-                                    ],
-                                    [
-                                            "C#4",
-                                            "E4",
-                                            "G#3",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "A3",
-                                            "C#4",
-                                            "E4",
-                                            "A3"
-                                    ],
-                                    [
-                                            "C#4",
-                                            "E4",
-                                            "A3",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "F#3",
-                                            "D4",
-                                            "F#4",
-                                            "F#3"
-                                    ],
-                                    [
-                                            "D4",
-                                            "F#4",
-                                            "G#3",
-                                            "C#4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G#3",
-                                            "C#4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w8",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "C# Minor",
+        "title": "8. Moonlight Sonata (Beethoven Piano Sonata No. 14, Op. 27 No. 2)",
+        "desc": "Beethoven's hypnotic Adagio Sostenuto. Delicate right hand triplet arpeggios floating over deep pedal bass tones in C# minor.",
+        "tempo": 55,
+        "lines": [
+            {
+                "title": "Triplet Arpeggio Theme (Adagio Sostenuto)",
+                "measures": [
+                    [
+                        "G#3",
+                        "C#4",
+                        "E4",
+                        "G#3"
+                    ],
+                    [
+                        "C#4",
+                        "E4",
+                        "G#3",
+                        "C#4"
+                    ],
+                    [
+                        "A3",
+                        "C#4",
+                        "E4",
+                        "A3"
+                    ],
+                    [
+                        "C#4",
+                        "E4",
+                        "A3",
+                        "C#4"
+                    ],
+                    [
+                        "F#3",
+                        "D4",
+                        "F#4",
+                        "F#3"
+                    ],
+                    [
+                        "D4",
+                        "F#4",
+                        "G#3",
+                        "C#4"
+                    ],
+                    [
+                        "E4",
+                        "G#3",
+                        "C#4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w9": {
-            "id": "w9",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "9. தி என்டர்டெயினர் (The Entertainer • ஸ்காட் ஜோப்ளின் ராக்டைம்)",
-            "desc": "ஸ்காட் ஜோப்ளினின் உலகப் புகழ்பெற்ற 1902 ராக்டைம் பியானோ மெலடி (The Sting திரைப்பட இசை). சிங்கோபேஷன் (Syncopation) தாள நடைக்கு மிகச் சிறந்த பயிற்சி.",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "ராக்டைம் அறிமுகம் (Famous Intro)",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "D#4",
-                                            "E4",
-                                            "C5"
-                                    ],
-                                    [
-                                            ",",
-                                            "E4",
-                                            "C5",
-                                            ","
-                                    ],
-                                    [
-                                            "E4",
-                                            "C5",
-                                            ",",
-                                            ","
-                                    ],
-                                    [
-                                            "C5",
-                                            "D5",
-                                            "D#5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "D5",
-                                            "E5",
-                                            "C5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "C5",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w9",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "9. The Entertainer (Scott Joplin Ragtime)",
+        "desc": "Scott Joplin's iconic 1902 ragtime classic. Features syncopated upbeat phrasing, playful chromatic grace notes, and stride piano style.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Ragtime Intro (Famous Theme)",
+                "measures": [
+                    [
+                        "D4",
+                        "D#4",
+                        "E4",
+                        "C5"
+                    ],
+                    [
+                        ",",
+                        "E4",
+                        "C5",
+                        ","
+                    ],
+                    [
+                        "E4",
+                        "C5",
+                        ",",
+                        ","
+                    ],
+                    [
+                        "C5",
+                        "D5",
+                        "D#5",
+                        "E5"
+                    ],
+                    [
+                        "C5",
+                        "D5",
+                        "E5",
+                        "C5"
+                    ],
+                    [
+                        "D5",
+                        "C5",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w10": {
-            "id": "w10",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "C Major",
-            "title": "10. பிறந்தநாள் வாழ்த்துப் பாடல் (Happy Birthday to You • 3/4 தாளம்)",
-            "desc": "உலகில் மிக அதிகமாகப் பாடப்படும் பாடல்! பிக்-அப் பீட் (Anacrusis / Pickup Beat 3) மற்றும் 3/4 தாளத்தில் வாசிக்கக் கற்றுக் கொடுக்கும் அத்தியாவசிய பாடல்.",
-            "tempo": 100,
-            "lines": [
-                    {
-                            "title": "ஹேப்பி பர்த்டே டு யூ (வரி 1 & 2)",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "D5",
-                                            "C5"
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Hap-",
-                                            "py",
-                                            "birth-"
-                                    ],
-                                    [
-                                            "day",
-                                            "to",
-                                            "you,"
-                                    ],
-                                    [
-                                            "Hap-",
-                                            "py",
-                                            "birth-"
-                                    ],
-                                    [
-                                            "day",
-                                            "to",
-                                            "you,"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "ஹேப்பி பர்த்டே டியர் (வரி 3 & 4)",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "G4",
-                                            "G5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "F5",
-                                            "F5"
-                                    ],
-                                    [
-                                            "E5",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            ",",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Hap-",
-                                            "py",
-                                            "birth-"
-                                    ],
-                                    [
-                                            "day",
-                                            "dear",
-                                            "friend,"
-                                    ],
-                                    [
-                                            "Hap-",
-                                            "py",
-                                            "birth-"
-                                    ],
-                                    [
-                                            "day",
-                                            "to",
-                                            "you!"
-                                    ],
-                                    [
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w10",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "C Major",
+        "title": "10. Happy Birthday to You (3/4 Time)",
+        "desc": "The world's most famous celebration melody! Features pickup upbeats (anacrusis), dotted rhythms, and the dramatic octave jump on line 3.",
+        "tempo": 100,
+        "lines": [
+            {
+                "title": "Happy Birthday to You (Lines 1 & 2)",
+                "measures": [
+                    [
+                        "G4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "G4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "D5",
+                        "C5"
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Hap-",
+                        "py",
+                        "birth-"
+                    ],
+                    [
+                        "day",
+                        "to",
+                        "you,"
+                    ],
+                    [
+                        "Hap-",
+                        "py",
+                        "birth-"
+                    ],
+                    [
+                        "day",
+                        "to",
+                        "you,"
+                    ]
+                ]
+            },
+            {
+                "title": "Happy Birthday Dear Friend (Lines 3 & 4)",
+                "measures": [
+                    [
+                        "G4",
+                        "G4",
+                        "G5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        "F5",
+                        "F5"
+                    ],
+                    [
+                        "E5",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        ",",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Hap-",
+                        "py",
+                        "birth-"
+                    ],
+                    [
+                        "day",
+                        "dear",
+                        "friend,"
+                    ],
+                    [
+                        "Hap-",
+                        "py",
+                        "birth-"
+                    ],
+                    [
+                        "day",
+                        "to",
+                        "you!"
+                    ],
+                    [
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            }
+        ]
     },
     "w11": {
-            "id": "w11",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "11. அன்னப்பறவை ஏரி தீம் (Swan Lake Theme • சைகோவ்ஸ்கி பாலே)",
-            "desc": "பியோத்தர் சைகோவ்ஸ்கியின் உலகப் புகழ்பெற்ற ஸ்வான் லேக் பாலே நாடகத்தின் மர்மமும் அழகும் நிறைந்த மூல மெலடி (Op. 20).",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "ஸ்வான் லேக் மெலடி வரிசை 1",
-                            "measures": [
-                                    [
-                                            "A4",
-                                            "D5",
-                                            "F5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "B4",
-                                            "C5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "D5",
-                                            "F5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D5",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "மெலடி வரிசை 2",
-                            "measures": [
-                                    [
-                                            "F5",
-                                            "E5",
-                                            "D5",
-                                            "C#5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "E5",
-                                            "F5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "D5",
-                                            "B4"
-                                    ],
-                                    [
-                                            "A4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w11",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "11. Swan Lake Theme (Tchaikovsky Ballet Op. 20)",
+        "desc": "Pyotr Ilyich Tchaikovsky's haunting oboe theme from Swan Lake. Poignant B minor melody filled with romantic drama and emotional depth.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Swan Lake Melody Line 1",
+                "measures": [
+                    [
+                        "A4",
+                        "D5",
+                        "F5",
+                        "E5"
+                    ],
+                    [
+                        "D5",
+                        "B4",
+                        "C5",
+                        "D5"
+                    ],
+                    [
+                        "A4",
+                        "D5",
+                        "F5",
+                        "E5"
+                    ],
+                    [
+                        "D5",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Melody Line 2",
+                "measures": [
+                    [
+                        "F5",
+                        "E5",
+                        "D5",
+                        "C#5"
+                    ],
+                    [
+                        "D5",
+                        "E5",
+                        "F5",
+                        "D5"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "D5",
+                        "B4"
+                    ],
+                    [
+                        "A4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w12": {
-            "id": "w12",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "C Major",
-            "title": "12. பிராம்ஸ் தாலாட்டுப் பாடல் (Brahms' Lullaby • Guten Abend, gut' Nacht)",
-            "desc": "ஜோஹன்னஸ் பிராம்ஸின் உலகப் புகழ்பெற்ற தாலாட்டுப் பாடல் (Op. 49 No. 4). அமைதியான 3/4 தாளத்தில் தூங்க வைக்கும் தாய்மை இசை.",
-            "tempo": 80,
-            "lines": [
-                    {
-                            "title": "தாலாட்டுப் பாடல் பல்லவி",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "G4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "D4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "F4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w12",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "C Major",
+        "title": "12. Brahms' Lullaby (Guten Abend, gut' Nacht, Op. 49 No. 4)",
+        "desc": "Johannes Brahms' world-renowned cradle song (Wiegenlied). Gentle 3/4 rocking rhythm with tender, comforting voice leading.",
+        "tempo": 80,
+        "lines": [
+            {
+                "title": "Lullaby Main Theme",
+                "measures": [
+                    [
+                        "E4",
+                        "E4",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "G4"
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "C5"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "A4"
+                    ],
+                    [
+                        "G4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "F4",
+                        "D4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        "F4",
+                        "D4"
+                    ],
+                    [
+                        "B4",
+                        "A4",
+                        "G4"
+                    ]
+                ]
+            }
+        ]
     },
     "w13": {
-            "id": "w13",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "C Major",
-            "title": "13. ஜிங்கிள் பெல்ஸ் (Jingle Bells • உலகப் புகழ்பெற்ற கிறிஸ்துமஸ் பாடல்)",
-            "desc": "ஜேம்ஸ் லார்ட் பியர்பான்ட் 1857-ல் இயற்றிய உலக பிரசித்தி பெற்ற மகிழ்ச்சியான குளிர்காலப் பாடல்.",
-            "tempo": 120,
-            "lines": [
-                    {
-                            "title": "கோரஸ்: Jin-gle bells, jin-gle bells",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "E4",
-                                            ","
-                                    ],
-                                    [
-                                            "E4",
-                                            "E4",
-                                            "E4",
-                                            ","
-                                    ],
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "C4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "E4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ],
-                            "sahityam": [
-                                    [
-                                            "Jin-",
-                                            "gle",
-                                            "bells,",
-                                            ""
-                                    ],
-                                    [
-                                            "jin-",
-                                            "gle",
-                                            "bells,",
-                                            ""
-                                    ],
-                                    [
-                                            "jin-",
-                                            "gle",
-                                            "all",
-                                            "the"
-                                    ],
-                                    [
-                                            "way!",
-                                            "",
-                                            "",
-                                            ""
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "கோரஸ் வரி 2: Oh what fun it is to ride",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "F4",
-                                            "F4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "E4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "E4",
-                                            "D4",
-                                            "D4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "D4",
-                                            ",",
-                                            "G4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w13",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "C Major",
+        "title": "13. Jingle Bells (Christmas Classic)",
+        "desc": "James Lord Pierpont's famous 1857 holiday classic. Crisp repeated staccato notes and joyful chorus melody in bright C Major.",
+        "tempo": 120,
+        "lines": [
+            {
+                "title": "Chorus: Jingle bells, jingle bells",
+                "measures": [
+                    [
+                        "E4",
+                        "E4",
+                        "E4",
+                        ","
+                    ],
+                    [
+                        "E4",
+                        "E4",
+                        "E4",
+                        ","
+                    ],
+                    [
+                        "E4",
+                        "G4",
+                        "C4",
+                        "D4"
+                    ],
+                    [
+                        "E4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ],
+                "sahityam": [
+                    [
+                        "Jin-",
+                        "gle",
+                        "bells,",
+                        ""
+                    ],
+                    [
+                        "jin-",
+                        "gle",
+                        "bells,",
+                        ""
+                    ],
+                    [
+                        "jin-",
+                        "gle",
+                        "all",
+                        "the"
+                    ],
+                    [
+                        "way!",
+                        "",
+                        "",
+                        ""
+                    ]
+                ]
+            },
+            {
+                "title": "Chorus Line 2: Oh what fun it is to ride",
+                "measures": [
+                    [
+                        "F4",
+                        "F4",
+                        "F4",
+                        "F4"
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "E4",
+                        "E4"
+                    ],
+                    [
+                        "E4",
+                        "D4",
+                        "D4",
+                        "E4"
+                    ],
+                    [
+                        "D4",
+                        ",",
+                        "G4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w14": {
-            "id": "w14",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "3/4",
-            "key": "D Minor",
-            "title": "14. ஸ்கார்பரோ ஃபேர் (Scarborough Fair • நடுக்கால ஆங்கில நாட்டுப்புறப் பாடல்)",
-            "desc": "சைமன் அண்ட் கார்பங்கலின் புகழ்பெற்ற டோரியன் நாட்டுப்புற மெலடி (Parsley, sage, rosemary and thyme).",
-            "tempo": 90,
-            "lines": [
-                    {
-                            "title": "வரிசை 1: Are you go-ing to Scar-bo-rough Fair",
-                            "measures": [
-                                    [
-                                            "D4",
-                                            "D4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "A4",
-                                            "E4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "A4",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "வரிசை 2: Pars-ley, sage, rose-ma-ry and thyme",
-                            "measures": [
-                                    [
-                                            "F4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "A4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "E4",
-                                            "D4"
-                                    ],
-                                    [
-                                            "D4",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w14",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "3/4",
+        "key": "D Minor",
+        "title": "14. Scarborough Fair (Traditional English Ballad)",
+        "desc": "Ancient English folk ballad in Dorian mode made world-famous by Simon & Garfunkel. Modal minor melody with mysterious lyrical beauty.",
+        "tempo": 90,
+        "lines": [
+            {
+                "title": "Line 1: Are you going to Scarborough Fair",
+                "measures": [
+                    [
+                        "D4",
+                        "D4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        "A4",
+                        "E4"
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "A4",
+                        ",",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Line 2: Parsley, sage, rosemary and thyme",
+                "measures": [
+                    [
+                        "F4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "C5",
+                        "A4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        "E4",
+                        "D4"
+                    ],
+                    [
+                        "D4",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w15": {
-            "id": "w15",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "6/8",
-            "key": "C Major",
-            "title": "15. ஹல்லேலூயா தீம் (Hallelujah Theme • லியோனார்ட் கோஹன்)",
-            "desc": "லியோனார்ட் கோஹனின் புகழ்பெற்ற 6/8 மெதுவான பாலாட் மெலடி (The secret chord that David played).",
-            "tempo": 60,
-            "lines": [
-                    {
-                            "title": "I've heard there was a secret chord",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "G4",
-                                            "G4",
-                                            "G4",
-                                            "G4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "A4",
-                                            "A4",
-                                            "G4",
-                                            "E4",
-                                            "G4",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "The fourth, the fifth, the minor fall, the major lift",
-                            "measures": [
-                                    [
-                                            "G4",
-                                            "A4",
-                                            "A4",
-                                            "A4",
-                                            "B4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "G4"
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w15",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "6/8",
+        "key": "C Major",
+        "title": "15. Hallelujah Theme (Leonard Cohen)",
+        "desc": "Leonard Cohen's poetic anthem in 6/8 ballad time. Features the celebrated lyric-melody connection ('the fourth, the fifth, the minor fall...').",
+        "tempo": 60,
+        "lines": [
+            {
+                "title": "I've heard there was a secret chord",
+                "measures": [
+                    [
+                        "E4",
+                        "G4",
+                        "G4",
+                        "G4",
+                        "G4",
+                        "A4"
+                    ],
+                    [
+                        "A4",
+                        "A4",
+                        "G4",
+                        "E4",
+                        "G4",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "The fourth, the fifth, the minor fall, the major lift",
+                "measures": [
+                    [
+                        "G4",
+                        "A4",
+                        "A4",
+                        "A4",
+                        "B4",
+                        "B4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "C5",
+                        "B4",
+                        "A4",
+                        "G4"
+                    ]
+                ]
+            }
+        ]
     },
     "w16": {
-            "id": "w16",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "G Minor",
-            "title": "16. ஆட்டம் லீவ்ஸ் (Autumn Leaves • உலகப் புகழ்பெற்ற ஜாஸ் மெலடி)",
-            "desc": "ஜாஸ் உலகில் மிக அதிகமாக வாசிக்கப்படும் ஜோசப் கோஸ்மாவின் மெலடி (Les Feuilles mortes). ii-V-I கார்ட் தொடரின் உச்சம்.",
-            "tempo": 95,
-            "lines": [
-                    {
-                            "title": "தி ஃபாலிங் லீவ்ஸ் (The falling leaves drift by my window)",
-                            "measures": [
-                                    [
-                                            "C4",
-                                            "D4",
-                                            "Eb4",
-                                            "G4"
-                                    ],
-                                    [
-                                            "F4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ],
-                                    [
-                                            "Bb3",
-                                            "C4",
-                                            "D4",
-                                            "F4"
-                                    ],
-                                    [
-                                            "Eb4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "வரிசை 2",
-                            "measures": [
-                                    [
-                                            "A3",
-                                            "Bb3",
-                                            "C4",
-                                            "Eb4"
-                                    ],
-                                    [
-                                            "D4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ],
-                                    [
-                                            "G3",
-                                            "A3",
-                                            "Bb3",
-                                            "D4"
-                                    ],
-                                    [
-                                            "C4",
-                                            ",",
-                                            ",",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w16",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "G Minor",
+        "title": "16. Autumn Leaves (Classic Jazz Standard)",
+        "desc": "Joseph Kosma's celebrated jazz standard (Les Feuilles Mortes). Perfect study of cycle-of-fifths voice leading through major and minor keys.",
+        "tempo": 95,
+        "lines": [
+            {
+                "title": "The Falling Leaves (The falling leaves drift by my window)",
+                "measures": [
+                    [
+                        "C4",
+                        "D4",
+                        "Eb4",
+                        "G4"
+                    ],
+                    [
+                        "F4",
+                        ",",
+                        ",",
+                        ","
+                    ],
+                    [
+                        "Bb3",
+                        "C4",
+                        "D4",
+                        "F4"
+                    ],
+                    [
+                        "Eb4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            },
+            {
+                "title": "Line 2",
+                "measures": [
+                    [
+                        "A3",
+                        "Bb3",
+                        "C4",
+                        "Eb4"
+                    ],
+                    [
+                        "D4",
+                        ",",
+                        ",",
+                        ","
+                    ],
+                    [
+                        "G3",
+                        "A3",
+                        "Bb3",
+                        "D4"
+                    ],
+                    [
+                        "C4",
+                        ",",
+                        ",",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w17": {
-            "id": "w17",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "4/4",
-            "key": "A Minor",
-            "title": "17. பெல்லா சியாவ் (Bella Ciao • உலகப் புகழ்பெற்ற இத்தாலிய நாட்டுப்புறப் பாடல்)",
-            "desc": "இத்தாலிய புரட்சி மற்றும் மணி ஹீஸ்ட் (Money Heist) தொடரில் இடம்பெற்று உலகமெங்கும் கோடிக்கணக்கானோரைக் கவர்ந்த விறுவிறுப்பான மெலடி.",
-            "tempo": 125,
-            "lines": [
-                    {
-                            "title": "பல்லவி: Una mattina mi son alzato",
-                            "measures": [
-                                    [
-                                            "E4",
-                                            "A4",
-                                            "B4",
-                                            "C5"
-                                    ],
-                                    [
-                                            "A4",
-                                            "E4",
-                                            "A4",
-                                            "B4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "A4",
-                                            "E4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "B4",
-                                            "C5",
-                                            "B4",
-                                            "A4"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            "E4"
-                                    ]
-                            ]
-                    },
-                    {
-                            "title": "கோரஸ்: O bella ciao, bella ciao, bella ciao ciao ciao",
-                            "measures": [
-                                    [
-                                            "E5",
-                                            "E5",
-                                            "D5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "F5",
-                                            "F5",
-                                            "F5",
-                                            "E5"
-                                    ],
-                                    [
-                                            "D5",
-                                            "F5",
-                                            "E5",
-                                            "D5"
-                                    ],
-                                    [
-                                            "C5",
-                                            "B4",
-                                            "A4",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
+        "id": "w17",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "4/4",
+        "key": "A Minor",
+        "title": "17. Bella Ciao (Italian Folk Melody)",
+        "desc": "Historic Italian folk anthem with an infectious driving rhythm in A minor. Features quick upbeat pickup and stirring melodic lines.",
+        "tempo": 125,
+        "lines": [
+            {
+                "title": "Verse: Una mattina mi son alzato",
+                "measures": [
+                    [
+                        "E4",
+                        "A4",
+                        "B4",
+                        "C5"
+                    ],
+                    [
+                        "A4",
+                        "E4",
+                        "A4",
+                        "B4"
+                    ],
+                    [
+                        "C5",
+                        "A4",
+                        "E4",
+                        "A4"
+                    ],
+                    [
+                        "B4",
+                        "C5",
+                        "B4",
+                        "A4"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        "E4"
+                    ]
+                ]
+            },
+            {
+                "title": "Chorus: O bella ciao, bella ciao, bella ciao ciao ciao",
+                "measures": [
+                    [
+                        "E5",
+                        "E5",
+                        "D5",
+                        "E5"
+                    ],
+                    [
+                        "F5",
+                        "F5",
+                        "F5",
+                        "E5"
+                    ],
+                    [
+                        "D5",
+                        "F5",
+                        "E5",
+                        "D5"
+                    ],
+                    [
+                        "C5",
+                        "B4",
+                        "A4",
+                        ","
+                    ]
+                ]
+            }
+        ]
     },
     "w18": {
-            "id": "w18",
-            "cat": "melodies",
-            "catTamil": "6. பிரபல பாடல்கள் & மெலடிகள் (Classical Masterpieces & Melodies)",
-            "meter": "9/8",
-            "key": "Db Major",
-            "title": "18. கிளேர் டி லூன் (Clair de Lune • கிளாட் டெபஸ்ஸி பியானோ கவிதை)",
-            "desc": "பிரெஞ்சு இம்ப்ரெஷனிஸ்ட் இசை மேதை கிளாட் டெபஸ்ஸியின் 'நிலவொளி' (Suite bergamasque, L. 75). பியானோ வரலாற்றின் மிக அழகான தொடக்க மெலடி.",
-            "tempo": 50,
-            "lines": [
-                    {
-                            "title": "நிலவொளி அறிமுக தீம் (Famous Impressionist Opening)",
-                            "measures": [
-                                    [
-                                            "F5",
-                                            "Eb5",
-                                            "Db5",
-                                            "C5",
-                                            "Bb4",
-                                            "Ab4"
-                                    ],
-                                    [
-                                            "F4",
-                                            "Ab4",
-                                            "Db5",
-                                            "F5",
-                                            "Eb5",
-                                            ","
-                                    ]
-                            ]
-                    }
-            ]
-    },
+        "id": "w18",
+        "cat": "melodies",
+        "catTamil": "6. Classical Masterpieces & Melodies",
+        "meter": "9/8",
+        "key": "Db Major",
+        "title": "18. Clair de Lune (Claude Debussy Suite Bergamasque)",
+        "desc": "Claude Debussy's masterpiece of French Impressionism. Luminous, floating Db Major harmonies painting the quiet light of the moon.",
+        "tempo": 50,
+        "lines": [
+            {
+                "title": "Moonlight Opening Theme (Impressionist Opening)",
+                "measures": [
+                    [
+                        "F5",
+                        "Eb5",
+                        "Db5",
+                        "C5",
+                        "Bb4",
+                        "Ab4"
+                    ],
+                    [
+                        "F4",
+                        "Ab4",
+                        "Db5",
+                        "F5",
+                        "Eb5",
+                        ","
+                    ]
+                ]
+            }
+        ]
+    }
 }

@@ -30,7 +30,7 @@ def build_html():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎹 Western Keyboard & Piano Master Visual Tutor | மேற்கத்திய விசைப்பலகை & பியானோ ஆசான்</title>
+    <title>🎹 Western Keyboard &amp; Piano Master Visual Tutor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -689,6 +689,127 @@ def build_html():
             padding: 16px 20px;
         }}
 
+        /* Grand Staff Visualizer Card */
+        .grand-staff-box {{
+            margin-bottom: 14px;
+            background: linear-gradient(180deg, rgba(12, 17, 36, 0.92), rgba(6, 10, 22, 0.96));
+            border: 1px solid rgba(212, 175, 55, 0.35);
+            border-radius: 12px;
+            padding: 12px 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            transition: all 0.25s ease;
+        }}
+
+        .grand-staff-header {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }}
+
+        .grand-staff-title-group {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+
+        .grand-staff-title {{
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--gold-bright);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }}
+
+        .grand-staff-badge-live {{
+            font-size: 0.68rem;
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.4);
+            color: #34d399;
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }}
+
+        .grand-staff-body {{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }}
+
+        .grand-staff-svg-wrap {{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 0;
+            overflow-x: auto;
+        }}
+
+        #liveStaffSvg {{
+            width: 100%;
+            max-width: 640px;
+            height: 185px;
+            filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.5));
+            transition: height 0.25s ease, max-width 0.25s ease;
+        }}
+
+        /* Large / Zoomed mode for Grand Staff */
+        .grand-staff-box.staff-zoom-large #liveStaffSvg {{
+            max-width: 880px;
+            height: 250px;
+        }}
+
+        .fullscreen-lightbox-content #liveStaffSvg {{
+            max-width: 880px;
+            height: 250px;
+        }}
+
+        .grand-staff-footer {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 10px;
+            padding-top: 8px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 0.78rem;
+        }}
+
+        .staff-detail-pill {{
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 10px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            color: var(--text-muted);
+        }}
+
+        .staff-pitch-pill {{
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            background: rgba(56, 189, 248, 0.12);
+            border: 1px solid rgba(56, 189, 248, 0.35);
+            border-radius: 6px;
+            color: var(--cyan-accent);
+            font-weight: 700;
+            font-family: var(--font-mono);
+            font-size: 0.88rem;
+        }}
+
         .ribbon-header {{
             display: flex;
             align-items: center;
@@ -1167,6 +1288,7 @@ def build_html():
             bottom: 0;
             background: rgba(4, 7, 20, 0.95);
             backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             z-index: 3000;
             align-items: center;
             justify-content: center;
@@ -1187,18 +1309,69 @@ def build_html():
             max-height: 96vh;
             display: flex;
             flex-direction: column;
-            padding: 20px 22px;
+            padding: 20px 24px;
             box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
             position: relative;
             overflow-y: auto;
             gap: 14px;
         }}
 
+        .modal-window.fullscreen-lightbox-window .btn-close-modal {{
+            position: absolute;
+            top: 16px;
+            right: 18px;
+            background: rgba(244, 63, 94, 0.2);
+            border: 1px solid rgba(244, 63, 94, 0.4);
+            color: #fda4af;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            transition: all 0.2s ease;
+        }}
+
+        .modal-window.fullscreen-lightbox-window .btn-close-modal:hover {{
+            background: var(--rose-accent);
+            color: #fff;
+            transform: scale(1.08);
+        }}
+
         .fullscreen-lightbox-content {{
             display: flex;
             flex-direction: column;
             gap: 14px;
-            flex: 1;
+            width: 100%;
+        }}
+
+        /* Inside Lightbox: hide redundant "Fullscreen Lightbox" trigger button */
+        .fullscreen-lightbox-content #btnOpenNotationLightbox,
+        .fullscreen-lightbox-content #btnOpenKeyboardLightbox {{
+            display: none !important;
+        }}
+
+        /* Grand staff visualizer size in lightbox */
+        .fullscreen-lightbox-content #liveStaffSvg {{
+            width: 100%;
+            max-width: 880px;
+            height: 240px;
+            margin: 0 auto;
+            display: block;
+        }}
+
+        .fullscreen-lightbox-content .grand-staff-box.staff-zoom-large #liveStaffSvg {{
+            max-width: 1100px;
+            height: 280px;
+        }}
+
+        /* Keyboard bed in lightbox */
+        #keyboardLightbox .fullscreen-lightbox-content .piano-bed {{
+            height: 200px;
         }}
 
         /* Responsive Mobile Styles */
@@ -1228,95 +1401,95 @@ def build_html():
         <div class="brand-section">
             <div class="brand-icon">🎹</div>
             <div class="brand-title-wrap">
-                <h1>மேற்கத்திய விசைப்பலகை &amp; பியானோ ஆசான்</h1>
-                <p>Western Keyboard &amp; Piano Master Visual Tutor • 61-Key Interactive Virtual Synthesizer</p>
+                <h1>Western Keyboard &amp; Piano Master Visual Tutor</h1>
+                <p>Interactive 61-Key Virtual Synthesizer &amp; Sight-Reading Studio</p>
             </div>
         </div>
 
         <!-- Top Navigation Tabs -->
         <nav class="header-tabs" aria-label="Navigation">
-            <button class="nav-tab-btn active" onclick="switchView('studio')">🎵 பாடம் &amp; பயிற்சி (Studio)</button>
-            <button class="nav-tab-btn" onclick="switchView('voice_training')">🎙️ குரல் &amp; சோல்ஃபேஜ் (Solfege)</button>
-            <button class="nav-tab-btn" onclick="switchView('sthayi_theory')">📖 மேற்கத்திய ஆக்டேவ்கள் (Octaves &amp; Staff)</button>
-            <button class="nav-tab-btn" onclick="switchView('melakarta')">🌀 ஸ்கேல்கள் &amp; மோடுகள் (Scales &amp; Modes)</button>
-            <button class="nav-tab-btn" onclick="switchView('janya')">🎼 கார்ட் அகராதி (Chords &amp; Inversions)</button>
-            <button class="nav-tab-btn" onclick="switchView('ear_training')">🎮 செவிப் பயிற்சி (Ear Training)</button>
-            <button class="nav-tab-btn" onclick="switchView('swaras')">🎹 12 செமிடோன்கள் &amp; இடைவெளிகள்</button>
-            <button class="nav-tab-btn" onclick="switchView('psr_guide')">🎹 விசைப்பலகை வழிகாட்டி (Tech Guide)</button>
-            <button class="nav-tab-btn" onclick="switchView('diagrams')">🖼️ வரைபடங்கள் (Diagrams)</button>
+            <button class="nav-tab-btn active" onclick="switchView('studio')">🎵 Lessons &amp; Practice (Studio)</button>
+            <button class="nav-tab-btn" onclick="switchView('voice_training')">🎙️ Voice Culture &amp; Solfege</button>
+            <button class="nav-tab-btn" onclick="switchView('sthayi_theory')">📖 Western Octaves &amp; Staff</button>
+            <button class="nav-tab-btn" onclick="switchView('melakarta')">🌀 Scales &amp; Modes</button>
+            <button class="nav-tab-btn" onclick="switchView('janya')">🎼 Chord Dictionary &amp; Inversions</button>
+            <button class="nav-tab-btn" onclick="switchView('ear_training')">🎮 Ear Training Studio</button>
+            <button class="nav-tab-btn" onclick="switchView('swaras')">🎹 12 Semitones &amp; Intervals</button>
+            <button class="nav-tab-btn" onclick="switchView('psr_guide')">🎹 Keyboard Tech Guide</button>
+            <button class="nav-tab-btn" onclick="switchView('diagrams')">🖼️ Diagrams &amp; Reference</button>
         </nav>
 
         <!-- Header Actions -->
         <div class="header-actions">
             <!-- Metronome / Drum Beat Toggle -->
-            <button id="btnDrumsToggle" class="action-toggle-badge" onclick="toggleDrumsBacking()" title="மெட்ரானோம் மற்றும் டிரம்ஸ் தாள நடை">
+            <button id="btnDrumsToggle" class="action-toggle-badge" onclick="toggleDrumsBacking()" title="Metronome &amp; Drum Rhythm Beats">
                 <span class="status-dot"></span>
-                <span>🥁 மெட்ரானோம் / டிரம்ஸ்</span>
+                <span>🥁 Metronome / Drums</span>
             </button>
 
             <!-- Chord Pad Drone Toggle -->
-            <button id="btnDroneToggle" class="action-toggle-badge" onclick="togglePadDrone()" title="அடிப்படை கார்ட் பேட் ட்ரோன் ஒலி">
+            <button id="btnDroneToggle" class="action-toggle-badge" onclick="togglePadDrone()" title="Harmonic Chord Pad Drone">
                 <span class="status-dot"></span>
-                <span>🎹 பேட் ட்ரோன் (Pad)</span>
+                <span>🎹 Pad Drone</span>
             </button>
 
             <!-- Mic Tuner Toggle -->
-            <button id="btnMicToggle" class="action-toggle-badge" onclick="toggleMicListening()" title="மைக் சுருதிமானி (Live Mic Tuner)">
+            <button id="btnMicToggle" class="action-toggle-badge" onclick="toggleMicListening()" title="Live Mic Pitch Tuner">
                 <span class="status-dot"></span>
-                <span>🎙️ மைக் ட்யூனர்</span>
+                <span>🎙️ Live Mic Tuner</span>
             </button>
 
             <!-- Audio Recorder Toggle -->
-            <button id="btnRecordToggle" class="action-toggle-badge rec" onclick="toggleAudioRecorder()" title="உங்கள் வாசிப்பை ஆடியோவாகப் பதிவு செய்">
+            <button id="btnRecordToggle" class="action-toggle-badge rec" onclick="toggleAudioRecorder()" title="Record Your Playing to Audio">
                 <span class="status-dot"></span>
-                <span id="recordStatusLabel">⏺️ பதிவு செய் (Record)</span>
+                <span id="recordStatusLabel">⏺️ Record</span>
             </button>
 
             <!-- Fullscreen Lightbox Triggers -->
-            <button class="action-toggle-badge" onclick="openKeyboardLightbox()" title="முழுத்திரை விசைப்பலகை லைட்பாக்ஸ் (Keyboard Lightbox)">
-                <span>⛶ விசைப்பலகை</span>
+            <button class="action-toggle-badge" onclick="openKeyboardLightbox()" title="Fullscreen Keyboard Lightbox">
+                <span>⛶ Keyboard Lightbox</span>
             </button>
-            <button class="action-toggle-badge" onclick="openNotationLightbox()" title="முழுத்திரை நோட்டேஷன் லைட்பாக்ஸ் (Notation Lightbox)">
-                <span>⛶ நோட்டேஷன்</span>
+            <button class="action-toggle-badge" onclick="openNotationLightbox()" title="Fullscreen Notation Lightbox">
+                <span>⛶ Notation Lightbox</span>
             </button>
 
             <!-- Volume Slider -->
             <div class="vol-slider-wrap">
                 <span>🔊</span>
-                <input type="range" class="vol-slider" min="0" max="1" step="0.05" value="0.75" oninput="setMasterVolume(this.value)" title="ஒலி அளவு">
+                <input type="range" class="vol-slider" min="0" max="1" step="0.05" value="0.75" oninput="setMasterVolume(this.value)" title="Master Volume">
             </div>
 
             <!-- Help Modal Button -->
-            <button class="btn-ctrl" onclick="openHelpModal()" style="padding: 6px 10px;" title="விசைப்பலகை குறுக்குவழிகள்">⌨️ குறுக்குவழிகள்</button>
+            <button class="btn-ctrl" onclick="openHelpModal()" style="padding: 6px 10px;" title="Keyboard Shortcuts">⌨️ Shortcuts</button>
         </div>
     </header>
 
     <!-- Live Mic Pitch Tuner Panel -->
     <div id="micTunerPanel" class="mic-tuner-panel">
         <div class="tuner-metric">
-            <span>🎙️ கண்டறியப்பட்ட நோட்:</span>
+            <span>🎙️ Detected Note:</span>
             <span id="tunerDetectedNote" class="tuner-badge">—</span>
         </div>
         <div class="tuner-metric">
-            <span>அதிர்வெண்:</span>
+            <span>Frequency:</span>
             <span id="tunerFrequency" class="tuner-badge">0.0 Hz</span>
         </div>
         <div class="tuner-gauge-track">
             <div class="tuner-gauge-center"></div>
             <div id="tunerNeedle" class="tuner-gauge-needle" style="left: 50%;"></div>
         </div>
-        <div id="tunerStatus" class="tuner-status">தயார் • மைக்கில் வாசிக்கவும் / பாடவும்</div>
+        <div id="tunerStatus" class="tuner-status">Ready • Play instrument or sing into mic</div>
     </div>
 
     <!-- Live Audio Recording Bar -->
     <div id="recordingBar" class="recording-bar">
         <div style="display: flex; align-items: center; gap: 10px;">
             <span class="status-dot" style="background: #f43f5e; box-shadow: 0 0 8px #f43f5e;"></span>
-            <span style="font-weight: 700; color: #fca5a5;">ஆடியோ பதிவு செய்யப்படுகிறது...</span>
+            <span style="font-weight: 700; color: #fca5a5;">Recording audio...</span>
             <span id="recordingTimer" style="font-family: var(--font-mono); font-weight: 800; color: #fff;">00:00</span>
         </div>
         <button class="btn-ctrl" onclick="stopAndDownloadRecording()" style="background: #f43f5e; border-color: #fff; color: #fff; padding: 4px 12px; font-size: 0.8rem;">
-            ⏹️ நிறுத்தி பதிவிறக்கு (Download WAV)
+            ⏹️ Stop &amp; Download WAV
         </button>
     </div>
 
@@ -1325,27 +1498,27 @@ def build_html():
 
         <!-- ================= VIEW 1: STUDIO & PRACTICE ================= -->
         <div id="viewStudio" class="view-panel active">
-            <div id="controlsAnchor"></div>
             <!-- Studio Top Controls Deck -->
             <div class="studio-top-grid">
-                <div class="glass-card controls-deck">
+                <div id="controlsSlot">
+                    <div class="glass-card controls-deck">
                     <!-- Row 1: Category & Lesson Selector -->
                     <div class="controls-row">
                         <div class="select-group">
-                            <label class="select-label" for="catSelector">📚 பயிற்சி வகை (Category):</label>
+                            <label class="select-label" for="catSelector">📚 Category:</label>
                             <select id="catSelector" class="custom-select" onchange="onCategoryChange()">
-                                <option value="all">முழு மேற்கத்திய பாடத் தொகுப்பு (All 82 Lessons)</option>
-                                <option value="hanon" selected>1. 🖐️ ஹெனான் &amp; விரல் பயிற்சிகள் (Hanon &amp; Czerny - 12)</option>
-                                <option value="major_scales">2. 🎼 மேஜர் ஸ்கேல்கள் (Major Scales &amp; Pentatonics - 16)</option>
-                                <option value="minor_scales">3. 🎵 மைனர் ஸ்கேல்கள் (Minor, Pentatonic &amp; Blues - 12)</option>
-                                <option value="chords">4. 🎹 கார்ட்கள் &amp; ஆர்பெஜியோ பயிற்சிகள் (Chords &amp; Arpeggios - 12)</option>
-                                <option value="progressions">5. 🎶 பிரபல கார்ட் தொடர்கள் (Progressions - 12)</option>
-                                <option value="melodies">6. 👑 பிரபல பாடல்கள் &amp; மெலடிகள் (Classics &amp; World Melodies - 18)</option>
+                                <option value="all">All Lessons (82 Master Lessons)</option>
+                                <option value="hanon" selected>1. 🖐️ Hanon &amp; Finger Drills (Hanon &amp; Czerny - 12)</option>
+                                <option value="major_scales">2. 🎼 Major Scales &amp; Pentatonics (16)</option>
+                                <option value="minor_scales">3. 🎵 Minor, Pentatonic &amp; Blues Scales (12)</option>
+                                <option value="chords">4. 🎹 Chords, Inversions &amp; Arpeggios (12)</option>
+                                <option value="progressions">5. 🎶 Famous Chord Progressions (12)</option>
+                                <option value="melodies">6. 👑 Classical Masterpieces &amp; Melodies (18)</option>
                             </select>
                         </div>
 
                         <div class="select-group" style="flex: 1.4;">
-                            <label class="select-label" for="lessonSelector">🎼 பாடம் (Lesson):</label>
+                            <label class="select-label" for="lessonSelector">🎼 Lesson:</label>
                             <select id="lessonSelector" class="custom-select" onchange="onLessonChange()">
                                 <!-- Populated dynamically by JS -->
                             </select>
@@ -1355,18 +1528,18 @@ def build_html():
                     <!-- Row 2: Hand Coordination, Key Transposition, Octave & Voice -->
                     <div class="controls-row">
                         <div class="select-group" style="min-width: 140px;">
-                            <label class="select-label" for="handSelector">🖐️ கை தேர்வு (Hand):</label>
+                            <label class="select-label" for="handSelector">🖐️ Hand Selection:</label>
                             <select id="handSelector" class="custom-select" onchange="onHandChange()">
-                                <option value="both" selected>👐 Both Hands (இரு கைகள்)</option>
-                                <option value="rh">🖐️ Right Hand (வலது கை 𝄞)</option>
-                                <option value="lh">🖐️ Left Hand (இடது கை 𝄢)</option>
+                                <option value="both" selected>👐 Both Hands</option>
+                                <option value="rh">🖐️ Right Hand (RH 𝄞)</option>
+                                <option value="lh">🖐️ Left Hand (LH 𝄢)</option>
                             </select>
                         </div>
 
                         <div class="select-group" style="min-width: 130px;">
-                            <label class="select-label" for="keySelector">🔑 கீ / சுருதி (Key Transpose):</label>
+                            <label class="select-label" for="keySelector">🔑 Key Transpose:</label>
                             <select id="keySelector" class="custom-select" onchange="onKeyTransposeChange()">
-                                <option value="0" selected>C Major (இயல்பு • 0)</option>
+                                <option value="0" selected>C Major (Default • 0)</option>
                                 <option value="1">C# / Db (+1)</option>
                                 <option value="2">D Major (+2)</option>
                                 <option value="3">Eb Major (+3)</option>
@@ -1382,22 +1555,22 @@ def build_html():
                         </div>
 
                         <div class="select-group" style="min-width: 120px;">
-                            <label class="select-label" for="octaveSelector">🎹 ஆக்டேவ் ஷிப்ட் (Octave):</label>
+                            <label class="select-label" for="octaveSelector">🎹 Octave Shift:</label>
                             <select id="octaveSelector" class="custom-select" onchange="onOctaveShiftChange()">
-                                <option value="-1">கீழ் ஆக்டேவ் (C3)</option>
-                                <option value="0" selected>இயல்பு (Middle C4)</option>
-                                <option value="1">மேல் ஆக்டேவ் (C5)</option>
+                                <option value="-1">Lower Octave (C3)</option>
+                                <option value="0" selected>Standard (Middle C4)</option>
+                                <option value="1">Upper Octave (C5)</option>
                             </select>
                         </div>
 
                         <div class="select-group" style="min-width: 140px;">
-                            <label class="select-label" for="voiceSelector">🎻 பியானோ ஒலி (Voice):</label>
+                            <label class="select-label" for="voiceSelector">🎻 Sound Voice:</label>
                             <select id="voiceSelector" class="custom-select" onchange="onVoiceChange()">
-                                <option value="grand_piano" selected>🎹 Grand Piano (ஸ்டீன்வே பியானோ)</option>
+                                <option value="grand_piano" selected>🎹 Concert Grand Piano</option>
                                 <option value="electric_piano">⚡ Electric Piano (Rhodes / DX7)</option>
-                                <option value="pipe_organ">⛪ Pipe Organ (சர்ச் ஆர்கன்)</option>
-                                <option value="synth_strings">🎻 Synth Strings (ஸ்ட்ரிங்ஸ் பேட்)</option>
-                                <option value="harpsichord">🎼 Harpsichord (ஹார்ப்சிகார்ட்)</option>
+                                <option value="pipe_organ">⛪ Pipe Organ</option>
+                                <option value="synth_strings">🎻 Synth Strings Pad</option>
+                                <option value="harpsichord">🎼 Classical Harpsichord</option>
                             </select>
                         </div>
                     </div>
@@ -1407,17 +1580,17 @@ def build_html():
                         <div style="display: flex; align-items: center; gap: 8px;">
                             <button id="btnPlayPause" class="btn-ctrl btn-primary" onclick="togglePlayPause()">
                                 <span id="playIcon">▶️</span>
-                                <span id="playLabel">வாசி (Play)</span>
+                                <span id="playLabel">Play</span>
                             </button>
-                            <button class="btn-ctrl" onclick="stopPlayback()" title="நிறுத்து &amp; தொடக்கத்திற்கு செல்">⏹️ Stop</button>
-                            <button id="btnLoop" class="btn-ctrl" onclick="toggleLoop()" title="மீண்டும் மீண்டும் வாசி (Loop)">🔁 Loop</button>
-                            <button class="btn-ctrl" onclick="stepBackward()" title="முந்தைய நோட்">⏮️</button>
-                            <button class="btn-ctrl" onclick="stepForward()" title="அடுத்த நோட்">⏭️</button>
+                            <button class="btn-ctrl" onclick="stopPlayback()" title="Stop &amp; Reset to Start">⏹️ Stop</button>
+                            <button id="btnLoop" class="btn-ctrl" onclick="toggleLoop()" title="Loop Lesson">🔁 Loop</button>
+                            <button class="btn-ctrl" onclick="stepBackward()" title="Previous Note">⏮️</button>
+                            <button class="btn-ctrl" onclick="stepForward()" title="Next Note">⏭️</button>
                         </div>
 
                         <!-- Subdivisions (Note Speed 1x, 2x, 4x) -->
                         <div style="display: flex; align-items: center; gap: 6px;">
-                            <span style="font-size: 0.72rem; color: var(--text-muted);">நோட் வேகம்:</span>
+                            <span style="font-size: 0.72rem; color: var(--text-muted);">Speed:</span>
                             <div class="header-tabs" style="padding: 2px;">
                                 <button id="btnSpeed1" class="nav-tab-btn active" style="padding: 4px 8px; font-size: 0.75rem;" onclick="setNoteSubdivision(1)">♩ 1x</button>
                                 <button id="btnSpeed2" class="nav-tab-btn" style="padding: 4px 8px; font-size: 0.75rem;" onclick="setNoteSubdivision(2)">♪ 2x</button>
@@ -1427,7 +1600,7 @@ def build_html():
 
                         <!-- Tempo Control -->
                         <div class="tempo-box">
-                            <span style="font-size: 0.75rem; color: var(--text-muted);">டெம்போ:</span>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">Tempo:</span>
                             <button class="btn-mini" onclick="adjustTempo(-5)">-</button>
                             <input id="tempoSlider" type="range" class="tempo-slider" min="40" max="240" value="80" oninput="onTempoSliderChange(this.value)">
                             <button class="btn-mini" onclick="adjustTempo(5)">+</button>
@@ -1435,6 +1608,7 @@ def build_html():
                             <span id="tempoMarking" class="badge" style="background: rgba(212, 175, 55, 0.2); color: var(--gold-bright); border: 1px solid var(--border-glow); padding: 2px 7px; border-radius: 4px; font-size: 0.72rem; font-weight: 600;">Andante</span>
                         </div>
                     </div>
+                </div>
                 </div>
 
                 <!-- Western Rhythm & Conductor Visualizer Box -->
@@ -1457,8 +1631,8 @@ def build_html():
                     <div class="tala-gesture-display">
                         <div id="gestureIcon" class="gesture-icon">⬇️</div>
                         <div class="gesture-info">
-                            <h4 id="gestureText">பீட் 1: டவுன்பீட் (Downbeat)</h4>
-                            <p id="gestureSub">அளவின் முதல் அடி • வலிமையான ஆரம்பம்</p>
+                            <h4 id="gestureText">Beat 1: Downbeat</h4>
+                            <p id="gestureSub">First beat of the measure • Strong accent</p>
                         </div>
                     </div>
 
@@ -1472,84 +1646,94 @@ def build_html():
             <!-- Active Step Info Strip -->
             <div class="step-info-strip">
                 <div class="step-metric-box">
-                    <span class="metric-label">🎹 தற்போதைய நோட்:</span>
+                    <span class="metric-label">🎹 Current Note:</span>
                     <span id="curNoteDisplay" class="metric-val highlight">C4</span>
                 </div>
                 <div class="step-metric-box">
-                    <span class="metric-label">🗣️ சோல்ஃபேஜ் (Solfege):</span>
-                    <span id="curSolfegeDisplay" class="metric-val">Do</span>
+                    <span class="metric-label">🎼 Scale Degree:</span>
+                    <span id="curSolfegeDisplay" class="metric-val">1 (Tonic)</span>
                 </div>
                 <div class="step-metric-box">
-                    <span class="metric-label">🎼 க்ளெஃப் &amp; கை (Clef):</span>
+                    <span class="metric-label">🎼 Clef &amp; Hand:</span>
                     <span id="curClefDisplay" class="metric-val">𝄞 RH (Right Hand)</span>
                 </div>
                 <div class="step-metric-box">
-                    <span class="metric-label">🖐️ விரல் எண் (Finger):</span>
-                    <span id="curFingerDisplay" class="metric-val highlight">விரல் 1 (Thumb)</span>
+                    <span class="metric-label">🖐️ Fingering:</span>
+                    <span id="curFingerDisplay" class="metric-val highlight">Finger 1 (Thumb)</span>
                 </div>
                 <div class="step-metric-box">
-                    <span class="metric-label">🔊 அதிர்வெண் (Frequency):</span>
+                    <span class="metric-label">🔊 Frequency:</span>
                     <span id="curFrequencyDisplay" class="metric-val">261.6 Hz</span>
                 </div>
                 <div class="step-metric-box">
-                    <span class="metric-label">🎵 கார்ட் சூழல் (Chord):</span>
+                    <span class="metric-label">🎵 Chord Context:</span>
                     <span id="curChordContextDisplay" class="metric-val">C Major Triad (I)</span>
                 </div>
             </div>
 
-            <div id="notationAnchor"></div>
-            <!-- Notation Ribbon Card -->
-            <div class="notation-ribbon-card">
-                <div class="ribbon-header">
-                    <div id="ribbonLessonTitle" class="ribbon-title">
-                        <span>1. C மேஜர் ஸ்கேல் (C Major Scale)</span>
-                        <span id="ribbonStepBadge" class="ribbon-badge">நோட் 1 / 16</span>
-                    </div>
-                    <div style="display: flex; gap: 8px;">
-                        <button class="btn-ctrl" onclick="centerMiddleC(true)" style="padding: 4px 10px; font-size: 0.75rem;">👑 Center Middle C</button>
-                        <button class="btn-ctrl" id="btnOpenNotationLightbox" onclick="openNotationLightbox()" style="padding: 4px 10px; font-size: 0.75rem;" title="நோட்டேஷனை முழுத்திரையில் திறக்க">⛶ நோட்டேஷன் லைட்பாக்ஸ்</button>
-                    </div>
-                </div>
-
-                <!-- Live Interactive Grand Staff Visualizer -->
-                <div id="grandStaffContainer" class="grand-staff-box" style="margin-bottom: 12px; background: rgba(10, 14, 28, 0.75); border: 1px solid var(--border-glow); border-radius: 8px; padding: 8px 14px; display: flex; align-items: center; justify-content: space-between; gap: 14px; overflow-x: auto;">
-                    <div style="flex-shrink: 0; min-width: 140px;">
-                        <div style="font-size: 0.8rem; font-weight: 700; color: var(--gold-bright); display: flex; align-items: center; gap: 6px;">
-                            <span>🎼 நேரடி கிராண்ட் ஸ்டாஃப்</span>
-                            <span style="font-size: 0.65rem; background: rgba(99, 102, 241, 0.25); color: #818cf8; padding: 1px 5px; border-radius: 3px;">Live Sheet</span>
+            <div id="notationSlot">
+                <!-- Notation Ribbon Card -->
+                <div class="notation-ribbon-card">
+                    <div class="ribbon-header">
+                        <div id="ribbonLessonTitle" class="ribbon-title">
+                            <span>1. Hanon Exercise No. 1 (Finger Independence &amp; Agility)</span>
+                            <span id="ribbonStepBadge" class="ribbon-badge">Note 1 / 16</span>
                         </div>
-                        <div id="staffPitchLabel" style="font-size: 0.72rem; color: var(--cyan-accent); font-weight: 600; margin-top: 2px;">Treble 𝄞 • C4 (Do)</div>
-                        <div id="staffDetailLabel" style="font-size: 0.68rem; color: var(--text-muted);">Middle C • Ledger Line</div>
+                        <div style="display: flex; gap: 8px;">
+                            <button class="btn-ctrl" onclick="centerMiddleC(true)" style="padding: 4px 10px; font-size: 0.75rem;">👑 Center Middle C</button>
+                            <button class="btn-ctrl" id="btnOpenNotationLightbox" onclick="openNotationLightbox()" style="padding: 4px 10px; font-size: 0.75rem;" title="Open Notation Fullscreen">⛶ Fullscreen Lightbox</button>
+                        </div>
                     </div>
-                    <div style="flex: 1; display: flex; justify-content: center; min-width: 320px;">
-                        <svg id="liveStaffSvg" viewBox="0 0 340 120" style="width: 100%; max-width: 340px; height: 95px;"></svg>
-                    </div>
-                    <div style="flex-shrink: 0; text-align: right; min-width: 110px;">
-                        <div id="staffHandLabel" style="font-size: 0.75rem; font-weight: 700; color: #10b981;">வலது கை (RH 𝄞)</div>
-                        <div id="staffClefDetail" style="font-size: 0.68rem; color: var(--text-muted);">Treble Clef (G-Clef)</div>
-                    </div>
-                </div>
 
-                <!-- Scrollable Measures Ribbon -->
-                <div id="timelineRibbon" class="swara-ribbon-scroll">
-                    <!-- Populated dynamically by JS -->
+                    <!-- Live Interactive Grand Staff Visualizer -->
+                    <div id="grandStaffContainer" class="grand-staff-box">
+                        <div class="grand-staff-header">
+                            <div class="grand-staff-title-group">
+                                <span class="grand-staff-title">🎼 Interactive Grand Staff</span>
+                                <span class="grand-staff-badge-live">● LIVE SHEET</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                                <div id="staffPitchLabel" class="staff-pitch-pill">Treble 𝄞 • C4</div>
+                                <div id="staffHandLabel" style="font-size: 0.78rem; font-weight: 700; color: #10b981; padding: 4px 10px; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px;">Right Hand (RH 𝄞)</div>
+                                <button class="btn-ctrl" id="btnToggleNoteLabel" onclick="toggleStaffNoteLabel()" style="padding: 4px 10px; font-size: 0.75rem;" title="Toggle Note Name (e.g. C4) on Staff Canvas • Shortcut: N">🏷️ Note: ON</button>
+                                <button class="btn-ctrl" id="btnToggleStaffZoom" onclick="toggleStaffZoom()" style="padding: 4px 10px; font-size: 0.75rem;" title="Toggle Staff Zoom Size">🔍 Zoom Staff</button>
+                            </div>
+                        </div>
+
+                        <div class="grand-staff-body">
+                            <div class="grand-staff-svg-wrap">
+                                <svg id="liveStaffSvg" viewBox="0 0 540 236"></svg>
+                            </div>
+                        </div>
+
+                        <div class="grand-staff-footer">
+                            <div id="staffDetailLabel" class="staff-detail-pill">📍 Middle C • Center Ledger Line</div>
+                            <div id="staffClefDetail" class="staff-detail-pill">𝄞 Treble Clef (G-Clef) • 5 Lines &amp; 4 Spaces</div>
+                        </div>
+                    </div>
+
+                    <!-- Scrollable Measures Ribbon -->
+                    <div id="timelineRibbon" class="swara-ribbon-scroll">
+                        <!-- Populated dynamically by JS -->
+                    </div>
                 </div>
             </div>
 
-            <div id="pianoAnchor"></div>
             <!-- Piano Bed Dock Header -->
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
-                <span style="font-size: 0.85rem; font-weight: 700; color: var(--gold-bright);">🎹 61-விசை பியானோ பலகை (Virtual Synthesizer)</span>
+                <span style="font-size: 0.85rem; font-weight: 700; color: var(--gold-bright);">🎹 61-Key Virtual Synthesizer Keyboard</span>
                 <div style="display: flex; gap: 8px;">
-                    <button class="btn-ctrl" onclick="toggleKeyboardZoom()" style="padding: 4px 10px; font-size: 0.75rem;">🔍 ஜூம் (Zoom Keys)</button>
-                    <button class="btn-ctrl" id="btnOpenKeyboardLightbox" onclick="openKeyboardLightbox()" style="padding: 4px 10px; font-size: 0.75rem;" title="விசைப்பலகையை முழுத்திரையில் திறக்க">⛶ விசைப்பலகை லைட்பாக்ஸ்</button>
+                    <button class="btn-ctrl" onclick="toggleKeyboardZoom()" style="padding: 4px 10px; font-size: 0.75rem;">🔍 Zoom Keys</button>
+                    <button class="btn-ctrl" id="btnOpenKeyboardLightbox" onclick="openKeyboardLightbox()" style="padding: 4px 10px; font-size: 0.75rem;" title="Open Keyboard Fullscreen">⛶ Keyboard Lightbox</button>
                 </div>
             </div>
 
-            <!-- 61-Key Virtual Piano Bed -->
-            <div class="piano-wrapper">
-                <div id="pianoBed" class="piano-bed">
-                    <!-- 61 Keys generated dynamically by JS -->
+            <div id="pianoSlot">
+                <!-- 61-Key Virtual Piano Bed -->
+                <div class="piano-wrapper">
+                    <div id="pianoBed" class="piano-bed">
+                        <!-- 61 Keys generated dynamically by JS -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -1558,34 +1742,34 @@ def build_html():
         <div id="viewVoiceTraining" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎙️ பார்வை பாடுதல் &amp; சோல்ஃபேஜ் அரங்கம் (Sight-Singing &amp; Solfege Studio)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Do-Re-Mi-Fa-Sol-La-Ti குரல் இனிமைப் பயிற்சிகள் • மைக் சுருதிமானி வழிகாட்டுதலுடன் சுருதி தவறாமல் பாடும் எளிய முறை</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎙️ Sight-Singing &amp; Solfege Studio</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Do-Re-Mi-Fa-Sol-La-Ti Vocal Culture Exercises • Sing in tune with live mic pitch detection</p>
                 </div>
 
                 <!-- 5 Core Exercises Grid -->
                 <div class="theory-grid">
                     <div class="theory-card" style="border-left: 4px solid var(--gold-bright);">
-                        <h3>🍯 1. தேன் போன்ற குரலுக்கு: 5-நோட் வோக்கலைசர்</h3>
-                        <p>Do - Re - Mi - Fa - Sol - Fa - Mi - Re - Do (C-D-E-F-G-F-E-D-C) வரிசையை பியானோவுடன் சேர்த்துப் பாடி குரலை சூடேற்றும் அடிப்படை பயிற்சி.</p>
-                        <button class="btn-ctrl" onclick="playVoiceVocalizerScale(this)">▶️ பியானோவுடன் பாடு (Play Scale)</button>
+                        <h3>🍯 1. 5-Note Vocal Warm-Up</h3>
+                        <p>Do - Re - Mi - Fa - Sol - Fa - Mi - Re - Do (C-D-E-F-G-F-E-D-C) sequence with piano accompaniment to warm up and center vocal pitch.</p>
+                        <button class="btn-ctrl" onclick="playVoiceVocalizerScale(this)">▶️ Play Scale with Piano</button>
                     </div>
 
                     <div class="theory-card" style="border-left: 4px solid var(--cyan-accent);">
-                        <h3>🎼 2. மேஜர் ட்ரையாட் ஆர்பெஜியோ வோக்கல்</h3>
-                        <p>Do - Mi - Sol - Do' - Sol - Mi - Do (C - E - G - C5 - G - E - C). குரலின் இடைவெளித் துல்லியத்தையும் (Pitch Accuracy) ஸ்தாயி மாற்றத்தையும் உயர்த்தும் பயிற்சி.</p>
-                        <button class="btn-ctrl" onclick="playVoiceArpeggioScale(this)">▶️ ஆர்பெஜியோவுடன் பாடு</button>
+                        <h3>🎼 2. Major Triad Arpeggio Vocal</h3>
+                        <p>Do - Mi - Sol - Do' - Sol - Mi - Do (C - E - G - C5 - G - E - C). Develop pitch accuracy and agility across interval leaps.</p>
+                        <button class="btn-ctrl" onclick="playVoiceArpeggioScale(this)">▶️ Play Arpeggio</button>
                     </div>
 
                     <div class="theory-card" style="border-left: 4px solid var(--indigo-accent);">
-                        <h3>🌊 3. ஆக்டேவ் சைரன் &amp; லிப் ட்ரில் (Lip Trill)</h3>
-                        <p>உதடுகளை அதிர்வடையச் செய்து (Brrrr) கீழ் ஆக்டேவிலிருந்து மேல் ஆக்டேவ் வரை சைரன் போல் வளைத்துப் பாடும் தொண்டை தளர்வுப் பயிற்சி.</p>
-                        <button class="btn-ctrl" onclick="playVoiceSirenGlide(this)">▶️ சைரன் வழிகாட்டி ஒலி</button>
+                        <h3>🌊 3. Octave Siren &amp; Lip Trill</h3>
+                        <p>Vibrate lips (Brrrr) and glide like a siren from lower octave to upper octave to release vocal tension.</p>
+                        <button class="btn-ctrl" onclick="playVoiceSirenGlide(this)">▶️ Play Siren Guide Tone</button>
                     </div>
 
                     <div class="theory-card" style="border-left: 4px solid var(--emerald-accent);">
-                        <h3>🗣️ 4. மேற்கத்திய 5 உயிர் எழுத்துப் பயிற்சி (Vowels)</h3>
-                        <p>ஒரே சுருதியில் Ee (ஈ) -> Ay (ஏ) -> Ah (ஆ) -> Oh (ஓ) -> Oo (ஊ) என உதட்டு வடிவங்களை மாற்றி உச்சரிக்கும் மேற்கத்திய ஓபரா குரல் நுட்பம்.</p>
-                        <button class="btn-ctrl" onclick="play5VowelsExercise(this)">▶️ வோவல் ட்யூனுடன் பாடு</button>
+                        <h3>🗣️ 4. 5 Pure Vowels Exercise</h3>
+                        <p>Sustain a steady pitch through Ee -&gt; Ay -&gt; Ah -&gt; Oh -&gt; Oo to develop resonance and mouth posture.</p>
+                        <button class="btn-ctrl" onclick="play5VowelsExercise(this)">▶️ Sing Along with Vowel Tone</button>
                     </div>
                 </div>
             </div>
@@ -1595,35 +1779,35 @@ def build_html():
         <div id="viewSthayiTheory" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">📖 மேற்கத்திய ஆக்டேவ்கள் &amp; கிராண்ட் ஸ்டாஃப் தத்துவம் (Octaves &amp; Grand Staff)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Treble Clef (𝄞 RH), Bass Clef (𝄢 LH), Middle C (C4) மற்றும் 7 ஆக்டேவ்களின் முழுமையான வழிகாட்டி</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">📖 Western Octaves &amp; Grand Staff Theory</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Treble Clef (𝄞 Right Hand), Bass Clef (𝄢 Left Hand), Middle C (C4), and 7 Octaves Guide</p>
                 </div>
 
                 <div class="theory-grid">
                     <div class="theory-card">
-                        <h3>𝄞 ட்ரெபிள் க்ளெஃப் (Treble Clef / G-Clef)</h3>
-                        <p>• பொதுவாக பியானோவின் வலது கை (Right Hand) வாசிக்கும் உயர் சுருதி நோட்டுகள்.<br>
-                        • <strong>கோடுகள் (Lines):</strong> Every Good Boy Does Fine (E4 - G4 - B4 - D5 - F5)<br>
-                        • <strong>இடைவெளிகள் (Spaces):</strong> F - A - C - E (F4 - A4 - C5 - E5)</p>
+                        <h3>𝄞 Treble Clef (G-Clef)</h3>
+                        <p>• Typically played by the Right Hand (RH) for higher pitch melodies.<br>
+                        • <strong>Lines:</strong> Every Good Boy Does Fine (E4 - G4 - B4 - D5 - F5)<br>
+                        • <strong>Spaces:</strong> F - A - C - E (F4 - A4 - C5 - E5)</p>
                     </div>
 
                     <div class="theory-card">
-                        <h3>𝄢 பேஸ் க்ளெஃப் (Bass Clef / F-Clef)</h3>
-                        <p>• பொதுவாக பியானோவின் இடது கை (Left Hand) வாசிக்கும் ஆழமான பாஸ் நோட்டுகள்.<br>
-                        • <strong>கோடுகள் (Lines):</strong> Good Boys Do Fine Always (G2 - B2 - D3 - F3 - A3)<br>
-                        • <strong>இடைவெளிகள் (Spaces):</strong> All Cows Eat Grass (A2 - C3 - E3 - G3)</p>
+                        <h3>𝄢 Bass Clef (F-Clef)</h3>
+                        <p>• Typically played by the Left Hand (LH) for bass lines, harmony, and chords.<br>
+                        • <strong>Lines:</strong> Good Boys Do Fine Always (G2 - B2 - D3 - F3 - A3)<br>
+                        • <strong>Spaces:</strong> All Cows Eat Grass (A2 - C3 - E3 - G3)</p>
                     </div>
 
                     <div class="theory-card">
-                        <h3>👑 மிடில் சி (Middle C • C4 = 261.63 Hz)</h3>
-                        <p>• பியானோ விசைப்பலகையின் மிக முக்கியமான மையப்புள்ளி!<br>
-                        • ட்ரெபிள் க்ளெஃப் மற்றும் பேஸ் க்ளெஃப் இரண்டிற்கும் நடுவே லெட்ஜர் லைனில் (Ledger Line) அமர்ந்து இரு உலகங்களையும் இணைக்கிறது.</p>
+                        <h3>👑 Middle C (C4 = 261.63 Hz)</h3>
+                        <p>• The essential center anchor of the piano keyboard!<br>
+                        • Positioned on the center ledger line directly between Treble and Bass Clefs.</p>
                     </div>
                 </div>
 
                 <!-- 7 Octaves Audio Audition Table -->
                 <div style="margin-top: 24px;">
-                    <h3 style="color: var(--cyan-accent); font-size: 1.1rem; margin-bottom: 12px;">🎹 மேற்கத்திய 7 ஆக்டேவ்கள் &amp; ஒலி கேட்கும் வசதி (Audition C1 to C7)</h3>
+                    <h3 style="color: var(--cyan-accent); font-size: 1.1rem; margin-bottom: 12px;">🎹 7 Western Octaves &amp; Audition System (C1 to C7)</h3>
                     <div id="octavesContainer" class="theory-grid">
                         <!-- Populated dynamically by JS -->
                     </div>
@@ -1635,13 +1819,13 @@ def build_html():
         <div id="viewMelakarta" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🌀 மேற்கத்திய ஸ்கேல்கள் &amp; 7 மோடுகள் (Scales &amp; Church Modes)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">சர்க்கிள் ஆஃப் பிஃப்த்ஸ் (Circle of Fifths), 7 நடுக்கால சர்ச் மோடுகள், மேஜர், மைனர், பெண்டாடோனிக் &amp; ப்ளூஸ் ஸ்கேல்கள்</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🌀 Western Scales &amp; 7 Church Modes</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Circle of Fifths, Medieval Church Modes, Major, Minor, Pentatonic &amp; Blues Scales</p>
                 </div>
 
                 <!-- Circle of Fifths Table -->
                 <div style="overflow-x: auto; margin-bottom: 24px;">
-                    <h3 style="color: var(--gold-bright); margin-bottom: 10px;">⭕ சர்க்கிள் ஆஃப் பிஃப்த்ஸ் அட்டவணை (12 Major &amp; Relative Minor Keys)</h3>
+                    <h3 style="color: var(--gold-bright); margin-bottom: 10px;">⭕ Circle of Fifths Reference (12 Major &amp; Relative Minor Keys)</h3>
                     <table class="circle-table">
                         <thead>
                             <tr>
@@ -1650,7 +1834,7 @@ def build_html():
                                 <th>Sharps / Flats</th>
                                 <th>Relative Minor</th>
                                 <th>Scale Notes</th>
-                                <th>வாசித்துக் கேட்க</th>
+                                <th>Audition</th>
                             </tr>
                         </thead>
                         <tbody id="circleTableBody">
@@ -1660,7 +1844,7 @@ def build_html():
                 </div>
 
                 <!-- 7 Church Modes Grid -->
-                <h3 style="color: var(--cyan-accent); margin-bottom: 12px;">⛪ 7 மேற்கத்திய சர்ச் மோடுகள் &amp; பெண்டாடோனிக் ஸ்கேல்கள்</h3>
+                <h3 style="color: var(--cyan-accent); margin-bottom: 12px;">⛪ 7 Western Church Modes &amp; Scales</h3>
                 <div id="modesContainer" class="theory-grid">
                     <!-- Populated dynamically by JS -->
                 </div>
@@ -1671,39 +1855,39 @@ def build_html():
         <div id="viewJanyaRagas" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎼 கார்ட் அகராதி &amp; இன்வெர்ஷன்கள் (Western Chord Dictionary &amp; Builder)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Major, Minor, Diminished, Augmented, Sus, 7th கார்டுகள் • இன்வெர்ஷன்கள் (Root, 1st, 2nd) மற்றும் நேரடி வாசிப்பு</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎼 Chord Dictionary &amp; Inversion Builder</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Major, Minor, Diminished, Augmented, Sus, 7th Chords • Root, 1st &amp; 2nd Inversions with Live Audio</p>
                 </div>
 
                 <!-- Interactive Chord Builder Controls -->
                 <div style="background: rgba(10, 14, 28, 0.7); border: 1px solid var(--border-glow); border-radius: 14px; padding: 18px; margin-bottom: 20px;">
                     <div class="controls-row">
                         <div class="select-group">
-                            <label class="select-label" for="chordRootSelect">1. ரூட் நோட் (Root Note):</label>
+                            <label class="select-label" for="chordRootSelect">1. Root Note:</label>
                             <select id="chordRootSelect" class="custom-select" onchange="updateChordBuilder()">
                                 <!-- Populated dynamically by JS -->
                             </select>
                         </div>
 
                         <div class="select-group">
-                            <label class="select-label" for="chordTypeSelect">2. கார்ட் வகை (Chord Type):</label>
+                            <label class="select-label" for="chordTypeSelect">2. Chord Type:</label>
                             <select id="chordTypeSelect" class="custom-select" onchange="updateChordBuilder()">
                                 <!-- Populated dynamically by JS -->
                             </select>
                         </div>
 
                         <div class="select-group">
-                            <label class="select-label" for="chordInvSelect">3. இன்வெர்ஷன் (Inversion):</label>
+                            <label class="select-label" for="chordInvSelect">3. Inversion:</label>
                             <select id="chordInvSelect" class="custom-select" onchange="updateChordBuilder()">
-                                <option value="0" selected>Root Position (அடிப்படை நிலை)</option>
-                                <option value="1">1st Inversion (முதல் மாற்றம்)</option>
-                                <option value="2">2nd Inversion (இரண்டாம் மாற்றம்)</option>
+                                <option value="0" selected>Root Position</option>
+                                <option value="1">1st Inversion</option>
+                                <option value="2">2nd Inversion</option>
                             </select>
                         </div>
 
                         <div style="display: flex; gap: 8px; align-items: flex-end;">
-                            <button class="btn-ctrl btn-primary" onclick="playCurrentBuiltChord(false)">🎹 கார்ட் வாசி (Harmonic)</button>
-                            <button class="btn-ctrl" onclick="playCurrentBuiltChord(true)">🎼 ஆர்பெஜியோ (Arpeggio)</button>
+                            <button class="btn-ctrl btn-primary" onclick="playCurrentBuiltChord(false)">🎹 Play Chord (Harmonic)</button>
+                            <button class="btn-ctrl" onclick="playCurrentBuiltChord(true)">🎼 Play Arpeggio</button>
                         </div>
                     </div>
 
@@ -1718,30 +1902,30 @@ def build_html():
                 </div>
 
                 <!-- Chord Progressions Showcase -->
-                <h3 style="color: var(--cyan-accent); margin-bottom: 12px;">🎶 உலகப் புகழ்பெற்ற 5 கார்ட் தொடர்கள் (Famous Chord Progressions)</h3>
+                <h3 style="color: var(--cyan-accent); margin-bottom: 12px;">🎶 4 Famous Chord Progressions</h3>
                 <div class="theory-grid">
                     <div class="theory-card">
-                        <h3>1. கிளாசிக் I - IV - V - I (C - F - G - C)</h3>
-                        <p>ராக், கிளாசிக்கல் மற்றும் நாட்டுப்புற இசையின் ஆணிவேர்.</p>
-                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4', 'F4,A4,C5', 'G4,B4,D5', 'C4,E4,G4'], this)">▶️ வாசித்துக் கேட்க</button>
+                        <h3>1. Classic I - IV - V - I (C - F - G - C)</h3>
+                        <p>The foundation of rock, classical, and folk harmonies.</p>
+                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4', 'F4,A4,C5', 'G4,B4,D5', 'C4,E4,G4'], this)">▶️ Listen to Progression</button>
                     </div>
 
                     <div class="theory-card">
-                        <h3>2. பாப் 4-கார்ட் ஆந்தம் (C - G - Am - F)</h3>
-                        <p>லட்சக்கணக்கான உலக பாப் ஹிட் பாடல்களின் மந்திரத் தொடர்.</p>
-                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4', 'G4,B4,D5', 'A4,C5,E5', 'F4,A4,C5'], this)">▶️ வாசித்துக் கேட்க</button>
+                        <h3>2. Pop 4-Chord Anthem (C - G - Am - F)</h3>
+                        <p>The legendary progression behind thousands of global pop hits.</p>
+                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4', 'G4,B4,D5', 'A4,C5,E5', 'F4,A4,C5'], this)">▶️ Listen to Progression</button>
                     </div>
 
                     <div class="theory-card">
-                        <h3>3. ஜாஸ் ii - V - I (Dm7 - G7 - Cmaj7)</h3>
-                        <p>ஜாஸ் மற்றும் போசா நோவா இசையின் அடிப்படை அடித்தளம்.</p>
-                        <button class="btn-ctrl" onclick="playProgressionDemo(['D4,F4,A4,C5', 'G4,B4,D5,F5', 'C4,E4,G4,B4'], this)">▶️ வாசித்துக் கேட்க</button>
+                        <h3>3. Jazz ii - V - I (Dm7 - G7 - Cmaj7)</h3>
+                        <p>The quintessential cadence of jazz and bossa nova standards.</p>
+                        <button class="btn-ctrl" onclick="playProgressionDemo(['D4,F4,A4,C5', 'G4,B4,D5,F5', 'C4,E4,G4,B4'], this)">▶️ Listen to Progression</button>
                     </div>
 
                     <div class="theory-card">
-                        <h3>4. 12-பார் ப்ளூஸ் (C7 - F7 - G7)</h3>
-                        <p>ப்ளூஸ் மற்றும் ராக் அண்ட் ரோலின் பிறப்பிடம்.</p>
-                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4,Bb4', 'F4,A4,C5,Eb5', 'G4,B4,D5,F5', 'C4,E4,G4,Bb4'], this)">▶️ வாசித்துக் கேட்க</button>
+                        <h3>4. 12-Bar Blues (C7 - F7 - G7)</h3>
+                        <p>The birthplace of blues, rock &amp; roll, and modern shuffle grooves.</p>
+                        <button class="btn-ctrl" onclick="playProgressionDemo(['C4,E4,G4,Bb4', 'F4,A4,C5,Eb5', 'G4,B4,D5,F5', 'C4,E4,G4,Bb4'], this)">▶️ Listen to Progression</button>
                     </div>
                 </div>
             </div>
@@ -1752,27 +1936,27 @@ def build_html():
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
                     <div>
-                        <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎮 மேற்கத்திய செவிப் பயிற்சி &amp; வினாடி-வினா (Western Ear Training)</h2>
-                        <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">ஒலிகளைக் கேட்டு நோட்டுகள், இடைவெளிகள், கார்டுகள் மற்றும் ஸ்கேல்களைக் கண்டறியும் பயிற்சி விளையாட்டு</p>
+                        <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎮 Interactive Ear Training Studio</h2>
+                        <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Train your ear by identifying Notes, Intervals, Chords, and Scales by sound</p>
                     </div>
                     <div style="display: flex; gap: 12px; align-items: center;">
-                        <span class="badge-pill" style="font-size: 0.9rem; padding: 6px 12px;">மதிப்பெண்: <strong id="quizScore" style="color:#fbbf24;">0</strong></span>
-                        <span class="badge-pill" style="font-size: 0.9rem; padding: 6px 12px;">தொடர் வெற்றி: <strong id="quizStreak" style="color:#34d399;">0 🔥</strong></span>
+                        <span class="badge-pill" style="font-size: 0.9rem; padding: 6px 12px;">Score: <strong id="quizScore" style="color:#fbbf24;">0</strong></span>
+                        <span class="badge-pill" style="font-size: 0.9rem; padding: 6px 12px;">Streak: <strong id="quizStreak" style="color:#34d399;">0 🔥</strong></span>
                     </div>
                 </div>
 
                 <!-- Quiz Mode Selector -->
                 <div class="controls-row" style="margin-bottom: 18px;">
-                    <button id="btnQuizModeNote" class="btn-ctrl active" onclick="setQuizMode('note')">🎵 1. நோட் அறிதல் (Single Note)</button>
-                    <button id="btnQuizModeInterval" class="btn-ctrl" onclick="setQuizMode('interval')">📏 2. இடைவெளி (Interval Training)</button>
-                    <button id="btnQuizModeChord" class="btn-ctrl" onclick="setQuizMode('chord')">🎹 3. மேஜர் vs மைனர் கார்ட்</button>
-                    <button id="btnQuizModeScale" class="btn-ctrl" onclick="setQuizMode('scale')">🎼 4. ஸ்கேல் அறிதல் (Scale Mode)</button>
+                    <button id="btnQuizModeNote" class="btn-ctrl active" onclick="setQuizMode('note')">🎵 1. Single Note</button>
+                    <button id="btnQuizModeInterval" class="btn-ctrl" onclick="setQuizMode('interval')">📏 2. Interval Training</button>
+                    <button id="btnQuizModeChord" class="btn-ctrl" onclick="setQuizMode('chord')">🎹 3. Chord Quality</button>
+                    <button id="btnQuizModeScale" class="btn-ctrl" onclick="setQuizMode('scale')">🎼 4. Scale Type</button>
                 </div>
 
                 <!-- Quiz Interactive Play Box -->
                 <div style="background: rgba(10, 14, 28, 0.8); border: 2px dashed rgba(212, 175, 55, 0.35); border-radius: 16px; padding: 28px; text-align: center; margin-bottom: 20px;">
-                    <div style="font-size: 1.1rem; color: #fff; margin-bottom: 14px;" id="quizPromptText">ரகசிய ஒலியை கவனமாகக் கேட்டு சரியான விடையைத் தேர்ந்தெடுக்கவும்:</div>
-                    <button class="btn-ctrl btn-primary" style="margin: 0 auto; font-size: 1.1rem; padding: 12px 28px;" onclick="playQuizMysterySound()">🔊 ரகசிய ஒலியை மீண்டும் கேள் (Replay Sound)</button>
+                    <div style="font-size: 1.1rem; color: #fff; margin-bottom: 14px;" id="quizPromptText">Listen carefully and select the correct answer:</div>
+                    <button class="btn-ctrl btn-primary" style="margin: 0 auto; font-size: 1.1rem; padding: 12px 28px;" onclick="playQuizMysterySound()">🔊 Replay Mystery Sound</button>
                     <div id="quizFeedback" style="margin-top: 16px; font-weight: 800; font-size: 1.05rem; min-height: 28px;"></div>
                 </div>
 
@@ -1787,20 +1971,20 @@ def build_html():
         <div id="viewSwaras" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎹 12 செமிடோன்கள் &amp; மேற்கத்திய இடைவெளிகள் (12 Semitones &amp; Intervals)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">12-டோன் ஈக்வல் டெம்பராமென்ட் (12-EDO / A4 = 440 Hz) • செமிடோன் கணக்கு, விகிதம் மற்றும் நினைவில் வைக்க உதவும் உலகப் பாடல்கள்</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎹 12 Semitones &amp; Western Intervals</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">12-Tone Equal Temperament (12-EDO / A4 = 440 Hz) • Semitone distances, frequency ratios, and mnemonic songs</p>
                 </div>
 
                 <div style="overflow-x: auto;">
                     <table class="circle-table">
                         <thead>
                             <tr>
-                                <th>செமிடோன் (Semi)</th>
-                                <th>இடைவெளிப் பெயர் (Interval)</th>
-                                <th>தமிழ் விளக்கம்</th>
-                                <th>அதிர்வெண் விகிதம்</th>
-                                <th>நினைவுப் பாடல் (Mnemonic)</th>
-                                <th>ஒலி கேட்க</th>
+                                <th>Semitone (Semi)</th>
+                                <th>Interval Name</th>
+                                <th>Description</th>
+                                <th>Frequency Ratio</th>
+                                <th>Mnemonic Song</th>
+                                <th>Audition</th>
                             </tr>
                         </thead>
                         <tbody id="intervalsTableBody">
@@ -1815,34 +1999,34 @@ def build_html():
         <div id="viewPsrGuide" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎹 மேற்கத்திய விசைப்பலகை &amp; தொழில்முறை வழிகாட்டி (Keyboard &amp; Tech Guide)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">யமஹா, ரோலண்ட், கேசியோ வாங்குதல், சரியான விரல் பொசிஷன், சஸ்டைன் பெடல் நுட்பம் மற்றும் கணினி USB-MIDI இணைப்பு</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🎹 Keyboard &amp; Synthesizer Master Guide</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">Guide to Yamaha, Roland, Casio keyboards, finger posture, sustain pedal technique, and USB-MIDI</p>
                 </div>
 
                 <div class="theory-grid">
                     <div class="theory-card">
-                        <h3>🎹 1. 88 Keys vs 61 Keys எது சிறந்தது?</h3>
-                        <p>• <strong>88 வெயிட்டட் கீகள் (Hammer Action):</strong> உண்மையான அகௌஸ்டிக் பியானோ வாசிப்பு உணர்வு தரும். கிளாசிக்கல் மற்றும் தீவிர பியானோ பயிற்சிகளுக்கு மிகச் சிறந்தது.<br>
-                        • <strong>61 செமி-வெயிட்டட் கீகள் (Arranger):</strong> பாப், சின்த் மற்றும் லைவ் கச்சேரிகளுக்கு எடை குறைவான எளிதான தேர்வு.</p>
+                        <h3>🎹 1. 88 Keys vs 61 Keys</h3>
+                        <p>• <strong>88 Weighted Keys (Hammer Action):</strong> Best for authentic acoustic piano touch and classical music.<br>
+                        • <strong>61 Semi-Weighted Keys (Arranger/Synth):</strong> Lightweight, ideal for pop, rock, lead synth, and live gigging.</p>
                     </div>
 
                     <div class="theory-card">
-                        <h3>🖐️ 2. சரியான கை வடிவம் (Proper Hand Posture)</h3>
-                        <p>• கையில் ஒரு கற்பனையான டென்னிஸ் பந்தை (Tennis Ball) பிடித்திருப்பது போன்ற வளைந்த விரல்கள்.<br>
-                        • மணிக்கட்டை (Wrist) தட்டையாகவும், தோள்பட்டைகளைத் தளர்வாகவும் வைத்திருக்கவும்.<br>
-                        • விரல் நுனிகளால் (Fingertips) மட்டுமே விசைகளைத் தொட வேண்டும், தட்டையாக அழுத்தக் கூடாது.</p>
+                        <h3>🖐️ 2. Proper Hand Posture &amp; Finger Technique</h3>
+                        <p>• Keep fingers naturally curved as if holding an imaginary tennis ball.<br>
+                        • Keep wrists level with the keyboard and shoulders completely relaxed.<br>
+                        • Strike keys with firm fingertips, never with flat fingers.</p>
                     </div>
 
                     <div class="theory-card">
-                        <h3>🦶 3. சஸ்டைன் பெடல் நுட்பம் (Damper Pedal)</h3>
-                        <p>• பியானோவின் வலது பெடல் ஒலியை நீட்டிக்கச் செய்யும் (Sustain).<br>
-                        • புதிய கார்டு மாறும்போது உடனே பெடலை எடுத்து மீண்டும் அழுத்த வேண்டும் (Clean Pedaling), இல்லையெனில் ஒலிகள் கலங்கி இரைச்சல் உருவாகும்.</p>
+                        <h3>🦶 3. Sustain Pedal Technique (Damper)</h3>
+                        <p>• The right pedal sustains note ringing.<br>
+                        • Lift and re-press pedal quickly whenever harmony changes (clean pedaling) to prevent muddy dissonance.</p>
                     </div>
 
                     <div class="theory-card">
-                        <h3>🔌 4. கணினி / DAW மென்பொருளுடன் MIDI இணைப்பு</h3>
-                        <p>• USB-to-Host கேபிளைக் கணினியுடன் இணைத்தால், இந்த வலைத்தளமே உங்கள் கீபோர்டை உடனடியாக அடையாளம் கண்டு கொள்ளும் (Web MIDI API).<br>
-                        • FL Studio, Logic Pro, Ableton அல்லது GarageBand மூலம் ஸ்டீன்வே கிராண்ட் பியானோ VST ஒலிகளை இயக்கலாம்.</p>
+                        <h3>🔌 4. USB-MIDI Connection with Computer / DAW</h3>
+                        <p>• Connect via USB-to-Host cable to use this web app or DAWs like FL Studio, Logic Pro, Ableton, and GarageBand.<br>
+                        • Control virtual instruments (VSTs) with velocity sensitivity and minimal latency.</p>
                     </div>
                 </div>
             </div>
@@ -1852,44 +2036,44 @@ def build_html():
         <div id="viewDiagrams" class="view-panel">
             <div class="glass-card">
                 <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 14px; margin-bottom: 16px;">
-                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🖼️ விசைப்பலகை வரைபடங்கள் &amp; வழிகாட்டிகள் (Visual Piano Maps)</h2>
-                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">அதிக தெளிவுத்திறன் கொண்ட SVG வரைபடங்கள் • முழுத்திரையில் பார்க்க கிளிக் செய்யவும்</p>
+                    <h2 style="color: var(--gold-bright); font-size: 1.35rem; font-weight: 800;">🖼️ Keyboard &amp; Music Reference Diagrams</h2>
+                    <p style="color: var(--text-muted); font-size: 0.88rem; margin-top: 4px;">High-resolution SVG reference diagrams • Click to open and inspect in fullscreen</p>
                 </div>
 
                 <div class="diagrams-grid">
                     <!-- Diagram 1 -->
-                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/01_western_keyboard_note_map.svg', 'மேற்கத்திய விசைப்பலகை 12 ஸ்வர வரைபடம்')">
-                        <img src="diagrams/keyboard/01_western_keyboard_note_map.svg" alt="Western Keyboard Note Map">
+                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/01_western_keyboard_note_map.svg', '12-Semitone Keyboard Layout Diagram')">
+                        <img src="diagrams/keyboard/01_western_keyboard_note_map.svg" alt="12-Semitone Keyboard Layout Diagram">
                         <div class="diagram-card-info">
-                            <h4>1. 12 ஸ்வர விசைப்பலகை வரைபடம்</h4>
-                            <p>Middle C (C4), 12 செமிடோன்கள், Sharps &amp; Flats மற்றும் சோல்ஃபேஜ் வழிகாட்டி.</p>
+                            <h4>1. 12-Semitone Keyboard Layout Diagram</h4>
+                            <p>Middle C (C4), 12 Semitones, Sharps &amp; Flats, and Note Names Guide.</p>
                         </div>
                     </div>
 
                     <!-- Diagram 2 -->
-                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/02_grand_staff_piano_map.svg', 'கிராண்ட் ஸ்டாஃப் &amp; பியானோ மேப்பிங்')">
+                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/02_grand_staff_piano_map.svg', 'Grand Staff &amp; Piano Mapping Diagram')">
                         <img src="diagrams/keyboard/02_grand_staff_piano_map.svg" alt="Grand Staff Piano Map">
                         <div class="diagram-card-info">
-                            <h4>2. கிராண்ட் ஸ்டாஃப் &amp; பியானோ வரைபடம்</h4>
-                            <p>Treble Clef (𝄞), Bass Clef (𝄢) மற்றும் Middle C லெட்ஜர் லைன் மேப்பிங்.</p>
+                            <h4>2. Grand Staff &amp; Piano Mapping Diagram</h4>
+                            <p>Treble Clef (𝄞), Bass Clef (𝄢), and Middle C Ledger Line Mapping.</p>
                         </div>
                     </div>
 
                     <!-- Diagram 3 -->
-                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/03_circle_of_fifths_guide.svg', 'சர்க்கிள் ஆஃப் பிஃப்த்ஸ் வழிகாட்டி')">
+                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/03_circle_of_fifths_guide.svg', 'Circle of Fifths Reference Chart')">
                         <img src="diagrams/keyboard/03_circle_of_fifths_guide.svg" alt="Circle of Fifths Guide">
                         <div class="diagram-card-info">
-                            <h4>3. சர்க்கிள் ஆஃப் பிஃப்த்ஸ் (Circle of Fifths)</h4>
-                            <p>12 மேஜர் கீகள், ரிலேட்டிவ் மைனர் மற்றும் Sharps / Flats வரிசை முறை.</p>
+                            <h4>3. Circle of Fifths Reference Chart</h4>
+                            <p>12 Major keys, relative minors, and order of Sharps and Flats.</p>
                         </div>
                     </div>
 
                     <!-- Diagram 4 -->
-                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/04_piano_chords_chart.svg', 'அத்தியாவசிய பியானோ கார்ட் அட்டவணை')">
+                    <div class="diagram-card" onclick="openDiagramLightbox('diagrams/keyboard/04_piano_chords_chart.svg', 'Essential Piano Chords Chart')">
                         <img src="diagrams/keyboard/04_piano_chords_chart.svg" alt="Piano Chords Chart">
                         <div class="diagram-card-info">
-                            <h4>4. அத்தியாவசிய பியானோ கார்ட் அட்டவணை</h4>
-                            <p>பிரைமரி மேஜர், மைனர், Dominant 7th கார்டுகள் மற்றும் இன்வெர்ஷன்கள்.</p>
+                            <h4>4. Essential Piano Chords Chart</h4>
+                            <p>Primary Major, Minor, Dominant 7th chords and inversions.</p>
                         </div>
                     </div>
                 </div>
@@ -1901,8 +2085,7 @@ def build_html():
     <!-- Fullscreen Keyboard Lightbox -->
     <div id="keyboardLightbox" class="modal-overlay fullscreen-lightbox-overlay" onclick="closeKeyboardLightbox(event)">
         <div class="modal-window fullscreen-lightbox-window" onclick="event.stopPropagation()">
-            <button class="btn-close-modal" onclick="closeKeyboardLightbox()" aria-label="Close">✕</button>
-            <h2 style="color: var(--gold-bright); font-family: var(--font-ta); font-size: 1.15rem; margin-bottom: 8px;">🎹 விசைப்பலகை — முழுத்திரை லைட்பாக்ஸ் (Fullscreen Virtual Piano)</h2>
+            <button class="btn-close-modal" onclick="closeKeyboardLightbox()" aria-label="Close" title="Close Lightbox (Esc)">✕</button>
             <div id="keyboardLightboxContent" class="fullscreen-lightbox-content"></div>
         </div>
     </div>
@@ -1910,8 +2093,7 @@ def build_html():
     <!-- Fullscreen Notation Lightbox -->
     <div id="notationLightbox" class="modal-overlay fullscreen-lightbox-overlay" onclick="closeNotationLightbox(event)">
         <div class="modal-window fullscreen-lightbox-window" onclick="event.stopPropagation()">
-            <button class="btn-close-modal" onclick="closeNotationLightbox()" aria-label="Close">✕</button>
-            <h2 style="color: var(--gold-bright); font-family: var(--font-ta); font-size: 1.15rem; margin-bottom: 8px;">📜 மேற்கத்திய நோட்டேஷன் — முழுத்திரை லைட்பாக்ஸ் (Fullscreen Notation Ribbon)</h2>
+            <button class="btn-close-modal" onclick="closeNotationLightbox()" aria-label="Close" title="Close Lightbox (Esc)">✕</button>
             <div id="notationLightboxContent" class="fullscreen-lightbox-content"></div>
         </div>
     </div>
@@ -1919,11 +2101,11 @@ def build_html():
     <!-- Modal Lightbox for Diagrams -->
     <div id="diagramLightboxModal" class="modal-overlay" onclick="closeDiagramLightbox(event)">
         <div class="modal-box" style="max-width: 1100px;">
-            <button class="btn-close-modal" onclick="closeDiagramLightbox()">✕</button>
-            <h3 id="lightboxTitle" style="color: var(--gold-bright); margin-bottom: 16px;">வரைபடம்</h3>
+            <button class="btn-close-modal" onclick="closeDiagramLightbox()" title="Close (Esc)">✕</button>
+            <h3 id="lightboxTitle" style="color: var(--gold-bright); margin-bottom: 16px;">Reference Diagram</h3>
             <img id="lightboxImg" src="" alt="Diagram Large View" style="width: 100%; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
             <div style="margin-top: 14px; text-align: right;">
-                <a id="lightboxDownloadBtn" href="" download class="btn-ctrl" style="display: inline-flex; text-decoration: none;">⬇️ முழு வரைபடத்தை பதிவிறக்கு (Download SVG)</a>
+                <a id="lightboxDownloadBtn" href="" download class="btn-ctrl" style="display: inline-flex; text-decoration: none;">⬇️ Download SVG Diagram</a>
             </div>
         </div>
     </div>
@@ -1932,15 +2114,16 @@ def build_html():
     <div id="helpModal" class="modal-overlay" onclick="closeHelpModal(event)">
         <div class="modal-box" style="max-width: 650px;">
             <button class="btn-close-modal" onclick="closeHelpModal()">✕</button>
-            <h3 style="color: var(--gold-bright); margin-bottom: 14px;">⌨️ கணினி விசைப்பலகை குறுக்குவழிகள் (Keyboard Shortcuts)</h3>
+            <h3 style="color: var(--gold-bright); margin-bottom: 14px;">⌨️ Computer Keyboard Shortcuts</h3>
             <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; color: #cbd5e1;">
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">Space</kbd> : ▶️ வாசி / ⏸️ இடைநிறுத்து (Play / Pause)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">← / →</kbd> : ⏮️ முந்தைய / ⏭️ அடுத்த நோட் (Seek)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">L</kbd> : 🔁 லூப் ஆன் / ஆஃப் (Toggle Loop)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">A, S, D, F, G, H, J, K, L</kbd> : 🎹 வெள்ளை விசைகள் (C4, D4, E4, F4, G4, A4, B4, C5, D5)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">W, E, T, Y, U, O, P</kbd> : 🎹 கருப்பு விசைகள் (C#4, D#4, F#4, G#4, A#4, C#5, D#5)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">[ / ]</kbd> : 🎹 ஆக்டேவ் மாற்றம் (Octave Down / Up)</div>
-                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">Esc</kbd> : ✕ சாளரங்களை மூடு (Close Modal)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">Space</kbd> : ▶️ Play / ⏸️ Pause</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">← / →</kbd> : ⏮️ Previous / ⏭️ Next Note (Step)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">L</kbd> : 🔁 Toggle Measure Loop</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">N</kbd> : 🏷️ Toggle Note Label on Staff (Show / Hide C4)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">A, S, D, F, G, H, J, K, L</kbd> : 🎹 White Keys (C4, D4, E4, F4, G4, A4, B4, C5, D5)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">W, E, T, Y, U, O, P</kbd> : 🎹 Black Keys (C#4, D#4, F#4, G#4, A#4, C#5, D#5)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">[ / ]</kbd> : 🎹 Octave Shift (Down / Up)</div>
+                <div><kbd style="background:#1e293b; padding:2px 7px; border-radius:4px; color:#fff; font-weight:bold;">Esc</kbd> : ✕ Close Modal / Lightbox</div>
             </div>
         </div>
     </div>
@@ -1975,6 +2158,13 @@ def build_html():
         let isPadDroneOn = false;
         let padDroneTimer = null;
         let isZoomMode = false;
+        let showStaffNoteLabel = true;
+        try {{
+            const savedNoteLabel = localStorage.getItem('showStaffNoteLabel');
+            if (savedNoteLabel !== null) {{
+                showStaffNoteLabel = (savedNoteLabel === 'true');
+            }}
+        }} catch (e) {{}}
 
         // Flattened Sequence of active lesson steps
         let flatSequence = [];
@@ -2400,7 +2590,7 @@ def build_html():
                         const crown = document.createElement('span');
                         crown.className = 'middle-c-crown';
                         crown.textContent = '👑';
-                        crown.title = 'Middle C4 (மைய சி • 261.6 Hz)';
+                        crown.title = 'Middle C4 (261.63 Hz)';
                         wKey.appendChild(crown);
                     }}
 
@@ -2524,6 +2714,9 @@ def build_html():
             const solfegeMap = {{ 0: 'Do', 1: 'Di/Ra', 2: 'Re', 3: 'Ri/Me', 4: 'Mi', 5: 'Fa', 6: 'Fi/Se', 7: 'Sol', 8: 'Si/Le', 9: 'La', 10: 'Li/Te', 11: 'Ti' }};
             const solfege = solfegeMap[((midi - currentKeyTranspose) % 12 + 12) % 12] || 'Do';
 
+            const degreeMap = {{ 0: '1 (Tonic)', 1: '♭2', 2: '2 (Supertonic)', 3: '♭3', 4: '3 (Mediant)', 5: '4 (Subdominant)', 6: '♭5', 7: '5 (Dominant)', 8: '♭6', 9: '6 (Submediant)', 10: '♭7', 11: '7 (Leading Tone)' }};
+            const scaleDegree = degreeMap[((midi - currentKeyTranspose) % 12 + 12) % 12] || '1 (Root)';
+
             // Clef & Hand
             const isTreble = midi >= 60;
             const clef = isTreble ? '𝄞 RH' : '𝄢 LH';
@@ -2542,6 +2735,7 @@ def build_html():
                 rawToken: clean,
                 midi: midi,
                 solfege: solfege,
+                scaleDegree: scaleDegree,
                 clef: clef,
                 finger: `F-${{fingerNum}}`
             }};
@@ -2625,15 +2819,11 @@ def build_html():
                 badge.className = 'swara-badge-ta';
                 badge.textContent = item.isRest ? '𝄽' : item.noteName;
 
-                const solfegeSpan = document.createElement('div');
-                solfegeSpan.className = 'swara-west-note';
-                solfegeSpan.textContent = item.solfege;
-
                 const fingerBadge = document.createElement('div');
                 fingerBadge.className = 'swara-finger-num';
                 fingerBadge.textContent = item.finger;
 
-                node.append(badge, solfegeSpan, fingerBadge);
+                node.append(badge, fingerBadge);
 
                 if (item.sahityam) {{
                     const word = document.createElement('div');
@@ -2656,13 +2846,15 @@ def build_html():
 
             // Update Top Info Strip
             document.getElementById('curNoteDisplay').textContent = cur.noteName;
-            document.getElementById('curSolfegeDisplay').textContent = cur.solfege;
+            document.getElementById('curSolfegeDisplay').textContent = cur.scaleDegree || '1 (Tonic)';
             document.getElementById('curClefDisplay').textContent = cur.clef;
             document.getElementById('curFingerDisplay').textContent = cur.finger;
             document.getElementById('curFrequencyDisplay').textContent = cur.midi ? `${{midiToFreq(cur.midi).toFixed(1)}} Hz` : '—';
             document.getElementById('curChordContextDisplay').textContent = lesson.key || 'C Major';
 
-            document.getElementById('ribbonStepBadge').textContent = `நோட் ${{currentStepIndex + 1}} / ${{flatSequence.length}}`;
+            document.getElementById('ribbonStepBadge').textContent = `Note ${{currentStepIndex + 1}} / ${{flatSequence.length}}`;
+            const lbBadge = document.getElementById('lightboxStepBadge');
+            if (lbBadge) lbBadge.textContent = `Note ${{currentStepIndex + 1}} / ${{flatSequence.length}}`;
 
             // Active Ribbon Node Highlight & Scroll
             document.querySelectorAll('.swara-node').forEach(n => n.classList.remove('active'));
@@ -2722,14 +2914,42 @@ def build_html():
             const gestureSub = document.getElementById('gestureSub');
 
             const icons4 = ['⬇️', '⬅️', '➡️', '⬆️'];
-            const names4 = ['டவுன்பீட் (Downbeat 1)', 'இன்வர்ட் (Inward 2)', 'அவுட்வர்ட் (Outward 3)', 'அப்பீட் (Upbeat 4)'];
+            const names4 = ['Downbeat (Beat 1)', 'Inward (Beat 2)', 'Outward (Beat 3)', 'Upbeat (Beat 4)'];
 
             gestureIcon.textContent = icons4[beatIndex % icons4.length];
-            gestureText.textContent = `பீட் ${{beatIndex + 1}}: ${{names4[beatIndex % names4.length]}}`;
-            gestureSub.textContent = `${{meter}} அளவின் ${{beatIndex + 1}}-வது அடி`;
+            gestureText.textContent = `Beat ${{beatIndex + 1}}: ${{names4[beatIndex % names4.length]}}`;
+            gestureSub.textContent = `Beat ${{beatIndex + 1}} of ${{meter}} measure`;
         }}
 
         // ================= PLAYBACK CONTROLS =================
+                function updatePlayPauseUI() {{
+            const icon = isPlaying ? '⏸️' : '▶️';
+            const label = isPlaying ? 'Pause' : 'Play';
+            ['playIcon'].forEach(id => {{
+                const el = document.getElementById(id);
+                if (el) el.textContent = icon;
+            }});
+            ['playLabel'].forEach(id => {{
+                const el = document.getElementById(id);
+                if (el) el.textContent = label;
+            }});
+            ['btnPlayPause'].forEach(id => {{
+                const el = document.getElementById(id);
+                if (el) el.classList.toggle('playing', isPlaying);
+            }});
+        }}
+
+        function updateLoopUI() {{
+            ['btnLoop'].forEach(id => {{
+                const el = document.getElementById(id);
+                if (el) {{
+                    el.classList.toggle('active', isLooping);
+                    el.style.borderColor = isLooping ? 'var(--gold-bright)' : '';
+                    el.style.color = isLooping ? 'var(--gold-bright)' : '';
+                }}
+            }});
+        }}
+
         function togglePlayPause() {{
             initAudio();
             if (isPlaying) {{
@@ -2741,8 +2961,7 @@ def build_html():
 
         function startPlayback() {{
             isPlaying = true;
-            document.getElementById('playIcon').textContent = '⏸️';
-            document.getElementById('playLabel').textContent = 'நிறுத்து (Pause)';
+            updatePlayPauseUI();
 
             const stepIntervalMs = ((60 / currentBPM) / currentNoteSubdivision) * 1000;
             updateStepDisplay(true);
@@ -2769,8 +2988,7 @@ def build_html():
                 clearInterval(playTimer);
                 playTimer = null;
             }}
-            document.getElementById('playIcon').textContent = '▶️';
-            document.getElementById('playLabel').textContent = 'வாசி (Play)';
+            updatePlayPauseUI();
         }}
 
         function stopPlayback() {{
@@ -2781,7 +2999,7 @@ def build_html():
 
         function toggleLoop() {{
             isLooping = !isLooping;
-            document.getElementById('btnLoop').classList.toggle('active', isLooping);
+            updateLoopUI();
         }}
 
         function stepBackward() {{
@@ -2867,6 +3085,12 @@ def build_html():
                 }}
             }}
 
+            const lbSelector = document.getElementById('lbLessonSelector');
+            if (lbSelector) {{
+                lbSelector.innerHTML = selector.innerHTML;
+                lbSelector.value = selector.value;
+            }}
+
             // If currentLessonKey not in filtered list, select first available
             if (!selector.value && selector.options.length > 0) {{
                 selector.selectedIndex = 0;
@@ -2890,6 +3114,12 @@ def build_html():
                 updateTempoDisplay();
                 document.getElementById('meterDisplay').textContent = `${{lesson.meter}} Meter`;
                 document.getElementById('ribbonLessonTitle').children[0].textContent = lesson.title;
+                const lbTitle = document.getElementById('lightboxLessonTitle');
+                if (lbTitle) lbTitle.textContent = lesson.title;
+                const lbKbTitle = document.getElementById('lbKbLessonTitle');
+                if (lbKbTitle) lbKbTitle.textContent = lesson.title;
+                const lbSel = document.getElementById('lbLessonSelector');
+                if (lbSel) lbSel.value = currentLessonKey;
             }}
             currentStepIndex = 0;
             buildFlatSequence();
@@ -2942,7 +3172,7 @@ def build_html():
                     <td style="color:#a5b4fc;">${{item.relMinor}}</td>
                     <td style="font-family:var(--font-mono); font-size:0.8rem;">${{item.notes.join(' - ')}}</td>
                     <td>
-                        <button class="btn-ctrl" style="padding:3px 8px; font-size:0.75rem;" onclick="playScaleNotesDemo(['${{item.notes.join("4','")}}5'], this)">▶️ வாசி</button>
+                        <button class="btn-ctrl" style="padding:3px 8px; font-size:0.75rem;" onclick="playScaleNotesDemo(['${{item.notes.join("4','")}}5'], this)">▶️ Play</button>
                     </td>
                 `;
                 tbody.appendChild(tr);
@@ -2959,11 +3189,11 @@ def build_html():
                 card.className = 'theory-card';
                 card.innerHTML = `
                     <h3>${{m.name}}</h3>
-                    <p>• <strong>சூத்திரம் (Formula):</strong> ${{m.formula}}<br>
-                    • <strong>இடைவெளி அமைப்பு:</strong> ${{m.intervals}}<br>
-                    • <strong>C-யில் அமைந்த நோட்டுகள்:</strong> <span style="font-family:var(--font-mono); color:#38bdf8;">${{m.c_notes}}</span><br>
-                    • <strong>மனநிலை (Mood):</strong> ${{m.mood}}</p>
-                    <button class="btn-ctrl" onclick="playScaleNotesDemo(${{JSON.stringify(m.demo)}}, this)">▶️ மோடு ஸ்கேல் வாசி</button>
+                    <p>• <strong>Formula:</strong> ${{m.formula}}<br>
+                    • <strong>Interval Structure:</strong> ${{m.intervals}}<br>
+                    • <strong>Notes in C:</strong> <span style="font-family:var(--font-mono); color:#38bdf8;">${{m.c_notes}}</span><br>
+                    • <strong>Mood / Character:</strong> ${{m.mood}}</p>
+                    <button class="btn-ctrl" onclick="playScaleNotesDemo(${{JSON.stringify(m.demo)}}, this)">▶️ Play Mode Scale</button>
                 `;
                 container.appendChild(card);
             }});
@@ -2983,8 +3213,8 @@ def build_html():
                     <td style="font-family:var(--font-mono); color:#38bdf8;">${{item.ratio}}</td>
                     <td style="color:#a5b4fc;">${{item.example}}</td>
                     <td style="display:flex; gap:6px;">
-                        <button class="btn-ctrl" style="padding:2px 8px; font-size:0.72rem;" onclick="playIntervalSound('${{item.notes[0]}}', '${{item.notes[1]}}', false)">ஒன்றாக (Harmonic)</button>
-                        <button class="btn-ctrl" style="padding:2px 8px; font-size:0.72rem;" onclick="playIntervalSound('${{item.notes[0]}}', '${{item.notes[1]}}', true)">தொடராக (Melodic)</button>
+                        <button class="btn-ctrl" style="padding:2px 8px; font-size:0.72rem;" onclick="playIntervalSound('${{item.notes[0]}}', '${{item.notes[1]}}', false)">Harmonic</button>
+                        <button class="btn-ctrl" style="padding:2px 8px; font-size:0.72rem;" onclick="playIntervalSound('${{item.notes[0]}}', '${{item.notes[1]}}', true)">Melodic</button>
                     </td>
                 `;
                 tbody.appendChild(tr);
@@ -3002,9 +3232,9 @@ def build_html():
                 const baseMidi = (oct.num + 1) * 12; // C1=24, C2=36, C3=48, C4=60, C5=72, C6=84, C7=96
                 card.innerHTML = `
                     <h3>${{oct.name}}</h3>
-                    <p>• <strong>மைய அதிர்வெண்:</strong> <span style="font-family:var(--font-mono); color:var(--gold-bright);">${{oct.freq}}</span><br>
+                    <p>• <strong>Center Frequency:</strong> <span style="font-family:var(--font-mono); color:var(--gold-bright);">${{oct.freq}}</span><br>
                     • ${{oct.desc}}</p>
-                    <button class="btn-ctrl" onclick="playOctaveAuditionNote(${{baseMidi}})">🔊 C${{oct.num}} ஒலி கேள்</button>
+                    <button class="btn-ctrl" onclick="playOctaveAuditionNote(${{baseMidi}})">🔊 Audition C${{oct.num}}</button>
                 `;
                 container.appendChild(card);
             }});
@@ -3112,7 +3342,7 @@ def build_html():
 
             const invNames = ['Root Position', '1st Inversion', '2nd Inversion'];
             document.getElementById('chordResultName').textContent = `${{rootObj.name}} ${{cData.name}} • ${{invNames[inv]}}`;
-            document.getElementById('chordResultFormula').textContent = `சூத்திரம்: ${{cData.formula}}`;
+            document.getElementById('chordResultFormula').textContent = `Formula: ${{cData.formula}}`;
             document.getElementById('chordResultNotes').textContent = chordNoteNames.join(' - ');
         }}
 
@@ -3201,7 +3431,7 @@ def build_html():
             feedback.textContent = '';
 
             if (quizMode === 'note') {{
-                document.getElementById('quizPromptText').textContent = 'ஒற்றை நோட்டை கேட்டு சரியான நோட் பெயரைத் தேர்ந்தெடுக்கவும்:';
+                document.getElementById('quizPromptText').textContent = 'Listen to the note and select the correct pitch:';
                 const notes = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5'];
                 quizSecret = notes[Math.floor(Math.random() * notes.length)];
                 notes.forEach(n => {{
@@ -3212,7 +3442,7 @@ def build_html():
                     grid.appendChild(btn);
                 }});
             }} else if (quizMode === 'interval') {{
-                document.getElementById('quizPromptText').textContent = 'இடைவெளியை கேட்டு சரியான இடைவெளி வகையைத் தேர்ந்தெடுக்கவும்:';
+                document.getElementById('quizPromptText').textContent = 'Listen to the interval and select the correct interval name:';
                 const intervals = ['Minor 2nd', 'Major 2nd', 'Minor 3rd', 'Major 3rd', 'Perfect 4th', 'Perfect 5th', 'Octave'];
                 quizSecret = intervals[Math.floor(Math.random() * intervals.length)];
                 intervals.forEach(inv => {{
@@ -3223,7 +3453,7 @@ def build_html():
                     grid.appendChild(btn);
                 }});
             }} else if (quizMode === 'chord') {{
-                document.getElementById('quizPromptText').textContent = 'கார்ட் ஒலியைக் கேட்டு அது Major-ஆ அல்லது Minor-ஆ அல்லது Diminished-ஆ எனக் கூறவும்:';
+                document.getElementById('quizPromptText').textContent = 'Listen to the chord and select its quality (Major, Minor, or Diminished):';
                 const chordQualities = ['Major Triad', 'Minor Triad', 'Diminished Triad'];
                 quizSecret = chordQualities[Math.floor(Math.random() * chordQualities.length)];
                 chordQualities.forEach(q => {{
@@ -3234,7 +3464,7 @@ def build_html():
                     grid.appendChild(btn);
                 }});
             }} else if (quizMode === 'scale') {{
-                document.getElementById('quizPromptText').textContent = 'ஸ்கேல் ஒலியைக் கேட்டு அது Major-ஆ அல்லது Minor-ஆ அல்லது Blues-ஆ எனக் கூறவும்:';
+                document.getElementById('quizPromptText').textContent = 'Listen to the scale and select its type (Major, Minor, or Blues):';
                 const scales = ['Major Scale', 'Natural Minor', 'Harmonic Minor', 'Blues Scale'];
                 quizSecret = scales[Math.floor(Math.random() * scales.length)];
                 scales.forEach(s => {{
@@ -3285,14 +3515,14 @@ def build_html():
         function checkQuizAnswer(selected, btnEl) {{
             const feedback = document.getElementById('quizFeedback');
             if (selected === quizSecret) {{
-                feedback.innerHTML = `<span style="color:#10b981;">🎉 மிகச்சரி! (${{quizSecret}}) சரியான விடை!</span>`;
+                feedback.innerHTML = `<span style="color:#10b981;">🎉 Correct! (${{quizSecret}}) Well done!</span>`;
                 quizScore += 10;
                 quizStreak += 1;
                 document.getElementById('quizScore').textContent = quizScore;
                 document.getElementById('quizStreak').textContent = `${{quizStreak}} 🔥`;
                 setTimeout(() => generateNewQuizQuestion(), 1400);
             }} else {{
-                feedback.innerHTML = `<span style="color:#f43f5e;">❌ தவறு! மீண்டும் கேட்டு முயற்சிக்கவும்.</span>`;
+                feedback.innerHTML = `<span style="color:#f43f5e;">❌ Incorrect. Listen again and try!</span>`;
                 quizStreak = 0;
                 document.getElementById('quizStreak').textContent = `0`;
             }}
@@ -3360,7 +3590,7 @@ def build_html():
                 document.getElementById('micTunerPanel').style.display = 'flex';
                 detectMicPitch();
             }} catch (err) {{
-                alert('மைக் அணுகல் மறுக்கப்பட்டது: ' + err.message);
+                alert('Microphone access denied: ' + err.message);
                 stopMicListening();
             }}
         }}
@@ -3397,13 +3627,13 @@ def build_html():
 
                 const statusEl = document.getElementById('tunerStatus');
                 if (Math.abs(cents) <= 8) {{
-                    statusEl.textContent = '🎯 மிகச்சரியான சுருதி! (In Tune)';
+                    statusEl.textContent = '🎯 Perfect Pitch! (In Tune)';
                     statusEl.style.color = '#10b981';
                 }} else if (cents < -8) {{
-                    statusEl.textContent = `⬇️ சற்று குறைவு (${{cents}} cents Flat)`;
+                    statusEl.textContent = `⬇️ Slightly Flat (-${{cents}} cents)`;
                     statusEl.style.color = '#fbbf24';
                 }} else {{
-                    statusEl.textContent = `⬆️ சற்று அதிகம் (+${{cents}} cents Sharp)`;
+                    statusEl.textContent = `⬆️ Slightly Sharp (+${{cents}} cents)`;
                     statusEl.style.color = '#fbbf24';
                 }}
 
@@ -3480,7 +3710,7 @@ def build_html():
                 isRecording = true;
                 recordStartTime = Date.now();
                 document.getElementById('recordingBar').style.display = 'flex';
-                document.getElementById('recordStatusLabel').textContent = '⏹️ பதிவை நிறுத்து';
+                document.getElementById('recordStatusLabel').textContent = '⏹️ Stop Recording';
 
                 recordTimerInterval = setInterval(() => {{
                     const elapsedSec = Math.floor((Date.now() - recordStartTime) / 1000);
@@ -3489,7 +3719,7 @@ def build_html():
                     document.getElementById('recordingTimer').textContent = `${{mins}}:${{secs}}`;
                 }}, 1000);
             }} catch (err) {{
-                alert('பதிவு செய்வதில் பிழை: ' + err.message);
+                alert('Recording error: ' + err.message);
             }}
         }}
 
@@ -3499,7 +3729,7 @@ def build_html():
             isRecording = false;
             clearInterval(recordTimerInterval);
             document.getElementById('recordingBar').style.display = 'none';
-            document.getElementById('recordStatusLabel').textContent = '⏺️ பதிவு செய் (Record)';
+            document.getElementById('recordStatusLabel').textContent = '⏺️ Record';
 
             mediaRecorder.onstop = () => {{
                 const blob = new Blob(recordedAudioChunks, {{ type: 'audio/webm' }});
@@ -3578,8 +3808,17 @@ def build_html():
                     octSel.selectedIndex++;
                     onOctaveShiftChange();
                 }}
+            }} else if (e.key === 'n' || e.key === 'N') {{
+                toggleStaffNoteLabel();
             }} else if (e.key === '?' || e.key === '/') {{
                 openHelpModal();
+            }} else if (e.key === 'p' || e.key === 'P') {{
+                const lb = document.getElementById('notationLightbox');
+                if (lb && lb.classList.contains('active')) {{
+                    toggleLightboxPiano();
+                }}
+            }} else if (e.key === 'c' || e.key === 'C') {{
+                centerMiddleC(true);
             }} else if (e.key === 'Escape') {{
                 closeHelpModal();
                 closeDiagramLightbox();
@@ -3653,9 +3892,10 @@ def build_html():
             const fileName = svgPath.split('/').pop();
             const resolvedPath = basePath + fileName;
 
-            document.getElementById('lightboxTitle').textContent = title;
+            document.getElementById('lightboxTitle').textContent = title || 'Reference Diagram';
             document.getElementById('lightboxImg').src = resolvedPath;
             document.getElementById('lightboxDownloadBtn').href = resolvedPath;
+            document.getElementById('lightboxDownloadBtn').download = fileName;
             document.getElementById('diagramLightboxModal').classList.add('active');
         }}
 
@@ -3682,6 +3922,7 @@ def build_html():
         }}
 
         function openKeyboardLightbox() {{
+            closeNotationLightbox();
             const dock = document.querySelector('.piano-wrapper');
             const controls = document.querySelector('.controls-deck');
             const content = document.getElementById('keyboardLightboxContent');
@@ -3701,17 +3942,18 @@ def build_html():
 
             const dock = lightbox.querySelector('.piano-wrapper');
             const controls = lightbox.querySelector('.controls-deck');
-            const pianoAnchor = document.getElementById('pianoAnchor');
-            const controlsAnchor = document.getElementById('controlsAnchor');
+            const controlsSlot = document.getElementById('controlsSlot');
+            const pianoSlot = document.getElementById('pianoSlot');
 
-            if (controls && controlsAnchor) controlsAnchor.after(controls);
-            if (dock && pianoAnchor) pianoAnchor.after(dock);
+            if (controls && controlsSlot) controlsSlot.appendChild(controls);
+            if (dock && pianoSlot) pianoSlot.appendChild(dock);
 
             lightbox.classList.remove('active');
             setTimeout(() => centerMiddleC(false), 80);
         }}
 
         function openNotationLightbox() {{
+            closeKeyboardLightbox();
             const ribbon = document.querySelector('.notation-ribbon-card');
             const controls = document.querySelector('.controls-deck');
             const content = document.getElementById('notationLightboxContent');
@@ -3730,13 +3972,57 @@ def build_html():
 
             const ribbon = lightbox.querySelector('.notation-ribbon-card');
             const controls = lightbox.querySelector('.controls-deck');
-            const notationAnchor = document.getElementById('notationAnchor');
-            const controlsAnchor = document.getElementById('controlsAnchor');
+            const controlsSlot = document.getElementById('controlsSlot');
+            const notationSlot = document.getElementById('notationSlot');
 
-            if (controls && controlsAnchor) controlsAnchor.after(controls);
-            if (ribbon && notationAnchor) notationAnchor.after(ribbon);
+            if (controls && controlsSlot) controlsSlot.appendChild(controls);
+            if (ribbon && notationSlot) notationSlot.appendChild(ribbon);
 
             lightbox.classList.remove('active');
+        }}
+
+        function toggleStaffZoom() {{
+            const box = document.getElementById('grandStaffContainer');
+            const btn = document.getElementById('btnToggleStaffZoom');
+            if (!box) return;
+            const isLarge = box.classList.toggle('staff-zoom-large');
+            if (btn) {{
+                btn.innerHTML = isLarge ? '🔍 Reset Zoom' : '🔍 Zoom Staff';
+                btn.style.borderColor = isLarge ? 'var(--cyan-accent)' : '';
+                btn.style.color = isLarge ? 'var(--cyan-accent)' : '';
+            }}
+            try {{
+                localStorage.setItem('grandStaffZoom', isLarge ? 'large' : 'normal');
+            }} catch (e) {{}}
+        }}
+
+        function toggleStaffNoteLabel() {{
+            showStaffNoteLabel = !showStaffNoteLabel;
+            try {{
+                localStorage.setItem('showStaffNoteLabel', showStaffNoteLabel ? 'true' : 'false');
+            }} catch (e) {{}}
+            updateNoteLabelButtonUI();
+            if (flatSequence.length > 0 && currentStepIndex >= 0 && currentStepIndex < flatSequence.length) {{
+                updateGrandStaffVisual(flatSequence[currentStepIndex]);
+            }}
+        }}
+
+        function updateNoteLabelButtonUI() {{
+            const btn = document.getElementById('btnToggleNoteLabel');
+            if (!btn) return;
+            if (showStaffNoteLabel) {{
+                btn.innerHTML = '🏷️ Note: ON';
+                btn.title = 'Click to Hide Note Names on Staff (Sight-Reading Mode) • Shortcut: N';
+                btn.style.borderColor = 'var(--cyan-accent)';
+                btn.style.color = 'var(--cyan-accent)';
+                btn.style.background = 'rgba(6, 182, 212, 0.12)';
+            }} else {{
+                btn.innerHTML = '🙈 Note: OFF';
+                btn.title = 'Click to Show Note Names on Staff (e.g. C4) • Shortcut: N';
+                btn.style.borderColor = 'rgba(255, 255, 255, 0.15)';
+                btn.style.color = 'var(--text-muted)';
+                btn.style.background = 'rgba(255, 255, 255, 0.05)';
+            }}
         }}
 
         function updateGrandStaffVisual(cur) {{
@@ -3748,31 +4034,55 @@ def build_html():
             if (!svgEl) return;
 
             const bgAndLines = `
-                <rect width="340" height="120" rx="6" fill="rgba(8, 12, 24, 0.6)"/>
-                <line x1="10" y1="20" x2="10" y2="100" stroke="rgba(212, 175, 55, 0.7)" stroke-width="2"/>
-                <line x1="330" y1="20" x2="330" y2="100" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1"/>
-                <line x1="10" y1="20" x2="330" y2="20" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="28" x2="330" y2="28" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="36" x2="330" y2="36" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="44" x2="330" y2="44" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="52" x2="330" y2="52" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="68" x2="330" y2="68" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="76" x2="330" y2="76" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="84" x2="330" y2="84" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="92" x2="330" y2="92" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <line x1="10" y1="100" x2="330" y2="100" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
-                <text x="14" y="47" font-size="34" fill="#fbbf24" opacity="0.9">𝄞</text>
-                <text x="14" y="89" font-size="28" fill="#06b6d4" opacity="0.9">𝄢</text>
+                <defs>
+                    <linearGradient id="staffBgGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="rgba(10, 16, 32, 0.95)"/>
+                        <stop offset="100%" stop-color="rgba(5, 8, 18, 0.98)"/>
+                    </linearGradient>
+                    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feDropShadow dx="0" dy="0" stdDeviation="3.5" flood-color="#f59e0b" flood-opacity="0.85"/>
+                    </filter>
+                    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#06b6d4" flood-opacity="0.7"/>
+                    </filter>
+                </defs>
+                <rect width="540" height="236" rx="10" fill="url(#staffBgGrad)" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1.2"/>
+                <!-- Left brace & vertical barline -->
+                <line x1="20" y1="43" x2="20" y2="193" stroke="rgba(212, 175, 55, 0.85)" stroke-width="3"/>
+                <line x1="26" y1="43" x2="26" y2="193" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.2"/>
+                <line x1="518" y1="43" x2="518" y2="193" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1.5"/>
+                <!-- Treble Lines (F5, D5, B4, G4, E4) -->
+                <line x1="20" y1="43" x2="518" y2="43" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="58" x2="518" y2="58" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="73" x2="518" y2="73" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="88" x2="518" y2="88" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="103" x2="518" y2="103" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <!-- Bass Lines (A3, F3, D3, B2, G2) -->
+                <line x1="20" y1="133" x2="518" y2="133" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="148" x2="518" y2="148" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="163" x2="518" y2="163" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="178" x2="518" y2="178" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <line x1="20" y1="193" x2="518" y2="193" stroke="rgba(255,255,255,0.32)" stroke-width="1.3"/>
+                <!-- Clefs & Sub-labels -->
+                <text x="32" y="98" font-size="64" fill="#fbbf24" opacity="0.95" style="user-select:none; font-family:'Segoe UI Symbol', 'Noto Music', serif;">𝄞</text>
+                <text x="34" y="36" font-size="11" fill="rgba(251, 191, 36, 0.75)" font-weight="700" letter-spacing="1">TREBLE (RH)</text>
+                <text x="34" y="172" font-size="50" fill="#06b6d4" opacity="0.95" style="user-select:none; font-family:'Segoe UI Symbol', 'Noto Music', serif;">𝄢</text>
+                <text x="34" y="214" font-size="11" fill="rgba(6, 182, 212, 0.75)" font-weight="700" letter-spacing="1">BASS (LH)</text>
             `;
 
             if (!cur || cur.isRest || !cur.noteName || cur.noteName === ',' || cur.noteName === ';') {{
-                if (pitchLabel) pitchLabel.textContent = 'இடைவேளை (Rest • 𝄽)';
-                if (detailLabel) detailLabel.textContent = 'Silence / Rest';
-                if (handLabel) handLabel.textContent = '—';
+                if (pitchLabel) pitchLabel.innerHTML = '<span>Rest</span> • <span style="color:#94a3b8;">𝄽</span>';
+                if (detailLabel) detailLabel.textContent = '📍 Silence / Rest';
+                if (handLabel) {{
+                    handLabel.textContent = '—';
+                    handLabel.style.background = 'rgba(255,255,255,0.05)';
+                    handLabel.style.color = 'var(--text-muted)';
+                    handLabel.style.borderColor = 'rgba(255,255,255,0.1)';
+                }}
                 if (clefDetail) clefDetail.textContent = '—';
                 svgEl.innerHTML = bgAndLines + `
-                    <text x="175" y="66" font-size="24" fill="#94a3b8" text-anchor="middle">𝄽</text>
-                    <text x="175" y="86" font-size="10" fill="#64748b" text-anchor="middle">Quarter Rest</text>
+                    <text x="270" y="125" font-size="44" fill="#94a3b8" text-anchor="middle">𝄽</text>
+                    <text x="270" y="152" font-size="13" fill="#64748b" text-anchor="middle" font-weight="600">Quarter Rest</text>
                 `;
                 return;
             }}
@@ -3783,48 +4093,73 @@ def build_html():
             const octave = parseInt(noteName.slice(-1)) || 4;
             const noteSteps = {{ 'C': 0, 'D': 1, 'E': 2, 'F': 3, 'G': 4, 'A': 5, 'B': 6 }};
             const step = (noteSteps[letter] !== undefined ? noteSteps[letter] : 0) + (octave - 4) * 7;
-            const y = 60 - (step * 4);
+            const y = 118 - (step * 7.5);
 
             const isTreble = octave >= 4;
             if (handLabel) {{
-                handLabel.textContent = isTreble ? 'வலது கை (RH 𝄞)' : 'இடது கை (LH 𝄢)';
+                handLabel.textContent = isTreble ? 'Right Hand (RH 𝄞)' : 'Left Hand (LH 𝄢)';
                 handLabel.style.color = isTreble ? '#10b981' : '#38bdf8';
+                handLabel.style.background = isTreble ? 'rgba(16, 185, 129, 0.15)' : 'rgba(56, 189, 248, 0.15)';
+                handLabel.style.borderColor = isTreble ? 'rgba(16, 185, 129, 0.4)' : 'rgba(56, 189, 248, 0.4)';
             }}
-            if (clefDetail) clefDetail.textContent = isTreble ? 'Treble Clef (G-Clef)' : 'Bass Clef (F-Clef)';
-            if (pitchLabel) pitchLabel.textContent = `${{cur.clef || (isTreble ? '𝄞 Treble' : '𝄢 Bass')}} • ${{noteName}} (${{cur.solfege || ''}})`;
+            if (clefDetail) {{
+                clefDetail.textContent = isTreble ? '𝄞 Treble Clef (G-Clef) • 5 Lines & 4 Spaces (RH)' : '𝄢 Bass Clef (F-Clef) • 5 Lines & 4 Spaces (LH)';
+            }}
+            if (pitchLabel) {{
+                pitchLabel.innerHTML = `<span>${{cur.clef || (isTreble ? '𝄞 Treble' : '𝄢 Bass')}}</span> • <span style="color:#fbbf24; font-weight:800;">${{noteName}}</span>`;
+            }}
 
             let detailStr = '';
-            if (noteName === 'C4') detailStr = 'Middle C (மைய C) • Ledger Line';
-            else if (y <= 52 && y >= 20) detailStr = 'Treble Staff (Line/Space)';
-            else if (y <= 100 && y >= 68) detailStr = 'Bass Staff (Line/Space)';
-            else if (y < 20) detailStr = 'Treble Upper Ledger Line';
-            else if (y > 100) detailStr = 'Bass Lower Ledger Line';
+            if (noteName === 'C4') detailStr = 'Middle C • Center Ledger Line';
+            else if (y <= 103 && y >= 43) detailStr = 'Treble Staff (5 Lines & 4 Spaces)';
+            else if (y <= 193 && y >= 133) detailStr = 'Bass Staff (5 Lines & 4 Spaces)';
+            else if (y < 43) detailStr = 'Treble Upper Ledger Line';
+            else if (y > 193) detailStr = 'Bass Lower Ledger Line';
             else detailStr = 'Between Clefs';
-            if (detailLabel) detailLabel.textContent = detailStr;
+            if (detailLabel) detailLabel.textContent = `📍 ${{detailStr}}`;
 
+            const noteX = 250;
             let extraSvg = '';
-            if (y === 60) extraSvg += '<line x1="166" y1="60" x2="194" y2="60" stroke="#fbbf24" stroke-width="1.8"/>';
-            if (y <= 12) extraSvg += '<line x1="166" y1="12" x2="194" y2="12" stroke="#fbbf24" stroke-width="1.8"/>';
-            if (y <= 4) extraSvg += '<line x1="166" y1="4" x2="194" y2="4" stroke="#fbbf24" stroke-width="1.8"/>';
-            if (y >= 108) extraSvg += '<line x1="166" y1="108" x2="194" y2="108" stroke="#fbbf24" stroke-width="1.8"/>';
-            if (y >= 116) extraSvg += '<line x1="166" y1="116" x2="194" y2="116" stroke="#fbbf24" stroke-width="1.8"/>';
 
+            // Ledger Lines
+            if (step === 0) {{
+                extraSvg += `<line x1="${{noteX - 24}}" y1="118" x2="${{noteX + 24}}" y2="118" stroke="#fbbf24" stroke-width="2.5" filter="url(#goldGlow)"/>`;
+            }}
+            if (step >= 12) {{
+                extraSvg += `<line x1="${{noteX - 24}}" y1="28" x2="${{noteX + 24}}" y2="28" stroke="#fbbf24" stroke-width="2.2"/>`;
+            }}
+            if (step >= 14) {{
+                extraSvg += `<line x1="${{noteX - 24}}" y1="13" x2="${{noteX + 24}}" y2="13" stroke="#fbbf24" stroke-width="2.2"/>`;
+            }}
+            if (step <= -12) {{
+                extraSvg += `<line x1="${{noteX - 24}}" y1="208" x2="${{noteX + 24}}" y2="208" stroke="#fbbf24" stroke-width="2.2"/>`;
+            }}
+            if (step <= -14) {{
+                extraSvg += `<line x1="${{noteX - 24}}" y1="223" x2="${{noteX + 24}}" y2="223" stroke="#fbbf24" stroke-width="2.2"/>`;
+            }}
+
+            // Accidental (# / b)
             if (acc === '#') {{
-                extraSvg += `<text x="162" y="${{y + 5}}" font-size="16" fill="#fbbf24" font-weight="bold" text-anchor="end">♯</text>`;
+                extraSvg += `<text x="${{noteX - 18}}" y="${{y + 7}}" font-size="24" fill="#fbbf24" font-weight="900" text-anchor="end">♯</text>`;
             }} else if (acc === 'b') {{
-                extraSvg += `<text x="162" y="${{y + 4}}" font-size="16" fill="#fbbf24" font-weight="bold" text-anchor="end">♭</text>`;
+                extraSvg += `<text x="${{noteX - 18}}" y="${{y + 6}}" font-size="24" fill="#fbbf24" font-weight="900" text-anchor="end">♭</text>`;
             }}
 
-            extraSvg += `<ellipse cx="180" cy="${{y}}" rx="6.5" ry="5" transform="rotate(-20 180 ${{y}})" fill="#fbbf24" stroke="#d4af37" stroke-width="1.5"/>`;
+            // Note Head
+            extraSvg += `<ellipse cx="${{noteX}}" cy="${{y}}" rx="11.5" ry="8" transform="rotate(-20 ${{noteX}} ${{y}})" fill="#fbbf24" stroke="#d4af37" stroke-width="2" filter="url(#goldGlow)"/>`;
 
-            if (y >= 60) {{
-                extraSvg += `<line x1="185.5" y1="${{y}}" x2="185.5" y2="${{y - 24}}" stroke="#fbbf24" stroke-width="1.8"/>`;
+            // Note Stem
+            const stemUp = (y >= 73 && y <= 118) || (y >= 163);
+            if (stemUp) {{
+                extraSvg += `<line x1="${{noteX + 9.5}}" y1="${{y}}" x2="${{noteX + 9.5}}" y2="${{y - 36}}" stroke="#fbbf24" stroke-width="2.4"/>`;
             }} else {{
-                extraSvg += `<line x1="174.5" y1="${{y}}" x2="174.5" y2="${{y + 24}}" stroke="#fbbf24" stroke-width="1.8"/>`;
+                extraSvg += `<line x1="${{noteX - 9.5}}" y1="${{y}}" x2="${{noteX - 9.5}}" y2="${{y + 36}}" stroke="#fbbf24" stroke-width="2.4"/>`;
             }}
 
-            const solf = cur.solfege ? ` (${{cur.solfege}})` : '';
-            extraSvg += `<text x="202" y="${{y + 4}}" font-size="12" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-weight="700">${{noteName}}${{solf}}</text>`;
+            // Note Name Display (Configurable: Show or Hide C4 / note name for sight-reading practice)
+            if (showStaffNoteLabel) {{
+                extraSvg += `<text x="${{noteX + 26}}" y="${{y + 7}}" font-size="22" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-weight="800" filter="url(#cyanGlow)" style="paint-order: stroke fill; stroke: #080d1e; stroke-width: 5px; stroke-linejoin: round; user-select: none;">${{noteName}}</text>`;
+            }}
 
             svgEl.innerHTML = bgAndLines + extraSvg;
         }}
@@ -3846,6 +4181,12 @@ def build_html():
             setQuizMode('note');
             setupWebMidi();
             fixDiagramPaths();
+
+            if (localStorage.getItem('grandStaffZoom') === 'large') {{
+                toggleStaffZoom();
+            }}
+
+            updateNoteLabelButtonUI();
 
             setTimeout(() => centerMiddleC(false), 150);
         }});
