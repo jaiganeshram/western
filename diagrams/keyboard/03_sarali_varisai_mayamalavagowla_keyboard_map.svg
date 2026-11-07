@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b18"/>
+      <stop offset="50%" stop-color="#111936"/>
+      <stop offset="100%" stop-color="#080b18"/>
+    </linearGradient>
+    <linearGradient id="activeKeyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="activeBlackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bgGrad3)"/>
+  <rect x="20" y="20" width="1160" height="640" rx="16" fill="none" stroke="rgba(212,175,55,0.3)" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="600" y="65" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="26" font-weight="bold">🎼 மாயாமாளவகௌளை &amp; சரளி வரிசை விரல் வைப்பு முறை (Fingering Map)</text>
+  <text x="600" y="95" text-anchor="middle" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="15">15-வது மேளகர்த்தா • ஸ ரி₁ க₃ ம₁ ப த₁ நி₃ ஸ் • வலது கை விரல் இயக்கம் (Right Hand Fingering)</text>
+
+  <!-- Interactive Visual Piano Keys for Mayamalavagowla -->
+  <g transform="translate(180, 130)">
+    <!-- White Keys: C, D, E, F, G, A, B, C -->
+    <!-- C4 (Sa): ACTIVE -->
+    <rect x="0" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+    <!-- D4 (silent) -->
+    <rect x="105" y="0" width="105" height="340" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5" opacity="0.4"/>
+    <!-- E4 (Ga3): ACTIVE -->
+    <rect x="210" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+    <!-- F4 (Ma1): ACTIVE -->
+    <rect x="315" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+    <!-- G4 (Pa): ACTIVE -->
+    <rect x="420" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+    <!-- A4 (silent) -->
+    <rect x="525" y="0" width="105" height="340" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5" opacity="0.4"/>
+    <!-- B4 (Ni3): ACTIVE -->
+    <rect x="630" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+    <!-- C5 (Tara Sa): ACTIVE -->
+    <rect x="735" y="0" width="105" height="340" rx="6" fill="url(#activeKeyGrad)" stroke="#d97706" stroke-width="2"/>
+
+    <!-- Black Keys -->
+    <!-- C#4 (Ri1): ACTIVE -->
+    <rect x="73" y="0" width="64" height="210" rx="4" fill="url(#activeBlackGrad)" stroke="#0284c7" stroke-width="2"/>
+    <!-- D#4 (silent) -->
+    <rect x="178" y="0" width="64" height="210" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="1" opacity="0.4"/>
+    <!-- F#4 (silent) -->
+    <rect x="388" y="0" width="64" height="210" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="1" opacity="0.4"/>
+    <!-- G#4 (Dha1): ACTIVE -->
+    <rect x="493" y="0" width="64" height="210" rx="4" fill="url(#activeBlackGrad)" stroke="#0284c7" stroke-width="2"/>
+    <!-- A#4 (silent) -->
+    <rect x="598" y="0" width="64" height="210" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="1" opacity="0.4"/>
+
+    <!-- Labels and Finger Badges -->
+    <!-- C4: Sa / Finger 1 (Thumb) -->
+    <circle cx="52.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="52.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">1</text>
+    <text x="52.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">ஸ</text>
+    <text x="52.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">Thumb (C4)</text>
+
+    <!-- C#4: Ri1 / Finger 2 (Index) -->
+    <circle cx="105" cy="115" r="16" fill="#0f172a"/>
+    <text x="105" y="121" text-anchor="middle" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold">2</text>
+    <text x="105" y="155" text-anchor="middle" fill="#fff" font-family="'Noto Sans Tamil', sans-serif" font-size="17" font-weight="900">ரி₁</text>
+    <text x="105" y="180" text-anchor="middle" fill="#e0f2fe" font-family="sans-serif" font-size="10">Index (C#4)</text>
+
+    <!-- E4: Ga3 / Finger 3 (Middle) -->
+    <circle cx="262.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="262.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">3</text>
+    <text x="262.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">க₃</text>
+    <text x="262.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">Middle (E4)</text>
+
+    <!-- F4: Ma1 / Finger 1 (Thumb Under-tuck!) -->
+    <circle cx="367.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="367.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">1</text>
+    <text x="367.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">ம₁</text>
+    <text x="367.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold">Under-Tuck (F4)</text>
+
+    <!-- G4: Pa / Finger 2 (Index) -->
+    <circle cx="472.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="472.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">2</text>
+    <text x="472.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">ப</text>
+    <text x="472.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">Index (G4)</text>
+
+    <!-- G#4: Dha1 / Finger 3 (Middle) -->
+    <circle cx="525" cy="115" r="16" fill="#0f172a"/>
+    <text x="525" y="121" text-anchor="middle" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold">3</text>
+    <text x="525" y="155" text-anchor="middle" fill="#fff" font-family="'Noto Sans Tamil', sans-serif" font-size="17" font-weight="900">த₁</text>
+    <text x="525" y="180" text-anchor="middle" fill="#e0f2fe" font-family="sans-serif" font-size="10">Middle (G#4)</text>
+
+    <!-- B4: Ni3 / Finger 4 (Ring) -->
+    <circle cx="682.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="682.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">4</text>
+    <text x="682.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">நி₃</text>
+    <text x="682.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">Ring (B4)</text>
+
+    <!-- C5: Tara Sa / Finger 5 (Pinky) -->
+    <circle cx="787.5" cy="235" r="20" fill="#0f172a"/>
+    <text x="787.5" y="242" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="900">5</text>
+    <text x="787.5" y="280" text-anchor="middle" fill="#0f172a" font-family="'Noto Sans Tamil', sans-serif" font-size="20" font-weight="900">Ṡ</text>
+    <text x="787.5" y="305" text-anchor="middle" fill="#451a03" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">Pinky (C5)</text>
+  </g>
+
+  <!-- Legend and Pro Tip -->
+  <g transform="translate(100, 520)">
+    <rect width="1000" height="110" rx="12" fill="rgba(15,23,42,0.9)" stroke="rgba(212,175,55,0.3)" stroke-width="1.5"/>
+    <text x="30" y="36" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="bold">🎯 விரல் அசைவு முறை இரகசியம் (Thumb-Under Tuck Technique):</text>
+    <text x="30" y="65" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#38bdf8" font-weight="bold">ஏறுவரிசை (Arohanam):</tspan> ஸ (1) ➔ ரி₁ (2) ➔ க₃ (3) வாசித்த பிறகு, நடுவிரலுக்கு அடியில் பெருவிரலை நுழைத்து (Thumb-under) ம₁ (1) கட்டையை மீட்டவும்!</text>
+    <text x="30" y="90" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#f43f5e" font-weight="bold">இறங்குவரிசை (Avarohanam):</tspan> Ṡ (5) ➔ நி₃ (4) ➔ த₁ (3) ➔ ப (2) ➔ ம₁ (1) வாசித்த பிறகு, பெருவிரலுக்கு மேலாக நடுவிரலைத் தாண்டி (Cross-over) க₃ (3) ➔ ரி₁ (2) ➔ ஸ (1) முடிக்கவும்.</text>
+  </g>
+</svg>

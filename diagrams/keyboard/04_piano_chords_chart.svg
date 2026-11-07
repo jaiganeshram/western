@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1160" height="640" rx="16" fill="none" stroke="rgba(212,175,55,0.3)" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="600" y="60" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', -apple-system, sans-serif" font-size="28" font-weight="bold">🎹 அத்தியாவசிய பியானோ கார்ட் அட்டவணை | Essential Piano Chords</text>
+  <text x="600" y="90" text-anchor="middle" fill="#94a3b8" font-family="'Outfit', -apple-system, sans-serif" font-size="15">Primary Major &amp; Minor Triads, Dominant 7ths, Formula (1 - 3 - 5) &amp; Inversions</text>
+
+  <!-- 8 Mini Piano Chord Cards Grid (4 columns x 2 rows) -->
+  <!-- Card Width 250, Card Height 220 -->
+  <!-- Row 1: C Major, G Major, F Major, A Minor -->
+  <!-- Row 2: D Minor, E Minor, G7, C Major Inversions -->
+
+  <!-- Card 1: C Major (C - E - G) -->
+  <g transform="translate(60, 120)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(251, 191, 36, 0.4)"/>
+    <text x="20" y="32" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">C Major (C)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: C - E - G (1 - 3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 3 - 5</text>
+    <!-- Mini Keyboard (7 white keys: C D E F G A B) -->
+    <g transform="translate(20, 85)">
+      <!-- White Keys: width 30, height 100 -->
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- C (active) -->
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- E (active) -->
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- G (active) -->
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <!-- Black Keys -->
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 2: G Major (G - B - D) -->
+  <g transform="translate(330, 120)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="20" y="32" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">G Major (G)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: G - B - D (1 - 3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- D (active) -->
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- G (active) -->
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- B (active) -->
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 3: F Major (F - A - C) -->
+  <g transform="translate(600, 120)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="20" y="32" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">F Major (F)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: F - A - C (1 - 3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- C (active) -->
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- F (active) -->
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#fbbf24" stroke="#000"/> <!-- A (active) -->
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 4: A Minor (A - C - E) -->
+  <g transform="translate(870, 120)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(99, 102, 241, 0.4)"/>
+    <text x="20" y="32" fill="#a5b4fc" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">A Minor (Am)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: A - C - E (1 - ♭3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 2 - 4 / 1 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- C (active) -->
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- E (active) -->
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- A (active) -->
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Row 2: Dm, Em, G7, Inversions -->
+  <!-- Card 5: D Minor (D - F - A) -->
+  <g transform="translate(60, 370)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="20" y="32" fill="#a5b4fc" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">D Minor (Dm)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: D - F - A (1 - ♭3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- D -->
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- F -->
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- A -->
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 6: E Minor (E - G - B) -->
+  <g transform="translate(330, 370)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255,255,255,0.12)"/>
+    <text x="20" y="32" fill="#a5b4fc" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">E Minor (Em)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: E - G - B (1 - ♭3 - 5)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- E -->
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- G -->
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#a5b4fc" stroke="#000"/> <!-- B -->
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 7: G Dominant 7th (G - B - D - F) -->
+  <g transform="translate(600, 370)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(244, 63, 94, 0.4)"/>
+    <text x="20" y="32" fill="#f43f5e" font-family="'Outfit', sans-serif" font-size="20" font-weight="bold">Dominant 7th (G7)</text>
+    <text x="20" y="52" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="13">நோட்டுகள்: G - B - D - F (1-3-5-♭7)</text>
+    <text x="20" y="72" fill="#38bdf8" font-family="'Outfit', sans-serif" font-size="12">RH Fingering: 1 - 2 - 3 - 5</text>
+    <g transform="translate(20, 85)">
+      <rect x="0" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="30" y="0" width="30" height="100" rx="3" fill="#f43f5e" stroke="#000"/> <!-- D -->
+      <rect x="60" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="90" y="0" width="30" height="100" rx="3" fill="#f43f5e" stroke="#000"/> <!-- F -->
+      <rect x="120" y="0" width="30" height="100" rx="3" fill="#f43f5e" stroke="#000"/> <!-- G -->
+      <rect x="150" y="0" width="30" height="100" rx="3" fill="#fff" stroke="#000"/>
+      <rect x="180" y="0" width="30" height="100" rx="3" fill="#f43f5e" stroke="#000"/> <!-- B -->
+      <rect x="20" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="50" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="110" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="140" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+      <rect x="170" y="0" width="18" height="60" rx="2" fill="#1e293b"/>
+    </g>
+  </g>
+
+  <!-- Card 8: Inversions Rule Guide -->
+  <g transform="translate(870, 370)" filter="url(#shadow)">
+    <rect width="250" height="220" rx="10" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(16, 185, 129, 0.4)"/>
+    <text x="20" y="32" fill="#34d399" font-family="'Outfit', sans-serif" font-size="18" font-weight="bold">கார்ட் இன்வெர்ஷன்கள்</text>
+    <text x="20" y="55" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold">• Root Pos: C - E - G</text>
+    <text x="20" y="75" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="12">அடிப்படை நிலை (Fingers: 1-3-5)</text>
+    
+    <text x="20" y="105" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold">• 1st Inversion: E - G - C</text>
+    <text x="20" y="125" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="12">முதல் மாற்றம் (Fingers: 1-2-5)</text>
+    
+    <text x="20" y="155" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="13" font-weight="bold">• 2nd Inversion: G - C - E</text>
+    <text x="20" y="175" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="12">இரண்டாம் மாற்றம் (Fingers: 1-3-5)</text>
+    
+    <text x="20" y="202" fill="#34d399" font-family="'Outfit', sans-serif" font-size="11">கை அசைவைக் குறைத்து வேகமாக வாசிக்க உதவும்</text>
+  </g>
+</svg>

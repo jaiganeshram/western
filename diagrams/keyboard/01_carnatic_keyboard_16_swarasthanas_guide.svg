@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="whiteKeyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="85%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="blackKeyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="40%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bgGrad)"/>
+  <rect x="20" y="20" width="1160" height="640" rx="16" fill="none" stroke="rgba(212,175,55,0.3)" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="600" y="65" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="26" font-weight="bold">🎹 கர்நாடக இசை 16 ஸ்வரஸ்தான விசைப்பலகை வரைபடம்</text>
+  <text x="600" y="95" text-anchor="middle" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="15">1 கட்டை சுருதி (C4 = 261.63 Hz • Shadjam Root) அடிப்படையில் 16 ஸ்வரங்களின் முழுமையான வழிகாட்டி</text>
+
+  <!-- Piano Bed -->
+  <g transform="translate(180, 130)" filter="url(#shadow)">
+    <!-- White Keys: C, D, E, F, G, A, B, C (8 keys) -->
+    <!-- Width: 105px each = 840px total -->
+    <rect x="0" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="105" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="210" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="315" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="420" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="525" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="630" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="735" y="0" width="105" height="340" rx="6" fill="url(#whiteKeyGrad)" stroke="#64748b" stroke-width="1.5"/>
+
+    <!-- Black Keys: C#, D#, F#, G#, A# (Width 64, Height 210) -->
+    <rect x="73" y="0" width="64" height="210" rx="4" fill="url(#blackKeyGrad)" stroke="#0f172a" stroke-width="1.5"/>
+    <rect x="178" y="0" width="64" height="210" rx="4" fill="url(#blackKeyGrad)" stroke="#0f172a" stroke-width="1.5"/>
+    <rect x="388" y="0" width="64" height="210" rx="4" fill="url(#blackKeyGrad)" stroke="#0f172a" stroke-width="1.5"/>
+    <rect x="493" y="0" width="64" height="210" rx="4" fill="url(#blackKeyGrad)" stroke="#0f172a" stroke-width="1.5"/>
+    <rect x="598" y="0" width="64" height="210" rx="4" fill="url(#blackKeyGrad)" stroke="#0f172a" stroke-width="1.5"/>
+
+    <!-- Labels on White Keys -->
+    <!-- C4: Sa -->
+    <text x="52.5" y="275" text-anchor="middle" fill="#d97706" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="900">ஸ</text>
+    <text x="52.5" y="300" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">S (C4)</text>
+    <text x="52.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="11">ஷட்ஜம்</text>
+
+    <!-- D4: R2 / G1 -->
+    <text x="157.5" y="260" text-anchor="middle" fill="#0284c7" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold">ரி₂ / க₁</text>
+    <text x="157.5" y="285" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">R2 / G1</text>
+    <text x="157.5" y="305" text-anchor="middle" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="11">D4 (293.7Hz)</text>
+    <text x="157.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="10">சதுஸ்ருதி ரி</text>
+
+    <!-- E4: G3 / R3 -->
+    <text x="262.5" y="260" text-anchor="middle" fill="#16a34a" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold">க₃ / ரி₃</text>
+    <text x="262.5" y="285" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">G3 / R3</text>
+    <text x="262.5" y="305" text-anchor="middle" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="11">E4 (329.6Hz)</text>
+    <text x="262.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="10">அந்தர காந்தாரம்</text>
+
+    <!-- F4: M1 -->
+    <text x="367.5" y="275" text-anchor="middle" fill="#ea580c" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="900">ம₁</text>
+    <text x="367.5" y="300" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">M1 (F4)</text>
+    <text x="367.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="11">சுத்த மத்யமம்</text>
+
+    <!-- G4: P -->
+    <text x="472.5" y="275" text-anchor="middle" fill="#d97706" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="900">ப</text>
+    <text x="472.5" y="300" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">P (G4)</text>
+    <text x="472.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="11">பஞ்சமம்</text>
+
+    <!-- A4: D2 / N1 -->
+    <text x="577.5" y="260" text-anchor="middle" fill="#0284c7" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold">த₂ / நி₁</text>
+    <text x="577.5" y="285" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">D2 / N1</text>
+    <text x="577.5" y="305" text-anchor="middle" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="11">A4 (440.0Hz)</text>
+    <text x="577.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="10">சதுஸ்ருதி தை</text>
+
+    <!-- B4: N3 / D3 -->
+    <text x="682.5" y="260" text-anchor="middle" fill="#9333ea" font-family="'Noto Sans Tamil', sans-serif" font-size="18" font-weight="bold">நி₃ / த₃</text>
+    <text x="682.5" y="285" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="bold">N3 / D3</text>
+    <text x="682.5" y="305" text-anchor="middle" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="11">B4 (493.9Hz)</text>
+    <text x="682.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="10">காகலி நிஷாதம்</text>
+
+    <!-- C5: S5 (Tara Sa) -->
+    <text x="787.5" y="275" text-anchor="middle" fill="#e11d48" font-family="'Noto Sans Tamil', sans-serif" font-size="22" font-weight="900">Ṡ</text>
+    <text x="787.5" y="300" text-anchor="middle" fill="#0f172a" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="bold">Ṡ (C5)</text>
+    <text x="787.5" y="325" text-anchor="middle" fill="#475569" font-family="sans-serif" font-size="11">தார ஷட்ஜம்</text>
+
+    <!-- Labels on Black Keys -->
+    <!-- C#4: R1 -->
+    <text x="105" y="115" text-anchor="middle" fill="#38bdf8" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">ரி₁</text>
+    <text x="105" y="140" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">R1</text>
+    <text x="105" y="160" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">C#4</text>
+    <text x="105" y="180" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="9">சுத்த ரி</text>
+
+    <!-- D#4: G2 / R3 -->
+    <text x="210" y="115" text-anchor="middle" fill="#4ade80" font-family="'Noto Sans Tamil', sans-serif" font-size="15" font-weight="bold">க₂ / ரி₃</text>
+    <text x="210" y="140" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="11">G2/R3</text>
+    <text x="210" y="160" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">D#4</text>
+    <text x="210" y="180" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="9">சாதாரண க</text>
+
+    <!-- F#4: M2 -->
+    <text x="420" y="115" text-anchor="middle" fill="#fb923c" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">ம₂</text>
+    <text x="420" y="140" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">M2</text>
+    <text x="420" y="160" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">F#4</text>
+    <text x="420" y="180" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="9">பிரதி ம</text>
+
+    <!-- G#4: D1 -->
+    <text x="525" y="115" text-anchor="middle" fill="#38bdf8" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">த₁</text>
+    <text x="525" y="140" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">D1</text>
+    <text x="525" y="160" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">G#4</text>
+    <text x="525" y="180" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="9">சுத்த தை</text>
+
+    <!-- A#4: N2 / D3 -->
+    <text x="630" y="115" text-anchor="middle" fill="#c084fc" font-family="'Noto Sans Tamil', sans-serif" font-size="15" font-weight="bold">நி₂ / த₃</text>
+    <text x="630" y="140" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="11">N2/D3</text>
+    <text x="630" y="160" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">A#4</text>
+    <text x="630" y="180" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="9">கைசிகி நி</text>
+  </g>
+
+  <!-- Key Information Banner -->
+  <g transform="translate(100, 520)">
+    <rect width="1000" height="110" rx="12" fill="rgba(15,23,42,0.85)" stroke="rgba(212,175,55,0.25)" stroke-width="1.5"/>
+    <text x="30" y="38" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="15" font-weight="bold">💡 நினைவில் கொள்ள வேண்டிய முக்கிய விதிகள்:</text>
+    <text x="30" y="65" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• ஸ (C) மற்றும் ப (G) ஆகியவை அச்சல ஸ்வரங்கள் (அசைவற்ற பிரகிருதி ஸ்வரங்கள் - மாற்றங்கள் கிடையாது).</text>
+    <text x="30" y="90" fill="#cbd5e1" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• D கட்டை: சதுஸ்ருதி ரிஷபம் (R2) மற்றும் சுத்த காந்தாரம் (G1) இரண்டும் ஒரே கட்டையில் ஒலிக்கும் (Enharmonic Equivalent).</text>
+    <text x="550" y="65" fill="#cbd5e1" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• E கட்டை: அந்தர காந்தாரம் (G3) மற்றும் ஷட்ச்ருதி ரிஷபம் (R3) இரண்டும் ஒரே கட்டை.</text>
+    <text x="550" y="90" fill="#cbd5e1" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• A கட்டை: சதுஸ்ருதி தைவதம் (D2) மற்றும் சுத்த நிஷாதம் (N1) இரண்டும் ஒரே கட்டை.</text>
+  </g>
+</svg>

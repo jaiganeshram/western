@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+    <linearGradient id="sthayi1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(6,182,212,0.3)"/>
+      <stop offset="100%" stop-color="rgba(6,182,212,0.05)"/>
+    </linearGradient>
+    <linearGradient id="sthayi2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(99,102,241,0.3)"/>
+      <stop offset="100%" stop-color="rgba(99,102,241,0.05)"/>
+    </linearGradient>
+    <linearGradient id="sthayi3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(251,191,36,0.35)"/>
+      <stop offset="100%" stop-color="rgba(251,191,36,0.08)"/>
+    </linearGradient>
+    <linearGradient id="sthayi4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(244,63,94,0.3)"/>
+      <stop offset="100%" stop-color="rgba(244,63,94,0.05)"/>
+    </linearGradient>
+    <linearGradient id="sthayi5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(217,70,239,0.3)"/>
+      <stop offset="100%" stop-color="rgba(217,70,239,0.05)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" fill="url(#bgGrad2)"/>
+  <rect x="20" y="20" width="1160" height="640" rx="16" fill="none" stroke="rgba(212,175,55,0.3)" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="600" y="65" text-anchor="middle" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="26" font-weight="bold">🎼 பஞ்ச ஸ்தாயி விசைப்பலகை மண்டல வரைபடம் (5 Sthayis Map)</text>
+  <text x="600" y="95" text-anchor="middle" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="15">61-கட்டை விசைப்பலகையில் (C2 முதல் C7 வரை) 5 ஸ்தாயிகளின் அதிர்வெண் மண்டலங்கள் &amp; குறியீட்டு முறைகள்</text>
+
+  <!-- 5 Sthayis Horizontal Bands -->
+  <g transform="translate(60, 130)">
+    <!-- Band 1: Ati Mandra (C2 - B2) -->
+    <rect x="0" y="0" width="200" height="280" rx="8" fill="url(#sthayi1)" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="100" y="35" text-anchor="middle" fill="#22d3ee" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">அதி மந்திர ஸ்தாயி</text>
+    <text x="100" y="60" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">C2 - B2 (Octave 2)</text>
+    <text x="100" y="85" text-anchor="middle" fill="#67e8f9" font-family="'JetBrains Mono', monospace" font-size="12">65.4 - 123.5 Hz</text>
+    <circle cx="100" cy="140" r="35" fill="rgba(6,182,212,0.15)" stroke="#06b6d4" stroke-width="2"/>
+    <text x="100" y="148" text-anchor="middle" fill="#22d3ee" font-family="'Noto Sans Tamil', sans-serif" font-size="24" font-weight="900">ஸ̤</text>
+    <text x="100" y="200" text-anchor="middle" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="12">கீழ் 2 புள்ளிகள்</text>
+    <text x="100" y="225" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">மூலாதார சக்கரம்</text>
+    <text x="100" y="250" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">பாஸ் / மிருதங்க தொப்பி</text>
+
+    <!-- Band 2: Mandra (C3 - B3) -->
+    <rect x="220" y="0" width="200" height="280" rx="8" fill="url(#sthayi2)" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="320" y="35" text-anchor="middle" fill="#818cf8" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">மந்திர ஸ்தாயி</text>
+    <text x="320" y="60" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">C3 - B3 (Octave 3)</text>
+    <text x="320" y="85" text-anchor="middle" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="12">130.8 - 246.9 Hz</text>
+    <circle cx="320" cy="140" r="35" fill="rgba(99,102,241,0.15)" stroke="#6366f1" stroke-width="2"/>
+    <text x="320" y="148" text-anchor="middle" fill="#818cf8" font-family="'Noto Sans Tamil', sans-serif" font-size="24" font-weight="900">.ஸ</text>
+    <text x="320" y="200" text-anchor="middle" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="12">கீழ் 1 புள்ளி (.S)</text>
+    <text x="320" y="225" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">ஹ்ருதய சக்கரம்</text>
+    <text x="320" y="250" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">மார்புக் குரல் (Chest Voice)</text>
+
+    <!-- Band 3: Madhya (C4 - B4) - HIGHLIGHTED -->
+    <rect x="440" y="0" width="200" height="280" rx="8" fill="url(#sthayi3)" stroke="#fbbf24" stroke-width="2.5"/>
+    <rect x="440" y="0" width="200" height="30" rx="8" fill="#d97706"/>
+    <text x="540" y="21" text-anchor="middle" fill="#fff" font-family="'Outfit', sans-serif" font-size="12" font-weight="bold">👑 இயல்புத் தளம் (DEFAULT)</text>
+    <text x="540" y="55" text-anchor="middle" fill="#fbbf24" font-family="'Noto Sans Tamil', sans-serif" font-size="17" font-weight="bold">மத்யம ஸ்தாயி</text>
+    <text x="540" y="78" text-anchor="middle" fill="#fef08a" font-family="'JetBrains Mono', monospace" font-size="13">C4 - B4 (Octave 4)</text>
+    <text x="540" y="100" text-anchor="middle" fill="#fde047" font-family="'JetBrains Mono', monospace" font-size="12">261.6 - 493.9 Hz</text>
+    <circle cx="540" cy="150" r="38" fill="rgba(251,191,36,0.25)" stroke="#fbbf24" stroke-width="2.5"/>
+    <text x="540" y="160" text-anchor="middle" fill="#fbbf24" font-family="'Noto Sans Tamil', sans-serif" font-size="28" font-weight="900">ஸ</text>
+    <text x="540" y="210" text-anchor="middle" fill="#fff" font-family="'Noto Sans Tamil', sans-serif" font-size="12" font-weight="bold">புள்ளி ஏதுமற்றது (S)</text>
+    <text x="540" y="232" text-anchor="middle" fill="#fde047" font-family="sans-serif" font-size="11">கண்ட சக்கரம் (தொண்டை)</text>
+    <text x="540" y="255" text-anchor="middle" fill="#fef08a" font-family="sans-serif" font-size="10">பாடங்களின் அடிப்படை</text>
+
+    <!-- Band 4: Tara (C5 - B5) -->
+    <rect x="660" y="0" width="200" height="280" rx="8" fill="url(#sthayi4)" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="760" y="35" text-anchor="middle" fill="#fb7185" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">தார ஸ்தாயி</text>
+    <text x="760" y="60" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">C5 - B5 (Octave 5)</text>
+    <text x="760" y="85" text-anchor="middle" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="12">523.3 - 987.8 Hz</text>
+    <circle cx="760" cy="140" r="35" fill="rgba(244,63,94,0.15)" stroke="#f43f5e" stroke-width="2"/>
+    <text x="760" y="148" text-anchor="middle" fill="#fb7185" font-family="'Noto Sans Tamil', sans-serif" font-size="24" font-weight="900">Ṡ</text>
+    <text x="760" y="200" text-anchor="middle" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="12">மேல் 1 புள்ளி (Ṡ)</text>
+    <text x="760" y="225" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">ஆக்ஞா சக்கரம்</text>
+    <text x="760" y="250" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">தலைக் குரல் (Head Voice)</text>
+
+    <!-- Band 5: Ati Tara (C6 - C7) -->
+    <rect x="880" y="0" width="200" height="280" rx="8" fill="url(#sthayi5)" stroke="#d946ef" stroke-width="1.5"/>
+    <text x="980" y="35" text-anchor="middle" fill="#e879f9" font-family="'Noto Sans Tamil', sans-serif" font-size="16" font-weight="bold">அதி தார ஸ்தாயி</text>
+    <text x="980" y="60" text-anchor="middle" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">C6 - C7 (Octave 6-7)</text>
+    <text x="980" y="85" text-anchor="middle" fill="#f0abfc" font-family="'JetBrains Mono', monospace" font-size="12">1046.5 - 2093 Hz</text>
+    <circle cx="980" cy="140" r="35" fill="rgba(217,70,239,0.15)" stroke="#d946ef" stroke-width="2"/>
+    <text x="980" y="148" text-anchor="middle" fill="#e879f9" font-family="'Noto Sans Tamil', sans-serif" font-size="24" font-weight="900">S̈</text>
+    <text x="980" y="200" text-anchor="middle" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="12">மேல் 2 புள்ளிகள்</text>
+    <text x="980" y="225" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">சகஸ்ரார சக்கரம்</text>
+    <text x="980" y="250" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="10">வாத்திய உன்னத எல்லை</text>
+  </g>
+
+  <!-- Summary Table at Bottom -->
+  <g transform="translate(60, 440)">
+    <rect width="1080" height="190" rx="12" fill="rgba(15,23,42,0.9)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <text x="30" y="35" fill="#fbbf24" font-family="'Outfit', sans-serif" font-size="16" font-weight="bold">🎹 விசைப்பலகை இயக்கம் &amp; நடைமுறைப் பயன்முறை (Practical Keyboard Operation):</text>
+    <text x="30" y="70" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#fbbf24" font-weight="bold">சரளி &amp; ஜண்டை வரிசைகள்:</tspan> மத்யம ஸ்தாயியில் (C4 - B4) ஆரம்பித்து தார ஸ்தாயி ஷட்ஜம் (C5) வரை வாசிக்கப்படும்.</text>
+    <text x="30" y="100" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#f43f5e" font-weight="bold">ஹெச்சு ஸ்தாயி வரிசைகள் (Hechchu Sthayi):</tspan> தார ஸ்தாயி ரி (D5), க (E5), ம (F5), ப (G5) வரை விரல்களை நீட்டி வாசிக்கும் உயர்ந்த பயிற்சி.</text>
+    <text x="30" y="130" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#818cf8" font-weight="bold">தக்கு ஸ்தாயி வரிசைகள் (Taggu Sthayi):</tspan> மந்திர ஸ்தாயி நி (.N = B3), த (.D = A3), ப (.P = G3) வரை கீழே இறங்கி வாசிக்கும் ஆழப் பயிற்சி.</text>
+    <text x="30" y="160" fill="#e2e8f0" font-family="'Noto Sans Tamil', sans-serif" font-size="13">• <tspan fill="#22d3ee" font-weight="bold">விசைப்பலகை குறுக்குவழி (Hotkeys):</tspan> [ விசையை அழுத்தினால் -1 ஸ்தாயி குறையும்; ] விசையை அழுத்தினால் +1 ஸ்தாயி ஏறும்; \ விசையை அழுத்தினால் இயல்பு C4 மத்யம ஸ்தாயிக்கு திரும்பும்.</text>
+  </g>
+</svg>
