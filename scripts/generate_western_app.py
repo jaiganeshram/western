@@ -1279,6 +1279,10 @@ def build_html():
         }}
 
         /* Fullscreen Lightbox Overlays */
+        body.lightbox-open {{
+            overflow: hidden !important;
+        }}
+
         .modal-overlay.fullscreen-lightbox-overlay {{
             display: none;
             position: fixed;
@@ -1286,90 +1290,163 @@ def build_html():
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(4, 7, 20, 0.95);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            background: radial-gradient(ellipse at 50% 25%, rgba(20, 32, 68, 0.88), rgba(4, 7, 20, 0.98) 75%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             z-index: 3000;
             align-items: center;
             justify-content: center;
-            padding: 12px;
+            padding: clamp(8px, 1.5vw, 16px);
+            opacity: 0;
+            transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1);
         }}
 
         .modal-overlay.fullscreen-lightbox-overlay.active {{
             display: flex;
+            opacity: 1;
         }}
 
         .modal-window.fullscreen-lightbox-window {{
-            background: #090e22;
-            border: 1px solid var(--border-glow);
+            background: linear-gradient(180deg, #0a0f28 0%, #050816 100%);
+            border: 1px solid rgba(212, 175, 55, 0.45);
             border-radius: 18px;
-            width: 98vw;
-            max-width: 1560px;
-            height: 96vh;
-            max-height: 96vh;
+            width: 98.5vw;
+            max-width: 1600px;
+            height: 97vh;
+            max-height: 97vh;
             display: flex;
             flex-direction: column;
-            padding: 20px 24px;
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+            padding: 0;
+            box-shadow: 0 30px 90px rgba(0, 0, 0, 0.95), 0 0 45px rgba(212, 175, 55, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.08);
             position: relative;
-            overflow-y: auto;
-            gap: 14px;
+            overflow: hidden;
+            animation: lbScaleIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) both;
         }}
 
-        .modal-window.fullscreen-lightbox-window .btn-close-modal {{
-            position: absolute;
-            top: 16px;
-            right: 18px;
-            background: rgba(244, 63, 94, 0.2);
-            border: 1px solid rgba(244, 63, 94, 0.4);
-            color: #fda4af;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            font-size: 18px;
-            font-weight: 700;
-            cursor: pointer;
+        @keyframes lbScaleIn {{
+            from {{ opacity: 0; transform: scale(0.985) translateY(6px); }}
+            to {{ opacity: 1; transform: scale(1) translateY(0); }}
+        }}
+
+        .lightbox-modal-topbar {{
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
+            padding: 10px 18px;
+            background: rgba(13, 19, 44, 0.98);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.35);
+            flex-shrink: 0;
+            gap: 12px;
+            flex-wrap: wrap;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
             z-index: 10;
-            transition: all 0.2s ease;
         }}
 
-        .modal-window.fullscreen-lightbox-window .btn-close-modal:hover {{
-            background: var(--rose-accent);
-            color: #fff;
-            transform: scale(1.08);
+        .lb-topbar-left {{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }}
+
+        .lb-topbar-icon {{
+            font-size: 1.6rem;
+            line-height: 1;
+            filter: drop-shadow(0 2px 8px var(--gold-glow));
+        }}
+
+        .lb-topbar-info {{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }}
+
+        .lb-topbar-title-wrap {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+
+        .lb-topbar-title {{
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--gold-bright);
+            letter-spacing: 0.3px;
+            line-height: 1.2;
+            margin: 0;
+        }}
+
+        .lb-topbar-sub {{
+            font-size: 0.74rem;
+            color: var(--text-muted);
+        }}
+
+        .btn-close-lightbox-bar {{
+            background: rgba(239, 68, 68, 0.16) !important;
+            border: 1px solid rgba(239, 68, 68, 0.5) !important;
+            color: #fca5a5 !important;
+            font-weight: 700 !important;
+            font-size: 0.85rem !important;
+            padding: 7px 18px !important;
+            border-radius: 8px !important;
+            cursor: pointer !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 8px !important;
+            transition: all 0.2s ease !important;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35) !important;
+        }}
+
+        .btn-close-lightbox-bar:hover {{
+            background: rgba(239, 68, 68, 0.88) !important;
+            color: #ffffff !important;
+            border-color: #ef4444 !important;
+            transform: translateY(-1px) !important;
+            box-shadow: 0 4px 14px rgba(239, 68, 68, 0.45) !important;
         }}
 
         .fullscreen-lightbox-content {{
             display: flex;
             flex-direction: column;
             gap: 14px;
-            width: 100%;
+            flex: 1;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding: 16px 20px 24px;
+            scrollbar-color: rgba(212, 175, 55, 0.4) rgba(255, 255, 255, 0.04);
+            scrollbar-width: thin;
         }}
 
-        /* Inside Lightbox: hide redundant "Fullscreen Lightbox" trigger button */
         .fullscreen-lightbox-content #btnOpenNotationLightbox,
         .fullscreen-lightbox-content #btnOpenKeyboardLightbox {{
             display: none !important;
         }}
 
-        /* Grand staff visualizer size in lightbox */
+        .fullscreen-lightbox-content .controls-deck {{
+            background: rgba(13, 19, 44, 0.9) !important;
+            border: 1px solid rgba(212, 175, 55, 0.3) !important;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45) !important;
+        }}
+
+        .fullscreen-lightbox-content .notation-ribbon-card {{
+            background: rgba(13, 19, 44, 0.9) !important;
+            border: 1px solid rgba(212, 175, 55, 0.3) !important;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45) !important;
+        }}
+
         .fullscreen-lightbox-content #liveStaffSvg {{
             width: 100%;
-            max-width: 880px;
-            height: 240px;
+            max-width: 920px;
+            height: 250px;
             margin: 0 auto;
             display: block;
         }}
 
         .fullscreen-lightbox-content .grand-staff-box.staff-zoom-large #liveStaffSvg {{
-            max-width: 1100px;
-            height: 280px;
+            max-width: 1120px;
+            height: 290px;
         }}
 
-        /* Keyboard bed in lightbox */
         #keyboardLightbox .fullscreen-lightbox-content .piano-bed {{
             height: 200px;
         }}
@@ -2085,7 +2162,24 @@ def build_html():
     <!-- Fullscreen Keyboard Lightbox -->
     <div id="keyboardLightbox" class="modal-overlay fullscreen-lightbox-overlay" onclick="closeKeyboardLightbox(event)">
         <div class="modal-window fullscreen-lightbox-window" onclick="event.stopPropagation()">
-            <button class="btn-close-modal" onclick="closeKeyboardLightbox()" aria-label="Close" title="Close Lightbox (Esc)">✕</button>
+            <div class="lightbox-modal-topbar">
+                <div class="lb-topbar-left">
+                    <span class="lb-topbar-icon">🎹</span>
+                    <div class="lb-topbar-info">
+                        <div class="lb-topbar-title-wrap">
+                            <h2 class="lb-topbar-title">Western 61-Key Virtual Synthesizer &amp; Studio</h2>
+                            <span class="badge" style="background: rgba(56, 189, 248, 0.18); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.4); font-size: 0.72rem; padding: 2px 8px; border-radius: 4px; font-weight: 700;">● FULLSCREEN PIANO</span>
+                        </div>
+                        <span class="lb-topbar-sub">61 Interactive Keys • Real-time Sound Synthesis • Complete Controls</span>
+                    </div>
+                </div>
+                <div class="lb-topbar-right">
+                    <button class="btn-ctrl btn-close-lightbox-bar" onclick="closeKeyboardLightbox()" title="Close Lightbox (Esc)">
+                        <span>✕</span>
+                        <span>Exit Fullscreen (Esc)</span>
+                    </button>
+                </div>
+            </div>
             <div id="keyboardLightboxContent" class="fullscreen-lightbox-content"></div>
         </div>
     </div>
@@ -2093,7 +2187,24 @@ def build_html():
     <!-- Fullscreen Notation Lightbox -->
     <div id="notationLightbox" class="modal-overlay fullscreen-lightbox-overlay" onclick="closeNotationLightbox(event)">
         <div class="modal-window fullscreen-lightbox-window" onclick="event.stopPropagation()">
-            <button class="btn-close-modal" onclick="closeNotationLightbox()" aria-label="Close" title="Close Lightbox (Esc)">✕</button>
+            <div class="lightbox-modal-topbar">
+                <div class="lb-topbar-left">
+                    <span class="lb-topbar-icon">🎼</span>
+                    <div class="lb-topbar-info">
+                        <div class="lb-topbar-title-wrap">
+                            <h2 class="lb-topbar-title">Western Sheet Music &amp; Grand Staff Studio</h2>
+                            <span class="badge" style="background: rgba(16, 185, 129, 0.18); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); font-size: 0.72rem; padding: 2px 8px; border-radius: 4px; font-weight: 700;">● FULLSCREEN NOTATION</span>
+                        </div>
+                        <span class="lb-topbar-sub">Interactive Grand Staff • Real-time Note Highlighting • Complete Controls</span>
+                    </div>
+                </div>
+                <div class="lb-topbar-right">
+                    <button class="btn-ctrl btn-close-lightbox-bar" onclick="closeNotationLightbox()" title="Close Lightbox (Esc)">
+                        <span>✕</span>
+                        <span>Exit Fullscreen (Esc)</span>
+                    </button>
+                </div>
+            </div>
             <div id="notationLightboxContent" class="fullscreen-lightbox-content"></div>
         </div>
     </div>
@@ -3931,14 +4042,16 @@ def build_html():
 
             if (controls) content.appendChild(controls);
             content.appendChild(dock);
+
             lightbox.classList.add('active');
+            document.body.classList.add('lightbox-open');
             setTimeout(() => centerMiddleC(false), 80);
         }}
 
         function closeKeyboardLightbox(e) {{
             const lightbox = document.getElementById('keyboardLightbox');
             if (!lightbox || !lightbox.classList.contains('active')) return;
-            if (e && e.target !== lightbox && !e.target.closest('.btn-close-modal')) return;
+            if (e && e.target !== lightbox && !e.target.closest('.btn-close-lightbox-bar') && !e.target.closest('.btn-close-modal')) return;
 
             const dock = lightbox.querySelector('.piano-wrapper');
             const controls = lightbox.querySelector('.controls-deck');
@@ -3949,6 +4062,9 @@ def build_html():
             if (dock && pianoSlot) pianoSlot.appendChild(dock);
 
             lightbox.classList.remove('active');
+            if (!document.getElementById('notationLightbox')?.classList.contains('active')) {{
+                document.body.classList.remove('lightbox-open');
+            }}
             setTimeout(() => centerMiddleC(false), 80);
         }}
 
@@ -3962,13 +4078,16 @@ def build_html():
 
             if (controls) content.appendChild(controls);
             content.appendChild(ribbon);
+
             lightbox.classList.add('active');
+            document.body.classList.add('lightbox-open');
+            setTimeout(() => centerMiddleC(false), 80);
         }}
 
         function closeNotationLightbox(e) {{
             const lightbox = document.getElementById('notationLightbox');
             if (!lightbox || !lightbox.classList.contains('active')) return;
-            if (e && e.target !== lightbox && !e.target.closest('.btn-close-modal')) return;
+            if (e && e.target !== lightbox && !e.target.closest('.btn-close-lightbox-bar') && !e.target.closest('.btn-close-modal')) return;
 
             const ribbon = lightbox.querySelector('.notation-ribbon-card');
             const controls = lightbox.querySelector('.controls-deck');
@@ -3979,6 +4098,10 @@ def build_html():
             if (ribbon && notationSlot) notationSlot.appendChild(ribbon);
 
             lightbox.classList.remove('active');
+            if (!document.getElementById('keyboardLightbox')?.classList.contains('active')) {{
+                document.body.classList.remove('lightbox-open');
+            }}
+            setTimeout(() => centerMiddleC(false), 80);
         }}
 
         function toggleStaffZoom() {{
@@ -4201,12 +4324,10 @@ def build_html():
 
     # Also update tutor.html files
     os.makedirs(os.path.join("html", "keyboard"), exist_ok=True)
-    tutor_path = os.path.join("html", "keyboard", "carnatic_keyboard_master_visual_tutor.html")
     western_tutor_path = os.path.join("html", "keyboard", "western_keyboard_master_visual_tutor.html")
 
-    shutil.copyfile("index.html", tutor_path)
     shutil.copyfile("index.html", western_tutor_path)
-    print(f"Synced to {tutor_path} and {western_tutor_path}!")
+    print(f"Synced to {western_tutor_path}!")
 
 if __name__ == "__main__":
     build_html()
